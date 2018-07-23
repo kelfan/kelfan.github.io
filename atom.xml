@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-07-23T09:24:42.277Z</updated>
+  <updated>2018-07-23T09:36:47.816Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,96 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python ANN forward Propagate</title>
+    <link href="http://kelfan.github.io/post/python_AI_forward_propagate.html"/>
+    <id>http://kelfan.github.io/post/python_AI_forward_propagate.html</id>
+    <published>2018-07-23T09:44:34.602Z</published>
+    <updated>2018-07-23T09:36:47.816Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Calculate-neuron-activation-for-an-input&quot;&gt;&lt;a href=&quot;#Calculate-neuron-activation-for-an-input&quot; class=&quot;headerlink&quot; title=&quot;Calculate
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python create simple MLP in Keras</title>
+    <link href="http://kelfan.github.io/post/python_AI_simple_MLP_in_Keras.html"/>
+    <id>http://kelfan.github.io/post/python_AI_simple_MLP_in_Keras.html</id>
+    <published>2018-07-23T09:44:34.598Z</published>
+    <updated>2018-07-23T09:40:39.846Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: create simple MLP in Keras&lt;/p&gt;
+&lt;h1 id=&quot;import-packages&quot;&gt;&lt;a href=&quot;#import-packages&quot; class=&quot;headerlink&quot; title=&quot;import
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python build small network example for ANN</title>
+    <link href="http://kelfan.github.io/post/python_AI_small_network_example.html"/>
+    <id>http://kelfan.github.io/post/python_AI_small_network_example.html</id>
+    <published>2018-07-23T09:44:34.568Z</published>
+    <updated>2018-07-23T09:31:41.235Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: build small network example in python &lt;/p&gt;
+&lt;h1 id=&quot;initial-a-network&quot;&gt;&lt;a href=&quot;#initial-a-network&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>Microsoft Visual Studio Code insert date time variables into snippet template</title>
@@ -494,98 +584,6 @@
     
     
       <category term="java" scheme="http://kelfan.github.io/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>optimze hexo blog title for seo</title>
-    <link href="http://kelfan.github.io/post/hexo_title_seo_optimization.html"/>
-    <id>http://kelfan.github.io/post/hexo_title_seo_optimization.html</id>
-    <published>2018-07-22T22:56:56.245Z</published>
-    <updated>2018-07-23T09:26:15.126Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;change-index-swig-file&quot;&gt;&lt;a href=&quot;#change-index-swig-file&quot; class=&quot;headerlink&quot; title=&quot;change index.swig file&quot;&gt;&lt;/a&gt;change index.swig
-        
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="http://kelfan.github.io/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
-    
-      <category term="seo" scheme="http://kelfan.github.io/tags/seo/"/>
-    
-      <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>add rss feed into hexo blog - install feed plugin in hexo blog</title>
-    <link href="http://kelfan.github.io/post/hexo_rss_feed.html"/>
-    <id>http://kelfan.github.io/post/hexo_rss_feed.html</id>
-    <published>2018-07-22T22:56:56.230Z</published>
-    <updated>2018-07-23T09:26:20.448Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;install-hexo-generator-feed&quot;&gt;&lt;a href=&quot;#install-hexo-generator-feed&quot; class=&quot;headerlink&quot; title=&quot;install
-        
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="http://kelfan.github.io/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
-    
-      <category term="feed" scheme="http://kelfan.github.io/tags/feed/"/>
-    
-      <category term="rss" scheme="http://kelfan.github.io/tags/rss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>add google adsense into hexo blog in next theme</title>
-    <link href="http://kelfan.github.io/post/hexo_next_google_adsense.html"/>
-    <id>http://kelfan.github.io/post/hexo_next_google_adsense.html</id>
-    <published>2018-07-22T22:56:56.225Z</published>
-    <updated>2018-07-23T09:26:26.043Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;build-a-new-adsense-template-under-next-theme-in-layout-custom&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="http://kelfan.github.io/categories/hexo/"/>
-    
-    
-      <category term="google" scheme="http://kelfan.github.io/tags/google/"/>
-    
-      <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
-    
-      <category term="adsense" scheme="http://kelfan.github.io/tags/adsense/"/>
-    
-      <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
     
   </entry>
   

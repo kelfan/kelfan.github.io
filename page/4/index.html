@@ -361,6 +361,514 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_run_sql_server.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chaofan's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/docker_run_sql_server.html" itemprop="url">
+                  run sql server through docker in Windows
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:24:27" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/sql-server/" itemprop="url" rel="index"><span itemprop="name">sql server</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: run sql server through docker </p>
+<h1 id="start"><a href="#start" class="headerlink" title="start"></a>start</h1><ul>
+<li>open and start docker service</li>
+<li>open Powershell</li>
+</ul>
+<h1 id="download-sql-server-image"><a href="#download-sql-server-image" class="headerlink" title="download sql server image"></a>download sql server image</h1><p>put following commend in powerhell<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull microsoft/mssql-server-linux:2017-latest</span><br></pre></td></tr></table></figure></p>
+<h1 id="start-sql-server"><a href="#start-sql-server" class="headerlink" title="start sql server"></a>start sql server</h1><p><code>Asdfgh123</code> is default password<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker run -e <span class="string">"ACCEPT_EULA=Y"</span> -e <span class="string">"SA_PASSWORD=Asdfgh123"</span> `</span><br><span class="line">   -p 1433:1433 --name sql1 `</span><br><span class="line">   -d microsoft/mssql-server-linux:2017-latest</span><br></pre></td></tr></table></figure></p>
+<p>if get following error:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:\Program Files\Docker\Docker\Resources\bin\docker.exe: Error response from daemon: Conflict. The container name <span class="string">"/sql1"</span> is already <span class="keyword">in</span> use by container <span class="string">"1da5029c71ab937a25acdb4fadf44f4065c2fea4f6a4f157c1a07516558757bb"</span>. You have to remove (or rename) that container to be able to reuse that name.</span><br><span class="line">See <span class="string">'C:\Program Files\Docker\Docker\Resources\bin\docker.exe run --help'</span>.</span><br></pre></td></tr></table></figure></p>
+<p>restart the server<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker start sql1</span><br></pre></td></tr></table></figure></p>
+<h1 id="connect-to-server"><a href="#connect-to-server" class="headerlink" title="connect to server"></a>connect to server</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> -it sql1 <span class="string">"bash"</span></span><br></pre></td></tr></table></figure>
+<h1 id="start-sqlcmd-tool"><a href="#start-sqlcmd-tool" class="headerlink" title="start sqlcmd tool"></a>start sqlcmd tool</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P <span class="string">'Asdfgh123'</span></span><br></pre></td></tr></table></figure>
+<h1 id="test-create-database"><a href="#test-create-database" class="headerlink" title="test create database"></a>test create database</h1><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> TestDB</span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">Name</span> <span class="keyword">from</span> sys.Databases</span><br><span class="line"><span class="keyword">GO</span></span><br></pre></td></tr></table></figure>
+<h1 id="test-acquire-database"><a href="#test-acquire-database" class="headerlink" title="test acquire database"></a>test acquire database</h1><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">USE</span> TestDB</span><br><span class="line"><span class="keyword">Create</span> <span class="keyword">new</span> <span class="keyword">table</span> named Inventory:</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Inventory (<span class="keyword">id</span> <span class="built_in">INT</span>, <span class="keyword">name</span> <span class="keyword">NVARCHAR</span>(<span class="number">50</span>), quantity <span class="built_in">INT</span>)</span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Inventory <span class="keyword">VALUES</span> (<span class="number">1</span>, <span class="string">'banana'</span>, <span class="number">150</span>); <span class="keyword">INSERT</span> <span class="keyword">INTO</span> Inventory <span class="keyword">VALUES</span> (<span class="number">2</span>, <span class="string">'orange'</span>, <span class="number">154</span>);</span><br><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Inventory <span class="keyword">WHERE</span> quantity &gt; <span class="number">152</span>;</span><br><span class="line">GO</span><br></pre></td></tr></table></figure>
+<h1 id="connect-from-external-tools"><a href="#connect-from-external-tools" class="headerlink" title="connect from external tools"></a>connect from external tools</h1><p>outside the container<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S 10.3.2.4,1433 -U SA -P <span class="string">"Asdfgh123"</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="Stop-and-remove-container"><a href="#Stop-and-remove-container" class="headerlink" title="Stop and remove container"></a>Stop and remove container</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker stop sql1</span><br><span class="line">docker rm sql1</span><br></pre></td></tr></table></figure>
+<h1 id="run-sql-server-with-external-folder"><a href="#run-sql-server-with-external-folder" class="headerlink" title="run sql server with external folder"></a>run sql server with external folder</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -e <span class="string">"ACCEPT_EULA=Y"</span> -e <span class="string">"SA_PASSWORD=Asdfgh123"</span> `</span><br><span class="line">   -v <span class="variable">$PWD</span>/:/data `</span><br><span class="line">   -p 1433:1433 --name sql2 `</span><br><span class="line">   -d microsoft/mssql-server-linux:2017-latest</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_resign_port_to_exist_image.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chaofan's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/docker_resign_port_to_exist_image.html" itemprop="url">
+                  docker change port of an exist image container
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:27:11" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: Docker Change Port Mapping for an Existing Container</p>
+<h1 id="Stop-the-running-image"><a href="#Stop-the-running-image" class="headerlink" title="Stop the running image"></a>Stop the running image</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker Stop image1</span><br></pre></td></tr></table></figure>
+<h1 id="save-the-previous-image"><a href="#save-the-previous-image" class="headerlink" title="save the previous image"></a>save the previous image</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker commit image1 image2</span><br></pre></td></tr></table></figure>
+<p>image2 is the name of new image</p>
+<h1 id="start-the-new-image-with-a-new-mapped-port"><a href="#start-the-new-image-with-a-new-mapped-port" class="headerlink" title="start the new image with a new mapped port"></a>start the new image with a new mapped port</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -p 8080:8080 -td image2</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_error_response_from_daemon.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chaofan's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/docker_error_response_from_daemon.html" itemprop="url">
+                  Error response from daemon driver failed programming external connectivity on endpoint sql1
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-23 08:56:55 / Modified: 19:27:15" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:55+10:00">2018-07-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description:</p>
+<h1 id="error-description-1"><a href="#error-description-1" class="headerlink" title="error description 1"></a>error description 1</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PS C:\Users\Administrator&gt; docker start sql1</span><br><span class="line">Error response from daemon: driver failed programming external connectivity on endpoint sql1 (5738a464113f88069be0239c3fd73eaa58fc4d5a7fc63d83d912e3d9424f6b55): Error starting userland proxy: mkdir /port/tcp:0.0.0.0:1433:tcp:172.17.0.2:1433: input/output error</span><br><span class="line">Error: failed to start containers: sql1</span><br></pre></td></tr></table></figure>
+<h1 id="error-description-2"><a href="#error-description-2" class="headerlink" title="error description 2"></a>error description 2</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PS C:\Users\Administrator&gt; docker run -p 1443:1443 -d sql2</span><br><span class="line">90d3d1f460f1dfd11a684a37a9278db78f345c1a85cc55d68e1f3c313721c2e0</span><br><span class="line">C:\Program Files\Docker\Docker\Resources\bin\docker.exe: Error response from daemon: driver failed programming external connectivity on endpoint sad_ritchie (b5a71d797addfd55b7683151e8a6b9fbacbd35792dbe1f020170190b500778b6): Error starting userland proxy: mkdir /port/tcp:0.0.0.0:1443:tcp:172.17.0.2:1443: input/output error.</span><br></pre></td></tr></table></figure>
+<h1 id="solution"><a href="#solution" class="headerlink" title="solution"></a>solution</h1><p>restart system and docker then restart service </p>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_commends.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -562,7 +1070,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">31</span>
+                    <span class="site-state-item-count">34</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -593,7 +1101,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">9</span>
+                      
+                    
+                    <span class="site-state-item-count">10</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -664,7 +1174,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">29</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">31</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
