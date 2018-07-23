@@ -135,7 +135,7 @@
 <meta property="og:site_name" content="Chaofan&#39;s Blog">
 <meta property="og:description" content="description: vba to get list of modules name  code of vba to get list of module names1234567891011121314151617181920Private Sub getAllModuleNames()    Dim modName As String    Dim wb As Workbook    Di">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-07-18T08:51:36.318Z">
+<meta property="og:updated_time" content="2018-07-23T09:24:46.954Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="get list of modules name in Excel vba">
 <meta name="twitter:description" content="description: vba to get list of modules name  code of vba to get list of module names1234567891011121314151617181920Private Sub getAllModuleNames()    Dim modName As String    Dim wb As Workbook    Di">
@@ -404,24 +404,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:24:46" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-18 18:51:36" itemprop="dateModified" datetime="2018-07-18T18:51:36+10:00">2018-07-18</time>
               
             
           </span>
@@ -474,8 +462,6 @@
       
         <p>description: vba to get list of modules name </p>
 <h1 id="code-of-vba-to-get-list-of-module-names"><a href="#code-of-vba-to-get-list-of-module-names" class="headerlink" title="code of vba to get list of module names"></a>code of vba to get list of module names</h1><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> getAllModuleNames()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Dim</span> modName <span class="keyword">As</span> <span class="built_in">String</span></span><br><span class="line">    <span class="keyword">Dim</span> wb <span class="keyword">As</span> Workbook</span><br><span class="line">    <span class="keyword">Dim</span> l <span class="keyword">As</span> <span class="built_in">Long</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> wb = thisWorkbook</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">For</span> l = <span class="number">1</span> <span class="keyword">To</span> wb.VBProject.VBComponents.count</span><br><span class="line">        <span class="keyword">With</span> wb.VBProject.VBComponents(l)</span><br><span class="line">            modName = modName &amp; vbCr &amp; .name</span><br><span class="line">        <span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">'MsgBox "Module Names:" &amp; vbCr &amp; modName</span></span><br><span class="line">    Cells(<span class="number">40</span>, <span class="number">1</span>).value = modName</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> wb = <span class="literal">Nothing</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
       
     </div>
@@ -615,7 +601,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">33</span>
+                    <span class="site-state-item-count">31</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>

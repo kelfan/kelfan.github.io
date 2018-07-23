@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-07-15T06:58:18.738Z</updated>
+  <updated>2018-07-23T09:24:42.277Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://kelfan.github.io/post/vs_code_datetime_snippet.html"/>
     <id>http://kelfan.github.io/post/vs_code_datetime_snippet.html</id>
     <published>2018-07-22T22:56:56.563Z</published>
-    <updated>2018-07-15T06:58:18.738Z</updated>
+    <updated>2018-07-23T09:24:42.277Z</updated>
     
     <summary type="html">
     
@@ -50,7 +50,7 @@
     <link href="http://kelfan.github.io/post/vba_get_list_of_modules_name.html"/>
     <id>http://kelfan.github.io/post/vba_get_list_of_modules_name.html</id>
     <published>2018-07-22T22:56:56.524Z</published>
-    <updated>2018-07-18T08:51:36.318Z</updated>
+    <updated>2018-07-23T09:24:46.954Z</updated>
     
     <summary type="html">
     
@@ -79,7 +79,7 @@
     <link href="http://kelfan.github.io/post/ssms_not_permit_change.html"/>
     <id>http://kelfan.github.io/post/ssms_not_permit_change.html</id>
     <published>2018-07-22T22:56:56.495Z</published>
-    <updated>2018-07-18T01:24:49.025Z</updated>
+    <updated>2018-07-23T09:24:59.319Z</updated>
     
     <summary type="html">
     
@@ -106,7 +106,7 @@
     <link href="http://kelfan.github.io/post/ssms_display_line_number.html"/>
     <id>http://kelfan.github.io/post/ssms_display_line_number.html</id>
     <published>2018-07-22T22:56:56.491Z</published>
-    <updated>2018-07-18T01:24:35.463Z</updated>
+    <updated>2018-07-23T09:25:05.220Z</updated>
     
     <summary type="html">
     
@@ -135,7 +135,7 @@
     <link href="http://kelfan.github.io/post/ssms_basic_frequent_commends.html"/>
     <id>http://kelfan.github.io/post/ssms_basic_frequent_commends.html</id>
     <published>2018-07-22T22:56:56.475Z</published>
-    <updated>2018-07-18T01:24:26.373Z</updated>
+    <updated>2018-07-23T09:25:11.342Z</updated>
     
     <summary type="html">
     
@@ -164,7 +164,7 @@
     <link href="http://kelfan.github.io/post/python_timedelta_days.html"/>
     <id>http://kelfan.github.io/post/python_timedelta_days.html</id>
     <published>2018-07-22T22:56:56.469Z</published>
-    <updated>2018-07-14T06:47:26.177Z</updated>
+    <updated>2018-07-23T09:25:16.439Z</updated>
     
     <summary type="html">
     
@@ -194,7 +194,7 @@
     <link href="http://kelfan.github.io/post/python_timedelta%20_to_seconds.html"/>
     <id>http://kelfan.github.io/post/python_timedelta _to_seconds.html</id>
     <published>2018-07-22T22:56:56.451Z</published>
-    <updated>2018-07-14T06:47:25.900Z</updated>
+    <updated>2018-07-23T09:25:21.255Z</updated>
     
     <summary type="html">
     
@@ -224,7 +224,7 @@
     <link href="http://kelfan.github.io/post/python_string_to_datetime.html"/>
     <id>http://kelfan.github.io/post/python_string_to_datetime.html</id>
     <published>2018-07-22T22:56:56.447Z</published>
-    <updated>2018-07-20T10:17:44.162Z</updated>
+    <updated>2018-07-23T09:25:26.010Z</updated>
     
     <summary type="html">
     
@@ -249,7 +249,7 @@
     <link href="http://kelfan.github.io/post/python_format_string_output.html"/>
     <id>http://kelfan.github.io/post/python_format_string_output.html</id>
     <published>2018-07-22T22:56:56.408Z</published>
-    <updated>2018-07-21T12:02:11.551Z</updated>
+    <updated>2018-07-23T09:25:30.429Z</updated>
     
     <summary type="html">
     
@@ -276,7 +276,7 @@
     <link href="http://kelfan.github.io/post/python_extract_columns.html"/>
     <id>http://kelfan.github.io/post/python_extract_columns.html</id>
     <published>2018-07-22T22:56:56.384Z</published>
-    <updated>2018-07-22T11:19:47.398Z</updated>
+    <updated>2018-07-23T09:25:35.163Z</updated>
     
     <summary type="html">
     
@@ -303,7 +303,7 @@
     <link href="http://kelfan.github.io/post/python_datetime_add_day.html"/>
     <id>http://kelfan.github.io/post/python_datetime_add_day.html</id>
     <published>2018-07-22T22:56:56.369Z</published>
-    <updated>2018-07-20T10:30:58.486Z</updated>
+    <updated>2018-07-23T09:25:40.290Z</updated>
     
     <summary type="html">
     
@@ -334,7 +334,7 @@
     <link href="http://kelfan.github.io/post/python_dataframe_resign_headers.html"/>
     <id>http://kelfan.github.io/post/python_dataframe_resign_headers.html</id>
     <published>2018-07-22T22:56:56.335Z</published>
-    <updated>2018-07-19T11:42:29.382Z</updated>
+    <updated>2018-07-23T09:25:44.832Z</updated>
     
     <summary type="html">
     
@@ -361,7 +361,7 @@
     <link href="http://kelfan.github.io/post/python_dataframe_loop_set.html"/>
     <id>http://kelfan.github.io/post/python_dataframe_loop_set.html</id>
     <published>2018-07-22T22:56:56.304Z</published>
-    <updated>2018-07-20T10:06:03.740Z</updated>
+    <updated>2018-07-23T09:25:49.908Z</updated>
     
     <summary type="html">
     
@@ -390,7 +390,7 @@
     <link href="http://kelfan.github.io/post/python_dataframe_loop_rows.html"/>
     <id>http://kelfan.github.io/post/python_dataframe_loop_rows.html</id>
     <published>2018-07-22T22:56:56.290Z</published>
-    <updated>2018-07-19T13:42:49.997Z</updated>
+    <updated>2018-07-23T09:25:54.928Z</updated>
     
     <summary type="html">
     
@@ -419,7 +419,7 @@
     <link href="http://kelfan.github.io/post/python_assign_value_conditionally.html"/>
     <id>http://kelfan.github.io/post/python_assign_value_conditionally.html</id>
     <published>2018-07-22T22:56:56.285Z</published>
-    <updated>2018-07-14T07:20:19.331Z</updated>
+    <updated>2018-07-23T09:26:00.861Z</updated>
     
     <summary type="html">
     
@@ -448,7 +448,7 @@
     <link href="http://kelfan.github.io/post/mssql_install_error_1638.html"/>
     <id>http://kelfan.github.io/post/mssql_install_error_1638.html</id>
     <published>2018-07-22T22:56:56.255Z</published>
-    <updated>2018-07-17T23:39:53.576Z</updated>
+    <updated>2018-07-23T09:26:05.604Z</updated>
     
     <summary type="html">
     
@@ -475,7 +475,7 @@
     <link href="http://kelfan.github.io/post/java_array_to_list.html"/>
     <id>http://kelfan.github.io/post/java_array_to_list.html</id>
     <published>2018-07-22T22:56:56.250Z</published>
-    <updated>2018-07-17T04:55:31.378Z</updated>
+    <updated>2018-07-23T09:26:10.874Z</updated>
     
     <summary type="html">
     
@@ -502,7 +502,7 @@
     <link href="http://kelfan.github.io/post/hexo_title_seo_optimization.html"/>
     <id>http://kelfan.github.io/post/hexo_title_seo_optimization.html</id>
     <published>2018-07-22T22:56:56.245Z</published>
-    <updated>2018-07-14T06:47:26.216Z</updated>
+    <updated>2018-07-23T09:26:15.126Z</updated>
     
     <summary type="html">
     
@@ -521,9 +521,9 @@
     
       <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
     
-      <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
-    
       <category term="seo" scheme="http://kelfan.github.io/tags/seo/"/>
+    
+      <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
     
   </entry>
   
@@ -532,7 +532,7 @@
     <link href="http://kelfan.github.io/post/hexo_rss_feed.html"/>
     <id>http://kelfan.github.io/post/hexo_rss_feed.html</id>
     <published>2018-07-22T22:56:56.230Z</published>
-    <updated>2018-07-14T06:47:26.057Z</updated>
+    <updated>2018-07-23T09:26:20.448Z</updated>
     
     <summary type="html">
     
@@ -562,7 +562,7 @@
     <link href="http://kelfan.github.io/post/hexo_next_google_adsense.html"/>
     <id>http://kelfan.github.io/post/hexo_next_google_adsense.html</id>
     <published>2018-07-22T22:56:56.225Z</published>
-    <updated>2018-07-14T06:47:26.116Z</updated>
+    <updated>2018-07-23T09:26:26.043Z</updated>
     
     <summary type="html">
     

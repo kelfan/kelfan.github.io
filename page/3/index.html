@@ -407,24 +407,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:30" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-14 16:47:25" itemprop="dateModified" datetime="2018-07-14T16:47:25+10:00">2018-07-14</time>
               
             
           </span>
@@ -482,8 +470,6 @@
 <h1 id="change-configuration-file-in-config-yml"><a href="#change-configuration-file-in-config-yml" class="headerlink" title="change configuration file in _config.yml"></a>change configuration file in <code>_config.yml</code></h1><p>add following codes into <code>_config.yml</code> file and change the value of url, should be like <code>http://yoursite.com</code><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line"><span class="attr">    path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">url:</span> <span class="attr">https://search4fan.github.io</span></span><br></pre></td></tr></table></figure></p>
 <p>optional for baidu search engine sitemap<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line"><span class="attr">    path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure></p>
 <h1 id="check-with-public-folder"><a href="#check-with-public-folder" class="headerlink" title="check with public folder"></a>check with public folder</h1><p>after <code>hexo g</code>, the <code>sitemap.xml</code> or <code>baidusitemap.xml</code> should be found under <code>public</code> folder</p>
-<hr>
-<p>more on <a href="http://searchfor.space" target="_blank" rel="noopener">http://searchfor.space</a></p>
 
           
         
@@ -587,24 +573,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:35" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-14 18:28:43" itemprop="dateModified" datetime="2018-07-14T18:28:43+10:00">2018-07-14</time>
               
             
           </span>
@@ -661,172 +635,6 @@
 <h1 id="install-hexo-generator-search"><a href="#install-hexo-generator-search" class="headerlink" title="install hexo-generator-search"></a>install hexo-generator-search</h1><p>run following commend under <code>search4fan.github.io/</code> folder<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure></p>
 <h1 id="change-configuration"><a href="#change-configuration" class="headerlink" title="change configuration"></a>change configuration</h1><p>add following text in <code>search4fan.github.io/_config.yml</code><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">search:</span> </span><br><span class="line"><span class="attr">      path:</span> <span class="string">search.xml</span></span><br><span class="line"><span class="attr">      field:</span> <span class="string">post</span></span><br></pre></td></tr></table></figure></p>
 <h1 id="change-theme-configuration"><a href="#change-theme-configuration" class="headerlink" title="change theme configuration"></a>change theme configuration</h1><p>change <code>_config.yml</code> under theme folder <code>search4fan.github.io/themes/next/_config.yml</code><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Local search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># if auto, trigger search by changing input</span></span><br><span class="line">  <span class="comment"># if manual, trigger search by pressing enter key or search button</span></span><br><span class="line"><span class="attr">  trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># show top n results per article, show all results by setting to -1</span></span><br><span class="line"><span class="attr">  top_n_per_article:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># unescape html strings to the readable one</span></span><br><span class="line"><span class="attr">  unescape:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/hello-world.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chaofan">
-      <meta itemprop="description" content="Personal blog for sharing useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chaofan's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/hello-world.html" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-05 20:08:47" itemprop="dateModified" datetime="2018-07-05T20:08:47+10:00">2018-07-05</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
           
         
@@ -930,24 +738,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:46" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-14 16:46:28" itemprop="dateModified" datetime="2018-07-14T16:46:28+10:00">2018-07-14</time>
               
             
           </span>
@@ -1013,8 +809,6 @@
 <li><p>test google actions:<a href="https://developers.google.com/actions/tools/simulator" target="_blank" rel="noopener">https://developers.google.com/actions/tools/simulator</a></p>
 </li>
 </ol>
-<hr>
-<p>more on <a href="http://searchfor.space" target="_blank" rel="noopener">http://searchfor.space</a></p>
 
           
         
@@ -1118,24 +912,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:51" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-22 15:16:04" itemprop="dateModified" datetime="2018-07-22T15:16:04+10:00">2018-07-22</time>
               
             
           </span>
@@ -1190,8 +972,6 @@
           
             <p>description: git change remote from https to ssh</p>
 <h1 id="change-from-HTTPS-into-ssh"><a href="#change-from-HTTPS-into-ssh" class="headerlink" title="change from HTTPS into ssh"></a>change from HTTPS into ssh</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote <span class="built_in">set</span>-url origin git@github.com:kelfan/kelfan.github.io.git</span><br><span class="line">git remote -v</span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -1295,24 +1075,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:55" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-22 15:21:27" itemprop="dateModified" datetime="2018-07-22T15:21:27+10:00">2018-07-22</time>
               
             
           </span>
@@ -1378,8 +1146,6 @@
 </ol>
 </li>
 </ol>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -1483,24 +1249,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:27:01" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-15 17:17:14" itemprop="dateModified" datetime="2018-07-15T17:17:14+10:00">2018-07-15</time>
               
             
           </span>
@@ -1556,8 +1310,6 @@
             <p>description: solve problem of unauthorized username or password in terminal</p>
 <h1 id="problem-of-unauthorized-incorrect-username-or-password"><a href="#problem-of-unauthorized-incorrect-username-or-password" class="headerlink" title="problem of unauthorized incorrect username or password"></a>problem of unauthorized incorrect username or password</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\Administrator&gt;docker pull alpine</span><br><span class="line"><span class="comment"># Using default tag: latest</span></span><br><span class="line"><span class="comment"># Error response from daemon: Get https://registry-1.docker.io/v2/library/alpine/manifests/latest: unauthorized: incorrect username or password</span></span><br></pre></td></tr></table></figure>
 <h1 id="solve-solution"><a href="#solve-solution" class="headerlink" title="solve solution"></a>solve solution</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\Administrator&gt;docker login</span><br><span class="line"><span class="comment"># Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.</span></span><br><span class="line"><span class="comment"># Username (findhill@gmail.com): vifonk</span></span><br><span class="line"><span class="comment"># Password:</span></span><br><span class="line"><span class="comment"># Login Succeeded</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -1661,24 +1413,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:27:06" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-18 11:23:34" itemprop="dateModified" datetime="2018-07-18T11:23:34+10:00">2018-07-18</time>
               
             
           </span>
@@ -1735,8 +1475,6 @@
 <h1 id="start-sql-server"><a href="#start-sql-server" class="headerlink" title="start sql server"></a>start sql server</h1><p><code>Asdfgh123</code> is default password<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker run -e <span class="string">"ACCEPT_EULA=Y"</span> -e <span class="string">"SA_PASSWORD=Asdfgh123"</span> `</span><br><span class="line">   -p 1433:1433 --name sql1 `</span><br><span class="line">   -d microsoft/mssql-server-linux:2017-latest</span><br></pre></td></tr></table></figure></p>
 <h1 id="connect-from-external-tools"><a href="#connect-from-external-tools" class="headerlink" title="connect from external tools"></a>connect from external tools</h1><p>under Windows, open Powershell to test service can be accessed from Windows<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S 10.3.2.4,1433 -U SA -P <span class="string">"Asdfgh123"</span></span><br></pre></td></tr></table></figure></p>
 <h1 id="connect-from-sql-server-management-studio"><a href="#connect-from-sql-server-management-studio" class="headerlink" title="connect from sql server management studio"></a>connect from sql server management studio</h1><p>server name is the ip address for docker computer. can use commend <code>ipconfig</code> to get the IPv4 Address<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">server type: database engine </span><br><span class="line">server name: 192.168.11.11 </span><br><span class="line">authentication: sql server authentication </span><br><span class="line">    login: SA</span><br><span class="line">    password: Asdfgh123</span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -1840,24 +1578,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:24:27" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-19 18:38:17" itemprop="dateModified" datetime="2018-07-19T18:38:17+10:00">2018-07-19</time>
               
             
           </span>
@@ -1926,8 +1652,6 @@
 <h1 id="connect-from-external-tools"><a href="#connect-from-external-tools" class="headerlink" title="connect from external tools"></a>connect from external tools</h1><p>outside the container<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S 10.3.2.4,1433 -U SA -P <span class="string">"Asdfgh123"</span></span><br></pre></td></tr></table></figure></p>
 <h1 id="Stop-and-remove-container"><a href="#Stop-and-remove-container" class="headerlink" title="Stop and remove container"></a>Stop and remove container</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker stop sql1</span><br><span class="line">docker rm sql1</span><br></pre></td></tr></table></figure>
 <h1 id="run-sql-server-with-external-folder"><a href="#run-sql-server-with-external-folder" class="headerlink" title="run sql server with external folder"></a>run sql server with external folder</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -e <span class="string">"ACCEPT_EULA=Y"</span> -e <span class="string">"SA_PASSWORD=Asdfgh123"</span> `</span><br><span class="line">   -v <span class="variable">$PWD</span>/:/data `</span><br><span class="line">   -p 1433:1433 --name sql2 `</span><br><span class="line">   -d microsoft/mssql-server-linux:2017-latest</span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -2031,24 +1755,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:27:11" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-16 17:14:06" itemprop="dateModified" datetime="2018-07-16T17:14:06+10:00">2018-07-16</time>
               
             
           </span>
@@ -2106,8 +1818,171 @@
 <h1 id="save-the-previous-image"><a href="#save-the-previous-image" class="headerlink" title="save the previous image"></a>save the previous image</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker commit image1 image2</span><br></pre></td></tr></table></figure>
 <p>image2 is the name of new image</p>
 <h1 id="start-the-new-image-with-a-new-mapped-port"><a href="#start-the-new-image-with-a-new-mapped-port" class="headerlink" title="start the new image with a new mapped port"></a>start the new image with a new mapped port</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -p 8080:8080 -td image2</span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_error_response_from_daemon.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chaofan's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/docker_error_response_from_daemon.html" itemprop="url">
+                  Error response from daemon driver failed programming external connectivity on endpoint sql1
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-23 08:56:55 / Modified: 19:27:15" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:55+10:00">2018-07-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description:</p>
+<h1 id="error-description-1"><a href="#error-description-1" class="headerlink" title="error description 1"></a>error description 1</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PS C:\Users\Administrator&gt; docker start sql1</span><br><span class="line">Error response from daemon: driver failed programming external connectivity on endpoint sql1 (5738a464113f88069be0239c3fd73eaa58fc4d5a7fc63d83d912e3d9424f6b55): Error starting userland proxy: mkdir /port/tcp:0.0.0.0:1433:tcp:172.17.0.2:1433: input/output error</span><br><span class="line">Error: failed to start containers: sql1</span><br></pre></td></tr></table></figure>
+<h1 id="error-description-2"><a href="#error-description-2" class="headerlink" title="error description 2"></a>error description 2</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PS C:\Users\Administrator&gt; docker run -p 1443:1443 -d sql2</span><br><span class="line">90d3d1f460f1dfd11a684a37a9278db78f345c1a85cc55d68e1f3c313721c2e0</span><br><span class="line">C:\Program Files\Docker\Docker\Resources\bin\docker.exe: Error response from daemon: driver failed programming external connectivity on endpoint sad_ritchie (b5a71d797addfd55b7683151e8a6b9fbacbd35792dbe1f020170190b500778b6): Error starting userland proxy: mkdir /port/tcp:0.0.0.0:1443:tcp:172.17.0.2:1443: input/output error.</span><br></pre></td></tr></table></figure>
+<h1 id="solution"><a href="#solution" class="headerlink" title="solution"></a>solution</h1><p>restart system and docker then restart service </p>
 
           
         
@@ -2197,7 +2072,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">33</span>
+                    <span class="site-state-item-count">31</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>

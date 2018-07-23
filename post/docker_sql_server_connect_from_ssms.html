@@ -135,7 +135,7 @@
 <meta property="og:site_name" content="Chaofan&#39;s Blog">
 <meta property="og:description" content="description: codes for connecting sql server from Microsoft sql server management studio  start sql serverAsdfgh123 is default password123docker run -e &quot;ACCEPT_EULA=Y&quot; -e &quot;SA_PASSWORD=Asdfgh123&quot; `   -">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-07-18T01:23:34.888Z">
+<meta property="og:updated_time" content="2018-07-23T09:27:06.420Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="connect sql server from Microsoft Sql Server Management Studio">
 <meta name="twitter:description" content="description: codes for connecting sql server from Microsoft sql server management studio  start sql serverAsdfgh123 is default password123docker run -e &quot;ACCEPT_EULA=Y&quot; -e &quot;SA_PASSWORD=Asdfgh123&quot; `   -">
@@ -404,24 +404,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:27:06" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-18 11:23:34" itemprop="dateModified" datetime="2018-07-18T11:23:34+10:00">2018-07-18</time>
               
             
           </span>
@@ -476,8 +464,6 @@
 <h1 id="start-sql-server"><a href="#start-sql-server" class="headerlink" title="start sql server"></a>start sql server</h1><p><code>Asdfgh123</code> is default password<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker run -e <span class="string">"ACCEPT_EULA=Y"</span> -e <span class="string">"SA_PASSWORD=Asdfgh123"</span> `</span><br><span class="line">   -p 1433:1433 --name sql1 `</span><br><span class="line">   -d microsoft/mssql-server-linux:2017-latest</span><br></pre></td></tr></table></figure></p>
 <h1 id="connect-from-external-tools"><a href="#connect-from-external-tools" class="headerlink" title="connect from external tools"></a>connect from external tools</h1><p>under Windows, open Powershell to test service can be accessed from Windows<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S 10.3.2.4,1433 -U SA -P <span class="string">"Asdfgh123"</span></span><br></pre></td></tr></table></figure></p>
 <h1 id="connect-from-sql-server-management-studio"><a href="#connect-from-sql-server-management-studio" class="headerlink" title="connect from sql server management studio"></a>connect from sql server management studio</h1><p>server name is the ip address for docker computer. can use commend <code>ipconfig</code> to get the IPv4 Address<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">server type: database engine </span><br><span class="line">server name: 192.168.11.11 </span><br><span class="line">authentication: sql server authentication </span><br><span class="line">    login: SA</span><br><span class="line">    password: Asdfgh123</span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
       
     </div>
@@ -619,7 +605,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">33</span>
+                    <span class="site-state-item-count">31</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>

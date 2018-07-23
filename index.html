@@ -407,24 +407,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:24:42" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-15 16:58:18" itemprop="dateModified" datetime="2018-07-15T16:58:18+10:00">2018-07-15</time>
               
             
           </span>
@@ -483,8 +471,6 @@
 <h1 id="other-variables"><a href="#other-variables" class="headerlink" title="other variables"></a>other variables</h1><p><code>TM_SELECTED_TEXT</code> The currently selected text or the empty string<br><code>TM_LINE_NUMBER</code> The one-index based line number<br><code>TM_FILENAME</code> The filename of the current document<br><code>TM_FILENAME_BASE</code> The filename of the current document without its extensions<br><code>TM_LINE_INDEX</code> The zero-index based line number<br><code>TM_DIRECTORY</code> The directory of the current document<br><code>TM_FILEPATH</code> The full file path of the current document<br><code>CLIPBOARD</code> The contents of your clipboard<br><code>TM_CURRENT_LINE</code> The contents of the current line<br><code>TM_CURRENT_WORD</code> The contents of the word under cursor or the empty string</p>
 <p><code>CURRENT_DAY_NAME</code> The name of day (example ‘Monday’)<br><code>CURRENT_DAY_NAME_SHORT</code> The short name of the day (example ‘Mon’)<br><code>CURRENT_HOUR</code> The current hour in 24-hour clock format<br><code>CURRENT_MINUTE</code> The current minute<br><code>CURRENT_SECOND</code> The current second</p>
 <p><code>CURRENT_YEAR</code> The current year<br><code>CURRENT_YEAR_SHORT</code> The current year’s last two digits<br><code>CURRENT_MONTH</code> The month as two digits (example ‘02’)<br><code>CURRENT_MONTH_NAME</code> The full name of the month (example ‘July’)<br><code>CURRENT_MONTH_NAME_SHORT</code> The short name of the month (example ‘Jul’)<br><code>CURRENT_DATE</code> The day of the month</p>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -588,24 +574,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:24:46" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-18 18:51:36" itemprop="dateModified" datetime="2018-07-18T18:51:36+10:00">2018-07-18</time>
               
             
           </span>
@@ -660,8 +634,6 @@
           
             <p>description: vba to get list of modules name </p>
 <h1 id="code-of-vba-to-get-list-of-module-names"><a href="#code-of-vba-to-get-list-of-module-names" class="headerlink" title="code of vba to get list of module names"></a>code of vba to get list of module names</h1><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> getAllModuleNames()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Dim</span> modName <span class="keyword">As</span> <span class="built_in">String</span></span><br><span class="line">    <span class="keyword">Dim</span> wb <span class="keyword">As</span> Workbook</span><br><span class="line">    <span class="keyword">Dim</span> l <span class="keyword">As</span> <span class="built_in">Long</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> wb = thisWorkbook</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">For</span> l = <span class="number">1</span> <span class="keyword">To</span> wb.VBProject.VBComponents.count</span><br><span class="line">        <span class="keyword">With</span> wb.VBProject.VBComponents(l)</span><br><span class="line">            modName = modName &amp; vbCr &amp; .name</span><br><span class="line">        <span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">'MsgBox "Module Names:" &amp; vbCr &amp; modName</span></span><br><span class="line">    Cells(<span class="number">40</span>, <span class="number">1</span>).value = modName</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> wb = <span class="literal">Nothing</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -765,24 +737,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:24:59" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-18 11:24:49" itemprop="dateModified" datetime="2018-07-18T11:24:49+10:00">2018-07-18</time>
               
             
           </span>
@@ -841,8 +801,6 @@
 <li>Tools -&gt; Options </li>
 <li>Designers -&gt; Table and Database Designers -&gt; Prevent saving changes that require table re-creation -&gt; unclick</li>
 </ul>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -946,24 +904,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:05" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-18 11:24:35" itemprop="dateModified" datetime="2018-07-18T11:24:35+10:00">2018-07-18</time>
               
             
           </span>
@@ -1021,8 +967,6 @@
 <li>tools -&gt; options </li>
 <li>Text Editor -&gt; Transact-SQL -&gt; line numbers </li>
 </ul>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -1126,24 +1070,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:11" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-18 11:24:26" itemprop="dateModified" datetime="2018-07-18T11:24:26+10:00">2018-07-18</time>
               
             
           </span>
@@ -1198,8 +1130,6 @@
           
             <p>description: sql comments for basic query </p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- use </span></span><br><span class="line"><span class="keyword">use</span> testdb</span><br><span class="line"><span class="keyword">go</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people</span><br><span class="line"><span class="keyword">select</span> top <span class="number">1</span> * <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- insert into people values (1, 'lily', 'f', 12)</span></span><br><span class="line"><span class="comment">-- insert into people values (2, 'chao', 'm', 16)</span></span><br><span class="line"><span class="comment">-- insert into people values (3, 'alin', 'f',null)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">id</span>, <span class="keyword">name</span> <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- order by</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, age <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">desc</span>,<span class="keyword">id</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- order by number</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, age <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> <span class="number">2</span> <span class="comment">--2 means age </span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- isnull()</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, <span class="keyword">ISNULL</span> (age, <span class="string">''</span>) <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">--alias</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, <span class="keyword">ISNULL</span> (age, <span class="string">''</span>) <span class="keyword">as</span> a <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- concat strings </span></span><br><span class="line"><span class="keyword">select</span> <span class="string">'people '</span> + <span class="keyword">TRIM</span> (<span class="keyword">name</span>) + <span class="string">' is age of '</span> + <span class="keyword">convert</span>(<span class="built_in">varchar</span>, <span class="keyword">isnull</span>(age, <span class="string">''</span>)) <span class="keyword">as</span> [description] </span><br><span class="line"><span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- round()</span></span><br><span class="line"><span class="keyword">select</span> age, age * <span class="number">10</span> <span class="keyword">as</span> <span class="string">'age10'</span>,</span><br><span class="line"><span class="keyword">round</span>(<span class="keyword">convert</span>(<span class="built_in">float</span>,age)/<span class="number">8</span>, <span class="number">1</span>) <span class="keyword">as</span> <span class="string">'ageD8'</span>,</span><br><span class="line"><span class="keyword">round</span>(age/<span class="number">3</span>, <span class="number">0</span>) <span class="keyword">as</span> <span class="string">'ageD3'</span></span><br><span class="line"><span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- where </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age &lt;&gt; <span class="number">12</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- and or </span></span><br><span class="line"><span class="comment">-- select date from time where data between '2005-10-10' and '1/1/2006'</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">id</span> = <span class="number">2</span> <span class="keyword">or</span> <span class="keyword">id</span> = <span class="number">3</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> = <span class="string">'chao'</span> <span class="keyword">and</span> age =<span class="number">16</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- wildcard % like </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> <span class="keyword">like</span> <span class="string">'%h%'</span> </span><br><span class="line"></span><br><span class="line"><span class="comment">-- _ single character </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> <span class="keyword">like</span> <span class="string">'_hao%'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- in </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people</span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">in</span> (<span class="number">14</span>,<span class="number">16</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- not in </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">not</span> <span class="keyword">in</span> (<span class="number">16</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- is null</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">is</span> <span class="literal">null</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- is not null </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">null</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -1303,24 +1233,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:16" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-14 16:47:26" itemprop="dateModified" datetime="2018-07-14T16:47:26+10:00">2018-07-14</time>
               
             
           </span>
@@ -1374,8 +1292,6 @@
         
           
             <h1 id="python-numpy-datetime64-today"><a href="#python-numpy-datetime64-today" class="headerlink" title="python numpy datetime64 today"></a>python numpy datetime64 today</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> datetime</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>today = np.datetime64(datetime.datetime.now())</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>today</span><br><span class="line">numpy.datetime64(<span class="string">'2018-07-12T19:12:39.167044'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>past = np.datetime64(<span class="string">'2018-01-01'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>past</span><br><span class="line">numpy.datetime64(<span class="string">'2018-01-01'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>dif = today - past</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>dif</span><br><span class="line">numpy.timedelta64(<span class="number">16657959167044</span>,<span class="string">'us'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>dif = np.timedelta64(dif, <span class="string">'D'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>dif</span><br><span class="line">numpy.timedelta64(<span class="number">192</span>,<span class="string">'D'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>dif.astype(int)</span><br><span class="line"><span class="number">192</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="http://searchfor.space" target="_blank" rel="noopener">searchfor.space</a></p>
 
           
         
@@ -1479,24 +1395,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:21" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-14 16:47:25" itemprop="dateModified" datetime="2018-07-14T16:47:25+10:00">2018-07-14</time>
               
             
           </span>
@@ -1550,8 +1454,6 @@
         
           
             <h1 id="python-timedelta-to-seconds"><a href="#python-timedelta-to-seconds" class="headerlink" title="python timedelta to seconds"></a>python timedelta to seconds</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> datetime</span><br><span class="line"></span><br><span class="line">today = np.datetime64(datetime.datetime.today())</span><br><span class="line">today</span><br><span class="line"><span class="comment"># numpy.datetime64('2018-07-12T19:28:08.889374')</span></span><br><span class="line"></span><br><span class="line">past = np.datetime64(<span class="string">'2018-07-11'</span>)</span><br><span class="line">past</span><br><span class="line"><span class="comment"># numpy.datetime64('2018-07-11')</span></span><br><span class="line"></span><br><span class="line">dif = today - past</span><br><span class="line">dif</span><br><span class="line"><span class="comment"># numpy.timedelta64(156488889374,'us')</span></span><br><span class="line"></span><br><span class="line">dif.astype(int)</span><br><span class="line"><span class="comment"># 1870066718</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="http://searchfor.space" target="_blank" rel="noopener">searchfor.space</a></p>
 
           
         
@@ -1655,24 +1557,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:26" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-20 20:17:44" itemprop="dateModified" datetime="2018-07-20T20:17:44+10:00">2018-07-20</time>
               
             
           </span>
@@ -1709,8 +1599,6 @@
           
             <p>description: python parse string into datetime</p>
 <h1 id="parse-string-into-datetime"><a href="#parse-string-into-datetime" class="headerlink" title="parse string into datetime"></a>parse string into datetime</h1><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> datetime </span><br><span class="line">datetime.datetime.strptime(<span class="string">'2018-01-01'</span>, <span class="string">"%Y-%m-%d"</span>)</span><br><span class="line"><span class="comment"># datetime.datetime(2018, 1, 1, 0, 0)</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -1814,24 +1702,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:30" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-21 22:02:11" itemprop="dateModified" datetime="2018-07-21T22:02:11+10:00">2018-07-21</time>
               
             
           </span>
@@ -1886,8 +1762,6 @@
           
             <p>description: python print format string example</p>
 <h1 id="python-Using-and-format-for-formating-print-output"><a href="#python-Using-and-format-for-formating-print-output" class="headerlink" title="python Using % and .format() for formating print output"></a>python Using % and .format() for formating print output</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">60</span>):</span><br><span class="line">    interaction = <span class="string">'%s'</span> % (<span class="string">'#'</span> *i)</span><br><span class="line">    print(<span class="string">'\r&#123;&#125;'</span>.format(interaction), end=<span class="string">''</span>)</span><br><span class="line">    time.sleep(<span class="number">1</span>)</span><br><span class="line"><span class="comment"># #############...</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -1991,24 +1865,12 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:35" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-22 21:19:47" itemprop="dateModified" datetime="2018-07-22T21:19:47+10:00">2018-07-22</time>
               
             
           </span>
@@ -2063,8 +1925,6 @@
           
             <p>description: pandas select columns by name</p>
 <h1 id="python-select-columns-from-dataframe-by-name"><a href="#python-select-columns-from-dataframe-by-name" class="headerlink" title="python select columns from dataframe by name"></a>python select columns from dataframe by name</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas </span><br><span class="line">d = pandas.DataFrame([[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]], columns=[<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'d'</span>])</span><br><span class="line"><span class="comment"># d</span></span><br><span class="line"><span class="comment">#    a  b  c  d</span></span><br><span class="line"><span class="comment"># 0  1  2  3  4</span></span><br><span class="line">d2 = d[[<span class="string">'b'</span>,<span class="string">'c'</span>]]</span><br><span class="line"><span class="comment"># d2</span></span><br><span class="line"><span class="comment">#    b  c</span></span><br><span class="line"><span class="comment"># 0  2  3</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -2154,7 +2014,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">33</span>
+                    <span class="site-state-item-count">31</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
