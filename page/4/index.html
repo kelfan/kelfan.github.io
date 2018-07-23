@@ -129,23 +129,23 @@
 
   <meta name="description" content="Personal blog for collecting useful information">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Search For Fun">
-<meta property="og:url" content="http://search4fan.github.io/page/4/index.html">
-<meta property="og:site_name" content="Search For Fun">
+<meta property="og:title" content="Kelfan&#39;s Blog">
+<meta property="og:url" content="http://kelfan.github.io/page/4/index.html">
+<meta property="og:site_name" content="Kelfan&#39;s Blog">
 <meta property="og:description" content="Personal blog for collecting useful information">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Search For Fun">
+<meta name="twitter:title" content="Kelfan&#39;s Blog">
 <meta name="twitter:description" content="Personal blog for collecting useful information">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Search For Fun" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Kelfan's Blog" type="application/atom+xml" />
 
 
 
 
-  <link rel="canonical" href="http://search4fan.github.io/page/4/"/>
+  <link rel="canonical" href="http://kelfan.github.io/page/4/"/>
 
 
 
@@ -155,7 +155,7 @@
   };
 </script>
 
-  <title>Search For Fun</title>
+  <title>Kelfan's Blog</title>
   
 
 
@@ -223,7 +223,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Search For Fun</span>
+        <span class="site-title">Kelfan's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -361,16 +361,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://search4fan.github.io/post/python_timedelta _to_seconds.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_error_response_from_daemon.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="killfun">
+      <meta itemprop="name" content="Kelfan">
       <meta itemprop="description" content="Personal blog for collecting useful information">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Search For Fun">
+      <meta itemprop="name" content="Kelfan's Blog">
     </span>
 
     
@@ -380,8 +380,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/post/python_timedelta _to_seconds.html" itemprop="url">
-                  python timedelta to seconds
+                <a class="post-title-link" href="/post/docker_error_response_from_daemon.html" itemprop="url">
+                  Error response from daemon driver failed programming external connectivity on endpoint sql1
                 </a>
               
             
@@ -407,7 +407,7 @@
                 
               
 
-              <time title="Created: 2018-07-12 19:24:05" itemprop="dateCreated datePublished" datetime="2018-07-12T19:24:05+10:00">2018-07-12</time>
+              <time title="Created: 2018-07-23 08:56:55" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:55+10:00">2018-07-23</time>
             
 
             
@@ -424,7 +424,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-07-14 16:47:25" itemprop="dateModified" datetime="2018-07-14T16:47:25+10:00">2018-07-14</time>
+                <time title="Modified: 2018-07-16 20:49:37" itemprop="dateModified" datetime="2018-07-16T20:49:37+10:00">2018-07-16</time>
               
             
           </span>
@@ -441,7 +441,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
 
                 
                 
@@ -477,9 +477,12 @@
       
         
           
-            <h1 id="python-timedelta-to-seconds"><a href="#python-timedelta-to-seconds" class="headerlink" title="python timedelta to seconds"></a>python timedelta to seconds</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> datetime</span><br><span class="line"></span><br><span class="line">today = np.datetime64(datetime.datetime.today())</span><br><span class="line">today</span><br><span class="line"><span class="comment"># numpy.datetime64('2018-07-12T19:28:08.889374')</span></span><br><span class="line"></span><br><span class="line">past = np.datetime64(<span class="string">'2018-07-11'</span>)</span><br><span class="line">past</span><br><span class="line"><span class="comment"># numpy.datetime64('2018-07-11')</span></span><br><span class="line"></span><br><span class="line">dif = today - past</span><br><span class="line">dif</span><br><span class="line"><span class="comment"># numpy.timedelta64(156488889374,'us')</span></span><br><span class="line"></span><br><span class="line">dif.astype(int)</span><br><span class="line"><span class="comment"># 1870066718</span></span><br></pre></td></tr></table></figure>
+            <p>description:</p>
+<h1 id="error-description-1"><a href="#error-description-1" class="headerlink" title="error description 1"></a>error description 1</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PS C:\Users\Administrator&gt; docker start sql1</span><br><span class="line">Error response from daemon: driver failed programming external connectivity on endpoint sql1 (5738a464113f88069be0239c3fd73eaa58fc4d5a7fc63d83d912e3d9424f6b55): Error starting userland proxy: mkdir /port/tcp:0.0.0.0:1433:tcp:172.17.0.2:1433: input/output error</span><br><span class="line">Error: failed to start containers: sql1</span><br></pre></td></tr></table></figure>
+<h1 id="error-description-2"><a href="#error-description-2" class="headerlink" title="error description 2"></a>error description 2</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PS C:\Users\Administrator&gt; docker run -p 1443:1443 -d sql2</span><br><span class="line">90d3d1f460f1dfd11a684a37a9278db78f345c1a85cc55d68e1f3c313721c2e0</span><br><span class="line">C:\Program Files\Docker\Docker\Resources\bin\docker.exe: Error response from daemon: driver failed programming external connectivity on endpoint sad_ritchie (b5a71d797addfd55b7683151e8a6b9fbacbd35792dbe1f020170190b500778b6): Error starting userland proxy: mkdir /port/tcp:0.0.0.0:1443:tcp:172.17.0.2:1443: input/output error.</span><br></pre></td></tr></table></figure>
+<h1 id="solution"><a href="#solution" class="headerlink" title="solution"></a>solution</h1><p>restart system and docker then restart service </p>
 <hr>
-<p>more on <a href="http://searchfor.space" target="_blank" rel="noopener">searchfor.space</a></p>
+<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
           
         
@@ -537,16 +540,199 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://search4fan.github.io/post/test.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_commends.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="killfun">
+      <meta itemprop="name" content="Kelfan">
       <meta itemprop="description" content="Personal blog for collecting useful information">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Search For Fun">
+      <meta itemprop="name" content="Kelfan's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/docker_commends.html" itemprop="url">
+                  docker frequent used commends
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-23 08:56:55" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:55+10:00">2018-07-23</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-18 21:03:02" itemprop="dateModified" datetime="2018-07-18T21:03:02+10:00">2018-07-18</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: docker commends - not finished yet</p>
+<h1 id="check-all-running-proceses-containers"><a href="#check-all-running-proceses-containers" class="headerlink" title="check all running proceses/containers"></a>check all running proceses/containers</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps -a</span><br></pre></td></tr></table></figure>
+<h1 id="delete-a-container"><a href="#delete-a-container" class="headerlink" title="delete a container"></a>delete a container</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rm container_name</span><br></pre></td></tr></table></figure>
+<h1 id="see-all-images"><a href="#see-all-images" class="headerlink" title="see all images"></a>see all images</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker images</span><br></pre></td></tr></table></figure>
+<h1 id="remove-an-image"><a href="#remove-an-image" class="headerlink" title="remove an image"></a>remove an image</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi image_name</span><br></pre></td></tr></table></figure>
+<h1 id="Stop-all-running-containers"><a href="#Stop-all-running-containers" class="headerlink" title="Stop all running containers"></a>Stop all running containers</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker stop $(docker ps -a -q)</span><br></pre></td></tr></table></figure>
+<h1 id="commit-container-as-a-new-image"><a href="#commit-container-as-a-new-image" class="headerlink" title="commit container as a new image"></a>commit container as a new image</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker commit new_image_name</span><br><span class="line">docker commit old_image new_image</span><br></pre></td></tr></table></figure>
+<h1 id="mount-host-directory-in-docker-container"><a href="#mount-host-directory-in-docker-container" class="headerlink" title="mount host directory in docker container"></a>mount host directory in docker container</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># mount code folder under current folder into the html folder within the Nginx image</span></span><br><span class="line">docker run -v <span class="variable">$PWD</span>/code:/var/www/html Nginx</span><br></pre></td></tr></table></figure>
+<hr>
+<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/test.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kelfan">
+      <meta itemprop="description" content="Personal blog for collecting useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kelfan's Blog">
     </span>
 
     
@@ -678,154 +864,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://search4fan.github.io/post/hello-world.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="killfun">
-      <meta itemprop="description" content="Personal blog for collecting useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Search For Fun">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/hello-world.html" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-07-05 20:08:47" itemprop="dateCreated datePublished" datetime="2018-07-05T20:08:47+10:00">2018-07-05</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -862,7 +900,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">killfun</p>
+              <p class="site-author-name" itemprop="name">Kelfan</p>
               <p class="site-description motion-element" itemprop="description">Personal blog for collecting useful information</p>
           </div>
 
@@ -1026,7 +1064,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">killfun</span>
+  <span class="author" itemprop="copyrightHolder">Kelfan</span>
 
   
 

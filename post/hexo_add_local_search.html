@@ -131,8 +131,8 @@
 <meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo add local search">
-<meta property="og:url" content="http://search4fan.github.io/post/hexo_add_local_search.html">
-<meta property="og:site_name" content="Search For Fun">
+<meta property="og:url" content="http://kelfan.github.io/post/hexo_add_local_search.html">
+<meta property="og:site_name" content="Kelfan&#39;s Blog">
 <meta property="og:description" content="description: add a local search for hexo blog  install hexo-generator-searchrun following commend under search4fan.github.io/ folder1npm install hexo-generator-search --save change configurationadd fo">
 <meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2018-07-14T08:28:43.641Z">
@@ -142,12 +142,12 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Search For Fun" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Kelfan's Blog" type="application/atom+xml" />
 
 
 
 
-  <link rel="canonical" href="http://search4fan.github.io/post/hexo_add_local_search.html"/>
+  <link rel="canonical" href="http://kelfan.github.io/post/hexo_add_local_search.html"/>
 
 
 
@@ -157,7 +157,7 @@
   };
 </script>
 
-  <title>hexo add local search | Search For Fun</title>
+  <title>hexo add local search | Kelfan's Blog</title>
   
 
 
@@ -224,7 +224,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Search For Fun</span>
+        <span class="site-title">Kelfan's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -362,16 +362,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://search4fan.github.io/post/hexo_add_local_search.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/hexo_add_local_search.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="killfun">
+      <meta itemprop="name" content="Kelfan">
       <meta itemprop="description" content="Personal blog for collecting useful information">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Search For Fun">
+      <meta itemprop="name" content="Kelfan's Blog">
     </span>
 
     
@@ -404,12 +404,24 @@
                 
               
 
-              <time title="Created: 2018-07-14 17:57:30 / Modified: 18:28:43" itemprop="dateCreated datePublished" datetime="2018-07-14T17:57:30+10:00">2018-07-14</time>
+              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-14 18:28:43" itemprop="dateModified" datetime="2018-07-14T18:28:43+10:00">2018-07-14</time>
               
             
           </span>
@@ -465,7 +477,7 @@
 <h1 id="change-configuration"><a href="#change-configuration" class="headerlink" title="change configuration"></a>change configuration</h1><p>add following text in <code>search4fan.github.io/_config.yml</code><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">search:</span> </span><br><span class="line"><span class="attr">      path:</span> <span class="string">search.xml</span></span><br><span class="line"><span class="attr">      field:</span> <span class="string">post</span></span><br></pre></td></tr></table></figure></p>
 <h1 id="change-theme-configuration"><a href="#change-theme-configuration" class="headerlink" title="change theme configuration"></a>change theme configuration</h1><p>change <code>_config.yml</code> under theme folder <code>search4fan.github.io/themes/next/_config.yml</code><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Local search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># if auto, trigger search by changing input</span></span><br><span class="line">  <span class="comment"># if manual, trigger search by pressing enter key or search button</span></span><br><span class="line"><span class="attr">  trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># show top n results per article, show all results by setting to -1</span></span><br><span class="line"><span class="attr">  top_n_per_article:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># unescape html strings to the readable one</span></span><br><span class="line"><span class="attr">  unescape:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
 <hr>
-<p>more on <a href="https://search4fan.github.io/">search4fan.github.io</a></p>
+<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
       
     </div>
@@ -488,10 +500,10 @@
       <div>
         <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>Post author:  </strong>killfun</li>
+    <strong>Post author:  </strong>Kelfan</li>
   <li class="post-copyright-link">
     <strong>Post link: </strong>
-    <a href="http://search4fan.github.io/post/hexo_add_local_search.html" title="hexo add local search">http://search4fan.github.io/post/hexo_add_local_search.html</a>
+    <a href="http://kelfan.github.io/post/hexo_add_local_search.html" title="hexo add local search">http://kelfan.github.io/post/hexo_add_local_search.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.</li>
@@ -517,8 +529,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/post/python_assign_value_conditionally.html" rel="next" title="python assign value of dataframe by conditions">
-                <i class="fa fa-chevron-left"></i> python assign value of dataframe by conditions
+              <a href="/post/hello-world.html" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
@@ -527,8 +539,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/post/vs_code_datetime_snippet.html" rel="prev" title="Microsoft Visual Studio Code insert date time variables into snippet template">
-                Microsoft Visual Studio Code insert date time variables into snippet template <i class="fa fa-chevron-right"></i>
+              <a href="/post/hexo_add_sitemap.html" rel="prev" title="add sitemap into hexo blog">
+                add sitemap into hexo blog <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -592,7 +604,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">killfun</p>
+              <p class="site-author-name" itemprop="name">Kelfan</p>
               <p class="site-description motion-element" itemprop="description">Personal blog for collecting useful information</p>
           </div>
 
@@ -772,7 +784,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">killfun</span>
+  <span class="author" itemprop="copyrightHolder">Kelfan</span>
 
   
 

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Search For Fun</title>
+  <title>Kelfan&#39;s Blog</title>
   
   <subtitle>A blog for collecting diverse useful information</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://search4fan.github.io/"/>
-  <updated>2018-07-22T11:19:47.398Z</updated>
-  <id>http://search4fan.github.io/</id>
+  <link href="http://kelfan.github.io/"/>
+  <updated>2018-07-15T06:58:18.738Z</updated>
+  <id>http://kelfan.github.io/</id>
   
   <author>
-    <name>killfun</name>
+    <name>Kelfan</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>python extract columns from dataframe</title>
-    <link href="http://search4fan.github.io/post/python_extract_columns.html"/>
-    <id>http://search4fan.github.io/post/python_extract_columns.html</id>
-    <published>2018-07-22T11:16:10.569Z</published>
-    <updated>2018-07-22T11:19:47.398Z</updated>
+    <title>Microsoft Visual Studio Code insert date time variables into snippet template</title>
+    <link href="http://kelfan.github.io/post/vs_code_datetime_snippet.html"/>
+    <id>http://kelfan.github.io/post/vs_code_datetime_snippet.html</id>
+    <published>2018-07-22T22:56:56.563Z</published>
+    <updated>2018-07-15T06:58:18.738Z</updated>
     
     <summary type="html">
     
@@ -29,247 +29,27 @@
       
         
         
-          &lt;p&gt;description: pandas select columns by name&lt;/p&gt;
-&lt;h1 id=&quot;python-select-columns-from-dataframe-by-name&quot;&gt;&lt;a
+          &lt;p&gt;description: make a snippet with current datetime &lt;/p&gt;
+&lt;h1 id=&quot;open-snippet-file-to-edit&quot;&gt;&lt;a href=&quot;#open-snippet-file-to-edit&quot;
         
       
     
     </summary>
     
-      <category term="python" scheme="http://search4fan.github.io/categories/python/"/>
+      <category term="VS code" scheme="http://kelfan.github.io/categories/VS-code/"/>
     
     
-      <category term="python" scheme="http://search4fan.github.io/tags/python/"/>
+      <category term="VS code" scheme="http://kelfan.github.io/tags/VS-code/"/>
     
-  </entry>
-  
-  <entry>
-    <title>TortoiseGit set ssh for github</title>
-    <link href="http://search4fan.github.io/post/git_set_ssh_for_tortoisegit.html"/>
-    <id>http://search4fan.github.io/post/git_set_ssh_for_tortoisegit.html</id>
-    <published>2018-07-22T05:14:52.487Z</published>
-    <updated>2018-07-22T05:21:27.988Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: tortoisegit ssh key windows&lt;/p&gt;
-&lt;h1 id=&quot;tortoisegit-ssh-key-setup&quot;&gt;&lt;a href=&quot;#tortoisegit-ssh-key-setup&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="git" scheme="http://search4fan.github.io/categories/git/"/>
-    
-    
-      <category term="git" scheme="http://search4fan.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git Switch between ssh and HTTPS</title>
-    <link href="http://search4fan.github.io/post/git_switch_https_ssh.html"/>
-    <id>http://search4fan.github.io/post/git_switch_https_ssh.html</id>
-    <published>2018-07-22T04:55:55.881Z</published>
-    <updated>2018-07-22T05:16:04.500Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: git change remote from https to ssh&lt;/p&gt;
-&lt;h1 id=&quot;change-from-HTTPS-into-ssh&quot;&gt;&lt;a href=&quot;#change-from-HTTPS-into-ssh&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="git" scheme="http://search4fan.github.io/categories/git/"/>
-    
-    
-      <category term="git" scheme="http://search4fan.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python print format string example</title>
-    <link href="http://search4fan.github.io/post/python_format_string_output.html"/>
-    <id>http://search4fan.github.io/post/python_format_string_output.html</id>
-    <published>2018-07-21T11:59:41.959Z</published>
-    <updated>2018-07-21T12:02:11.551Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python print format string example&lt;/p&gt;
-&lt;h1 id=&quot;python-Using-and-format-for-formating-print-output&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://search4fan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://search4fan.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python add one day to a date</title>
-    <link href="http://search4fan.github.io/post/python_datetime_add_day.html"/>
-    <id>http://search4fan.github.io/post/python_datetime_add_day.html</id>
-    <published>2018-07-20T10:29:22.435Z</published>
-    <updated>2018-07-20T10:30:58.486Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python add one day to a date &lt;/p&gt;
-&lt;h1 id=&quot;python-datetime-date-add-one-day&quot;&gt;&lt;a href=&quot;#python-datetime-date-add-one-day&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://search4fan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://search4fan.github.io/tags/python/"/>
-    
-      <category term="date" scheme="http://search4fan.github.io/tags/date/"/>
-    
-      <category term="datetime" scheme="http://search4fan.github.io/tags/datetime/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python parse string into datetime</title>
-    <link href="http://search4fan.github.io/post/python_string_to_datetime.html"/>
-    <id>http://search4fan.github.io/post/python_string_to_datetime.html</id>
-    <published>2018-07-20T10:16:33.020Z</published>
-    <updated>2018-07-20T10:17:44.162Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python parse string into datetime&lt;/p&gt;
-&lt;h1 id=&quot;parse-string-into-datetime&quot;&gt;&lt;a href=&quot;#parse-string-into-datetime&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="python" scheme="http://search4fan.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python change dataframe column into set and loop the set</title>
-    <link href="http://search4fan.github.io/post/python_dataframe_loop_set.html"/>
-    <id>http://search4fan.github.io/post/python_dataframe_loop_set.html</id>
-    <published>2018-07-20T09:59:47.417Z</published>
-    <updated>2018-07-20T10:06:03.740Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: change dataframe column into set and iterate&lt;/p&gt;
-&lt;h1 id=&quot;change-dataframe-column-into-a-set&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://search4fan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://search4fan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://search4fan.github.io/tags/dataframe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python iterate or loop each row of a dataframe</title>
-    <link href="http://search4fan.github.io/post/python_dataframe_loop_rows.html"/>
-    <id>http://search4fan.github.io/post/python_dataframe_loop_rows.html</id>
-    <published>2018-07-19T13:41:04.925Z</published>
-    <updated>2018-07-19T13:42:49.997Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python iterate a dataframe &lt;/p&gt;
-&lt;h1 id=&quot;loop-each-row-of-a-dataframe&quot;&gt;&lt;a href=&quot;#loop-each-row-of-a-dataframe&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://search4fan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://search4fan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://search4fan.github.io/tags/dataframe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python resign headers to a dataframe</title>
-    <link href="http://search4fan.github.io/post/python_dataframe_resign_headers.html"/>
-    <id>http://search4fan.github.io/post/python_dataframe_resign_headers.html</id>
-    <published>2018-07-19T11:39:03.475Z</published>
-    <updated>2018-07-19T11:42:29.382Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python pandas rename or change column names&lt;/p&gt;
-&lt;h1 id=&quot;python-rename-column-headers&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="python" scheme="http://search4fan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://search4fan.github.io/tags/dataframe/"/>
+      <category term="snippet" scheme="http://kelfan.github.io/tags/snippet/"/>
     
   </entry>
   
   <entry>
     <title>get list of modules name in Excel vba</title>
-    <link href="http://search4fan.github.io/post/vba_get_list_of_modules_name.html"/>
-    <id>http://search4fan.github.io/post/vba_get_list_of_modules_name.html</id>
-    <published>2018-07-18T08:49:46.508Z</published>
+    <link href="http://kelfan.github.io/post/vba_get_list_of_modules_name.html"/>
+    <id>http://kelfan.github.io/post/vba_get_list_of_modules_name.html</id>
+    <published>2018-07-22T22:56:56.524Z</published>
     <updated>2018-07-18T08:51:36.318Z</updated>
     
     <summary type="html">
@@ -285,21 +65,21 @@
     
     </summary>
     
-      <category term="vba" scheme="http://search4fan.github.io/categories/vba/"/>
+      <category term="vba" scheme="http://kelfan.github.io/categories/vba/"/>
     
     
-      <category term="vba" scheme="http://search4fan.github.io/tags/vba/"/>
+      <category term="vba" scheme="http://kelfan.github.io/tags/vba/"/>
     
-      <category term="excel" scheme="http://search4fan.github.io/tags/excel/"/>
+      <category term="excel" scheme="http://kelfan.github.io/tags/excel/"/>
     
   </entry>
   
   <entry>
-    <title>Microsoft Sql server installation with 1638 error</title>
-    <link href="http://search4fan.github.io/post/mssql_install_error_1638.html"/>
-    <id>http://search4fan.github.io/post/mssql_install_error_1638.html</id>
-    <published>2018-07-17T23:33:38.321Z</published>
-    <updated>2018-07-17T23:39:53.576Z</updated>
+    <title>ssms save changes not permitted</title>
+    <link href="http://kelfan.github.io/post/ssms_not_permit_change.html"/>
+    <id>http://kelfan.github.io/post/ssms_not_permit_change.html</id>
+    <published>2018-07-22T22:56:56.495Z</published>
+    <updated>2018-07-18T01:24:49.025Z</updated>
     
     <summary type="html">
     
@@ -307,54 +87,25 @@
       
         
         
-          &lt;p&gt;description: unable to install Sql Server with exit code 1638 &lt;/p&gt;
-&lt;h1 id=&quot;solution&quot;&gt;&lt;a href=&quot;#solution&quot; class=&quot;headerlink&quot;
+          &lt;p&gt;description: Sql Server ‘Saving changes is not permitted’&lt;/p&gt;
+&lt;h1 id=&quot;problem-description&quot;&gt;&lt;a href=&quot;#problem-description&quot;
         
       
     
     </summary>
     
-      <category term="sql server" scheme="http://search4fan.github.io/categories/sql-server/"/>
+      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
     
     
-      <category term="mssql" scheme="http://search4fan.github.io/tags/mssql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>basic frequent Sql commends in sql server</title>
-    <link href="http://search4fan.github.io/post/ssms_basic_frequent_commends.html"/>
-    <id>http://search4fan.github.io/post/ssms_basic_frequent_commends.html</id>
-    <published>2018-07-17T10:10:57.053Z</published>
-    <updated>2018-07-18T01:24:26.373Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: sql comments for basic query &lt;/p&gt;
-&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-      <category term="sql server" scheme="http://search4fan.github.io/categories/sql-server/"/>
-    
-    
-      <category term="ssms" scheme="http://search4fan.github.io/tags/ssms/"/>
-    
-      <category term="sql" scheme="http://search4fan.github.io/tags/sql/"/>
+      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
     
   </entry>
   
   <entry>
     <title>display line number in sql server management studio</title>
-    <link href="http://search4fan.github.io/post/ssms_display_line_number.html"/>
-    <id>http://search4fan.github.io/post/ssms_display_line_number.html</id>
-    <published>2018-07-17T10:06:35.565Z</published>
+    <link href="http://kelfan.github.io/post/ssms_display_line_number.html"/>
+    <id>http://kelfan.github.io/post/ssms_display_line_number.html</id>
+    <published>2018-07-22T22:56:56.491Z</published>
     <updated>2018-07-18T01:24:35.463Z</updated>
     
     <summary type="html">
@@ -372,18 +123,358 @@
     
     </summary>
     
-      <category term="sql server" scheme="http://search4fan.github.io/categories/sql-server/"/>
+      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
     
     
-      <category term="ssms" scheme="http://search4fan.github.io/tags/ssms/"/>
+      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>basic frequent Sql commends in sql server</title>
+    <link href="http://kelfan.github.io/post/ssms_basic_frequent_commends.html"/>
+    <id>http://kelfan.github.io/post/ssms_basic_frequent_commends.html</id>
+    <published>2018-07-22T22:56:56.475Z</published>
+    <updated>2018-07-18T01:24:26.373Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: sql comments for basic query &lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
+    
+    
+      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
+    
+      <category term="sql" scheme="http://kelfan.github.io/tags/sql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python numpy datetime64 today</title>
+    <link href="http://kelfan.github.io/post/python_timedelta_days.html"/>
+    <id>http://kelfan.github.io/post/python_timedelta_days.html</id>
+    <published>2018-07-22T22:56:56.469Z</published>
+    <updated>2018-07-14T06:47:26.177Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;python-numpy-datetime64-today&quot;&gt;&lt;a href=&quot;#python-numpy-datetime64-today&quot; class=&quot;headerlink&quot; title=&quot;python numpy datetime64
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="timedelta" scheme="http://kelfan.github.io/tags/timedelta/"/>
+    
+      <category term="datetime64" scheme="http://kelfan.github.io/tags/datetime64/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python timedelta to seconds</title>
+    <link href="http://kelfan.github.io/post/python_timedelta%20_to_seconds.html"/>
+    <id>http://kelfan.github.io/post/python_timedelta _to_seconds.html</id>
+    <published>2018-07-22T22:56:56.451Z</published>
+    <updated>2018-07-14T06:47:25.900Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;python-timedelta-to-seconds&quot;&gt;&lt;a href=&quot;#python-timedelta-to-seconds&quot; class=&quot;headerlink&quot; title=&quot;python timedelta to
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="timedelta" scheme="http://kelfan.github.io/tags/timedelta/"/>
+    
+      <category term="datetime64" scheme="http://kelfan.github.io/tags/datetime64/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python parse string into datetime</title>
+    <link href="http://kelfan.github.io/post/python_string_to_datetime.html"/>
+    <id>http://kelfan.github.io/post/python_string_to_datetime.html</id>
+    <published>2018-07-22T22:56:56.447Z</published>
+    <updated>2018-07-20T10:17:44.162Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python parse string into datetime&lt;/p&gt;
+&lt;h1 id=&quot;parse-string-into-datetime&quot;&gt;&lt;a href=&quot;#parse-string-into-datetime&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python print format string example</title>
+    <link href="http://kelfan.github.io/post/python_format_string_output.html"/>
+    <id>http://kelfan.github.io/post/python_format_string_output.html</id>
+    <published>2018-07-22T22:56:56.408Z</published>
+    <updated>2018-07-21T12:02:11.551Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python print format string example&lt;/p&gt;
+&lt;h1 id=&quot;python-Using-and-format-for-formating-print-output&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python extract columns from dataframe</title>
+    <link href="http://kelfan.github.io/post/python_extract_columns.html"/>
+    <id>http://kelfan.github.io/post/python_extract_columns.html</id>
+    <published>2018-07-22T22:56:56.384Z</published>
+    <updated>2018-07-22T11:19:47.398Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: pandas select columns by name&lt;/p&gt;
+&lt;h1 id=&quot;python-select-columns-from-dataframe-by-name&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python add one day to a date</title>
+    <link href="http://kelfan.github.io/post/python_datetime_add_day.html"/>
+    <id>http://kelfan.github.io/post/python_datetime_add_day.html</id>
+    <published>2018-07-22T22:56:56.369Z</published>
+    <updated>2018-07-20T10:30:58.486Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python add one day to a date &lt;/p&gt;
+&lt;h1 id=&quot;python-datetime-date-add-one-day&quot;&gt;&lt;a href=&quot;#python-datetime-date-add-one-day&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="date" scheme="http://kelfan.github.io/tags/date/"/>
+    
+      <category term="datetime" scheme="http://kelfan.github.io/tags/datetime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python resign headers to a dataframe</title>
+    <link href="http://kelfan.github.io/post/python_dataframe_resign_headers.html"/>
+    <id>http://kelfan.github.io/post/python_dataframe_resign_headers.html</id>
+    <published>2018-07-22T22:56:56.335Z</published>
+    <updated>2018-07-19T11:42:29.382Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python pandas rename or change column names&lt;/p&gt;
+&lt;h1 id=&quot;python-rename-column-headers&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python change dataframe column into set and loop the set</title>
+    <link href="http://kelfan.github.io/post/python_dataframe_loop_set.html"/>
+    <id>http://kelfan.github.io/post/python_dataframe_loop_set.html</id>
+    <published>2018-07-22T22:56:56.304Z</published>
+    <updated>2018-07-20T10:06:03.740Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: change dataframe column into set and iterate&lt;/p&gt;
+&lt;h1 id=&quot;change-dataframe-column-into-a-set&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python iterate or loop each row of a dataframe</title>
+    <link href="http://kelfan.github.io/post/python_dataframe_loop_rows.html"/>
+    <id>http://kelfan.github.io/post/python_dataframe_loop_rows.html</id>
+    <published>2018-07-22T22:56:56.290Z</published>
+    <updated>2018-07-19T13:42:49.997Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python iterate a dataframe &lt;/p&gt;
+&lt;h1 id=&quot;loop-each-row-of-a-dataframe&quot;&gt;&lt;a href=&quot;#loop-each-row-of-a-dataframe&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python assign value of dataframe by conditions</title>
+    <link href="http://kelfan.github.io/post/python_assign_value_conditionally.html"/>
+    <id>http://kelfan.github.io/post/python_assign_value_conditionally.html</id>
+    <published>2018-07-22T22:56:56.285Z</published>
+    <updated>2018-07-14T07:20:19.331Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python assign or set value if conditions match &lt;/p&gt;
+&lt;h1 id=&quot;python-assign-or-set-value-based-on-conditions&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Microsoft Sql server installation with 1638 error</title>
+    <link href="http://kelfan.github.io/post/mssql_install_error_1638.html"/>
+    <id>http://kelfan.github.io/post/mssql_install_error_1638.html</id>
+    <published>2018-07-22T22:56:56.255Z</published>
+    <updated>2018-07-17T23:39:53.576Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: unable to install Sql Server with exit code 1638 &lt;/p&gt;
+&lt;h1 id=&quot;solution&quot;&gt;&lt;a href=&quot;#solution&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
+    
+    
+      <category term="mssql" scheme="http://kelfan.github.io/tags/mssql/"/>
     
   </entry>
   
   <entry>
     <title>java change array into a list</title>
-    <link href="http://search4fan.github.io/post/java_array_to_list.html"/>
-    <id>http://search4fan.github.io/post/java_array_to_list.html</id>
-    <published>2018-07-17T04:54:26.156Z</published>
+    <link href="http://kelfan.github.io/post/java_array_to_list.html"/>
+    <id>http://kelfan.github.io/post/java_array_to_list.html</id>
+    <published>2018-07-22T22:56:56.250Z</published>
     <updated>2018-07-17T04:55:31.378Z</updated>
     
     <summary type="html">
@@ -399,19 +490,19 @@
     
     </summary>
     
-      <category term="java" scheme="http://search4fan.github.io/categories/java/"/>
+      <category term="java" scheme="http://kelfan.github.io/categories/java/"/>
     
     
-      <category term="java" scheme="http://search4fan.github.io/tags/java/"/>
+      <category term="java" scheme="http://kelfan.github.io/tags/java/"/>
     
   </entry>
   
   <entry>
-    <title>ssms save changes not permitted</title>
-    <link href="http://search4fan.github.io/post/ssms_not_permit_change.html"/>
-    <id>http://search4fan.github.io/post/ssms_not_permit_change.html</id>
-    <published>2018-07-16T11:26:11.151Z</published>
-    <updated>2018-07-18T01:24:49.025Z</updated>
+    <title>optimze hexo blog title for seo</title>
+    <link href="http://kelfan.github.io/post/hexo_title_seo_optimization.html"/>
+    <id>http://kelfan.github.io/post/hexo_title_seo_optimization.html</id>
+    <published>2018-07-22T22:56:56.245Z</published>
+    <updated>2018-07-14T06:47:26.216Z</updated>
     
     <summary type="html">
     
@@ -419,26 +510,29 @@
       
         
         
-          &lt;p&gt;description: Sql Server ‘Saving changes is not permitted’&lt;/p&gt;
-&lt;h1 id=&quot;problem-description&quot;&gt;&lt;a href=&quot;#problem-description&quot;
+          &lt;h1 id=&quot;change-index-swig-file&quot;&gt;&lt;a href=&quot;#change-index-swig-file&quot; class=&quot;headerlink&quot; title=&quot;change index.swig file&quot;&gt;&lt;/a&gt;change index.swig
         
       
     
     </summary>
     
-      <category term="sql server" scheme="http://search4fan.github.io/categories/sql-server/"/>
+      <category term="hexo" scheme="http://kelfan.github.io/categories/hexo/"/>
     
     
-      <category term="ssms" scheme="http://search4fan.github.io/tags/ssms/"/>
+      <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
+    
+      <category term="seo" scheme="http://kelfan.github.io/tags/seo/"/>
+    
+      <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
     
   </entry>
   
   <entry>
-    <title>docker frequent used commends</title>
-    <link href="http://search4fan.github.io/post/docker_commends.html"/>
-    <id>http://search4fan.github.io/post/docker_commends.html</id>
-    <published>2018-07-16T07:22:45.815Z</published>
-    <updated>2018-07-18T11:03:02.755Z</updated>
+    <title>add rss feed into hexo blog - install feed plugin in hexo blog</title>
+    <link href="http://kelfan.github.io/post/hexo_rss_feed.html"/>
+    <id>http://kelfan.github.io/post/hexo_rss_feed.html</id>
+    <published>2018-07-22T22:56:56.230Z</published>
+    <updated>2018-07-14T06:47:26.057Z</updated>
     
     <summary type="html">
     
@@ -446,26 +540,29 @@
       
         
         
-          &lt;p&gt;description: docker commends - not finished yet&lt;/p&gt;
-&lt;h1 id=&quot;check-all-running-proceses-containers&quot;&gt;&lt;a
+          &lt;h1 id=&quot;install-hexo-generator-feed&quot;&gt;&lt;a href=&quot;#install-hexo-generator-feed&quot; class=&quot;headerlink&quot; title=&quot;install
         
       
     
     </summary>
     
-      <category term="docker" scheme="http://search4fan.github.io/categories/docker/"/>
+      <category term="hexo" scheme="http://kelfan.github.io/categories/hexo/"/>
     
     
-      <category term="docker" scheme="http://search4fan.github.io/tags/docker/"/>
+      <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
+    
+      <category term="feed" scheme="http://kelfan.github.io/tags/feed/"/>
+    
+      <category term="rss" scheme="http://kelfan.github.io/tags/rss/"/>
     
   </entry>
   
   <entry>
-    <title>Error response from daemon driver failed programming external connectivity on endpoint sql1</title>
-    <link href="http://search4fan.github.io/post/docker_error_response_from_daemon.html"/>
-    <id>http://search4fan.github.io/post/docker_error_response_from_daemon.html</id>
-    <published>2018-07-16T07:16:53.997Z</published>
-    <updated>2018-07-16T10:49:37.520Z</updated>
+    <title>add google adsense into hexo blog in next theme</title>
+    <link href="http://kelfan.github.io/post/hexo_next_google_adsense.html"/>
+    <id>http://kelfan.github.io/post/hexo_next_google_adsense.html</id>
+    <published>2018-07-22T22:56:56.225Z</published>
+    <updated>2018-07-14T06:47:26.116Z</updated>
     
     <summary type="html">
     
@@ -473,104 +570,22 @@
       
         
         
-          &lt;p&gt;description:&lt;/p&gt;
-&lt;h1 id=&quot;error-description-1&quot;&gt;&lt;a href=&quot;#error-description-1&quot; class=&quot;headerlink&quot; title=&quot;error description 1&quot;&gt;&lt;/a&gt;error
+          &lt;h1 id=&quot;build-a-new-adsense-template-under-next-theme-in-layout-custom&quot;&gt;&lt;a
         
       
     
     </summary>
     
-      <category term="docker" scheme="http://search4fan.github.io/categories/docker/"/>
+      <category term="hexo" scheme="http://kelfan.github.io/categories/hexo/"/>
     
     
-      <category term="docker" scheme="http://search4fan.github.io/tags/docker/"/>
+      <category term="google" scheme="http://kelfan.github.io/tags/google/"/>
     
-      <category term="error" scheme="http://search4fan.github.io/tags/error/"/>
+      <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
     
-  </entry>
-  
-  <entry>
-    <title>docker change port of an exist image container</title>
-    <link href="http://search4fan.github.io/post/docker_resign_port_to_exist_image.html"/>
-    <id>http://search4fan.github.io/post/docker_resign_port_to_exist_image.html</id>
-    <published>2018-07-16T07:10:41.575Z</published>
-    <updated>2018-07-16T07:14:06.046Z</updated>
+      <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
     
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: Docker Change Port Mapping for an Existing Container&lt;/p&gt;
-&lt;h1 id=&quot;Stop-the-running-image&quot;&gt;&lt;a href=&quot;#Stop-the-running-image&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="docker" scheme="http://search4fan.github.io/categories/docker/"/>
-    
-    
-      <category term="docker" scheme="http://search4fan.github.io/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>connect sql server from Microsoft Sql Server Management Studio</title>
-    <link href="http://search4fan.github.io/post/docker_sql_server_connect_from_ssms.html"/>
-    <id>http://search4fan.github.io/post/docker_sql_server_connect_from_ssms.html</id>
-    <published>2018-07-15T11:51:00.484Z</published>
-    <updated>2018-07-18T01:23:34.888Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: codes for connecting sql server from Microsoft sql server management studio &lt;/p&gt;
-&lt;h1 id=&quot;start-sql-server&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="sql server" scheme="http://search4fan.github.io/categories/sql-server/"/>
-    
-    
-      <category term="ssms" scheme="http://search4fan.github.io/tags/ssms/"/>
-    
-      <category term="sql server" scheme="http://search4fan.github.io/tags/sql-server/"/>
-    
-      <category term="sql" scheme="http://search4fan.github.io/tags/sql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker</title>
-    <link href="http://search4fan.github.io/post/docker_unauthorized_username_password.html"/>
-    <id>http://search4fan.github.io/post/docker_unauthorized_username_password.html</id>
-    <published>2018-07-15T07:11:54.912Z</published>
-    <updated>2018-07-15T07:17:14.096Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: solve problem of unauthorized username or password in terminal&lt;/p&gt;
-&lt;h1
-        
-      
-    
-    </summary>
-    
-      <category term="docker" scheme="http://search4fan.github.io/categories/docker/"/>
-    
-    
-      <category term="docker" scheme="http://search4fan.github.io/tags/docker/"/>
+      <category term="adsense" scheme="http://kelfan.github.io/tags/adsense/"/>
     
   </entry>
   

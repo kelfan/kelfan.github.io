@@ -131,8 +131,8 @@
 <meta name="keywords" content="vba list of module name">
 <meta property="og:type" content="article">
 <meta property="og:title" content="get list of modules name in Excel vba">
-<meta property="og:url" content="http://search4fan.github.io/post/vba_get_list_of_modules_name.html">
-<meta property="og:site_name" content="Search For Fun">
+<meta property="og:url" content="http://kelfan.github.io/post/vba_get_list_of_modules_name.html">
+<meta property="og:site_name" content="Kelfan&#39;s Blog">
 <meta property="og:description" content="description: vba to get list of modules name  code of vba to get list of module names1234567891011121314151617181920Private Sub getAllModuleNames()    Dim modName As String    Dim wb As Workbook    Di">
 <meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2018-07-18T08:51:36.318Z">
@@ -142,12 +142,12 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Search For Fun" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Kelfan's Blog" type="application/atom+xml" />
 
 
 
 
-  <link rel="canonical" href="http://search4fan.github.io/post/vba_get_list_of_modules_name.html"/>
+  <link rel="canonical" href="http://kelfan.github.io/post/vba_get_list_of_modules_name.html"/>
 
 
 
@@ -157,7 +157,7 @@
   };
 </script>
 
-  <title>get list of modules name in Excel vba | Search For Fun</title>
+  <title>get list of modules name in Excel vba | Kelfan's Blog</title>
   
 
 
@@ -224,7 +224,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Search For Fun</span>
+        <span class="site-title">Kelfan's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -362,16 +362,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://search4fan.github.io/post/vba_get_list_of_modules_name.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/vba_get_list_of_modules_name.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="killfun">
+      <meta itemprop="name" content="Kelfan">
       <meta itemprop="description" content="Personal blog for collecting useful information">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Search For Fun">
+      <meta itemprop="name" content="Kelfan's Blog">
     </span>
 
     
@@ -404,12 +404,24 @@
                 
               
 
-              <time title="Created: 2018-07-18 18:49:46 / Modified: 18:51:36" itemprop="dateCreated datePublished" datetime="2018-07-18T18:49:46+10:00">2018-07-18</time>
+              <time title="Created: 2018-07-23 08:56:56" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-18 18:51:36" itemprop="dateModified" datetime="2018-07-18T18:51:36+10:00">2018-07-18</time>
               
             
           </span>
@@ -463,7 +475,7 @@
         <p>description: vba to get list of modules name </p>
 <h1 id="code-of-vba-to-get-list-of-module-names"><a href="#code-of-vba-to-get-list-of-module-names" class="headerlink" title="code of vba to get list of module names"></a>code of vba to get list of module names</h1><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> getAllModuleNames()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Dim</span> modName <span class="keyword">As</span> <span class="built_in">String</span></span><br><span class="line">    <span class="keyword">Dim</span> wb <span class="keyword">As</span> Workbook</span><br><span class="line">    <span class="keyword">Dim</span> l <span class="keyword">As</span> <span class="built_in">Long</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> wb = thisWorkbook</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">For</span> l = <span class="number">1</span> <span class="keyword">To</span> wb.VBProject.VBComponents.count</span><br><span class="line">        <span class="keyword">With</span> wb.VBProject.VBComponents(l)</span><br><span class="line">            modName = modName &amp; vbCr &amp; .name</span><br><span class="line">        <span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">'MsgBox "Module Names:" &amp; vbCr &amp; modName</span></span><br><span class="line">    Cells(<span class="number">40</span>, <span class="number">1</span>).value = modName</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> wb = <span class="literal">Nothing</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
 <hr>
-<p>more on <a href="https://search4fan.github.io/">search4fan.github.io</a></p>
+<p>more on <a href="https://search4fan.github.io/" target="_blank" rel="noopener">search4fan.github.io</a></p>
 
       
     </div>
@@ -486,10 +498,10 @@
       <div>
         <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>Post author:  </strong>killfun</li>
+    <strong>Post author:  </strong>Kelfan</li>
   <li class="post-copyright-link">
     <strong>Post link: </strong>
-    <a href="http://search4fan.github.io/post/vba_get_list_of_modules_name.html" title="get list of modules name in Excel vba">http://search4fan.github.io/post/vba_get_list_of_modules_name.html</a>
+    <a href="http://kelfan.github.io/post/vba_get_list_of_modules_name.html" title="get list of modules name in Excel vba">http://kelfan.github.io/post/vba_get_list_of_modules_name.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.</li>
@@ -517,8 +529,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/post/mssql_install_error_1638.html" rel="next" title="Microsoft Sql server installation with 1638 error">
-                <i class="fa fa-chevron-left"></i> Microsoft Sql server installation with 1638 error
+              <a href="/post/ssms_not_permit_change.html" rel="next" title="ssms save changes not permitted">
+                <i class="fa fa-chevron-left"></i> ssms save changes not permitted
               </a>
             
           </div>
@@ -527,8 +539,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/post/python_dataframe_resign_headers.html" rel="prev" title="python resign headers to a dataframe">
-                python resign headers to a dataframe <i class="fa fa-chevron-right"></i>
+              <a href="/post/vs_code_datetime_snippet.html" rel="prev" title="Microsoft Visual Studio Code insert date time variables into snippet template">
+                Microsoft Visual Studio Code insert date time variables into snippet template <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -592,7 +604,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">killfun</p>
+              <p class="site-author-name" itemprop="name">Kelfan</p>
               <p class="site-description motion-element" itemprop="description">Personal blog for collecting useful information</p>
           </div>
 
@@ -772,7 +784,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">killfun</span>
+  <span class="author" itemprop="copyrightHolder">Kelfan</span>
 
   
 
