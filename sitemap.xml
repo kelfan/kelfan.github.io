@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kelfan.github.io/post/r_AI_ann_for_wine_data.html</loc>
+    
+    <lastmod>2018-07-23T11:06:24.108Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kelfan.github.io/post/r_build_DecisionTree.html</loc>
+    
+    <lastmod>2018-07-23T10:27:51.922Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kelfan.github.io/post/python_AI_LSTM_for_txt.html</loc>
+    
+    <lastmod>2018-07-23T10:11:19.440Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kelfan.github.io/post/python_AI_rl_example.html</loc>
+    
+    <lastmod>2018-07-23T10:05:57.363Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kelfan.github.io/post/python_AI_DecisionTree_on_BankNoteDataset.html</loc>
+    
+    <lastmod>2018-07-23T09:59:20.024Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kelfan.github.io/post/python_AI_simple_CNN_forMNIST.html</loc>
+    
+    <lastmod>2018-07-23T09:52:42.946Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kelfan.github.io/post/python_AI_simple_MLP_in_Keras.html</loc>
     
     <lastmod>2018-07-23T09:40:39.846Z</lastmod>

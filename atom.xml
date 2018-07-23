@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-07-23T09:36:47.816Z</updated>
+  <updated>2018-07-23T09:52:42.946Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,192 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python simple convolutional neural network for MNIST dataset</title>
+    <link href="http://kelfan.github.io/post/python_AI_simple_CNN_forMNIST.html"/>
+    <id>http://kelfan.github.io/post/python_AI_simple_CNN_forMNIST.html</id>
+    <published>2018-07-23T13:19:29.775Z</published>
+    <updated>2018-07-23T09:52:42.946Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: simple CNN example for MNIST dataset&lt;/p&gt;
+&lt;h1 id=&quot;import-packages&quot;&gt;&lt;a href=&quot;#import-packages&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python build Decision Tree on bank note dataset</title>
+    <link href="http://kelfan.github.io/post/python_AI_DecisionTree_on_BankNoteDataset.html"/>
+    <id>http://kelfan.github.io/post/python_AI_DecisionTree_on_BankNoteDataset.html</id>
+    <published>2018-07-23T13:19:29.743Z</published>
+    <updated>2018-07-23T09:59:20.024Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: build Decision Tree from bank note dataset in python&lt;/p&gt;
+&lt;h1 id=&quot;CART-on-the-Bank-Note-dataset&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>a example for RL in python</title>
+    <link href="http://kelfan.github.io/post/python_AI_rl_example.html"/>
+    <id>http://kelfan.github.io/post/python_AI_rl_example.html</id>
+    <published>2018-07-23T13:19:29.721Z</published>
+    <updated>2018-07-23T10:05:57.363Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: a small example for reinforcement learning in python&lt;/p&gt;
+&lt;h1 id=&quot;import-packages-and-set-seed&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python to use LSTM for predicting words in Txt</title>
+    <link href="http://kelfan.github.io/post/python_AI_LSTM_for_txt.html"/>
+    <id>http://kelfan.github.io/post/python_AI_LSTM_for_txt.html</id>
+    <published>2018-07-23T13:19:29.702Z</published>
+    <updated>2018-07-23T10:11:19.440Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: use LSTM to predict words in Text in python&lt;/p&gt;
+&lt;h1 id=&quot;import-packages&quot;&gt;&lt;a href=&quot;#import-packages&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>R language to build Decision Tree for wine dataset</title>
+    <link href="http://kelfan.github.io/post/r_build_DecisionTree.html"/>
+    <id>http://kelfan.github.io/post/r_build_DecisionTree.html</id>
+    <published>2018-07-23T13:19:29.695Z</published>
+    <updated>2018-07-23T10:27:51.922Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: build Decision Tree for wine dataset in R language &lt;/p&gt;
+&lt;h1 id=&quot;read-data-From-File&quot;&gt;&lt;a href=&quot;#read-data-From-File&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+      <category term="r language" scheme="http://kelfan.github.io/tags/r-language/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>R language to build ANN network for wine data</title>
+    <link href="http://kelfan.github.io/post/r_AI_ann_for_wine_data.html"/>
+    <id>http://kelfan.github.io/post/r_AI_ann_for_wine_data.html</id>
+    <published>2018-07-23T13:19:29.669Z</published>
+    <updated>2018-07-23T11:06:24.108Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: build ANN network from wine data in r language&lt;/p&gt;
+&lt;h1 id=&quot;read-table-data&quot;&gt;&lt;a href=&quot;#read-table-data&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+      <category term="r language" scheme="http://kelfan.github.io/tags/r-language/"/>
+    
+  </entry>
   
   <entry>
     <title>python ANN forward Propagate</title>
@@ -416,174 +602,6 @@
       <category term="date" scheme="http://kelfan.github.io/tags/date/"/>
     
       <category term="datetime" scheme="http://kelfan.github.io/tags/datetime/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python resign headers to a dataframe</title>
-    <link href="http://kelfan.github.io/post/python_dataframe_resign_headers.html"/>
-    <id>http://kelfan.github.io/post/python_dataframe_resign_headers.html</id>
-    <published>2018-07-22T22:56:56.335Z</published>
-    <updated>2018-07-23T09:25:44.832Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python pandas rename or change column names&lt;/p&gt;
-&lt;h1 id=&quot;python-rename-column-headers&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python change dataframe column into set and loop the set</title>
-    <link href="http://kelfan.github.io/post/python_dataframe_loop_set.html"/>
-    <id>http://kelfan.github.io/post/python_dataframe_loop_set.html</id>
-    <published>2018-07-22T22:56:56.304Z</published>
-    <updated>2018-07-23T09:25:49.908Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: change dataframe column into set and iterate&lt;/p&gt;
-&lt;h1 id=&quot;change-dataframe-column-into-a-set&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python iterate or loop each row of a dataframe</title>
-    <link href="http://kelfan.github.io/post/python_dataframe_loop_rows.html"/>
-    <id>http://kelfan.github.io/post/python_dataframe_loop_rows.html</id>
-    <published>2018-07-22T22:56:56.290Z</published>
-    <updated>2018-07-23T09:25:54.928Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python iterate a dataframe &lt;/p&gt;
-&lt;h1 id=&quot;loop-each-row-of-a-dataframe&quot;&gt;&lt;a href=&quot;#loop-each-row-of-a-dataframe&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python assign value of dataframe by conditions</title>
-    <link href="http://kelfan.github.io/post/python_assign_value_conditionally.html"/>
-    <id>http://kelfan.github.io/post/python_assign_value_conditionally.html</id>
-    <published>2018-07-22T22:56:56.285Z</published>
-    <updated>2018-07-23T09:26:00.861Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python assign or set value if conditions match &lt;/p&gt;
-&lt;h1 id=&quot;python-assign-or-set-value-based-on-conditions&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Microsoft Sql server installation with 1638 error</title>
-    <link href="http://kelfan.github.io/post/mssql_install_error_1638.html"/>
-    <id>http://kelfan.github.io/post/mssql_install_error_1638.html</id>
-    <published>2018-07-22T22:56:56.255Z</published>
-    <updated>2018-07-23T09:26:05.604Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: unable to install Sql Server with exit code 1638 &lt;/p&gt;
-&lt;h1 id=&quot;solution&quot;&gt;&lt;a href=&quot;#solution&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
-    
-    
-      <category term="mssql" scheme="http://kelfan.github.io/tags/mssql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java change array into a list</title>
-    <link href="http://kelfan.github.io/post/java_array_to_list.html"/>
-    <id>http://kelfan.github.io/post/java_array_to_list.html</id>
-    <published>2018-07-22T22:56:56.250Z</published>
-    <updated>2018-07-23T09:26:10.874Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: convert array into a list in java &lt;/p&gt;
-&lt;h1 id=&quot;convert-array-into-list&quot;&gt;&lt;a href=&quot;#convert-array-into-list&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="java" scheme="http://kelfan.github.io/categories/java/"/>
-    
-    
-      <category term="java" scheme="http://kelfan.github.io/tags/java/"/>
     
   </entry>
   
