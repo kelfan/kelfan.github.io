@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Kelfan&#39;s Blog</title>
+  <title>Chaofan&#39;s Blog</title>
   
-  <subtitle>A blog for collecting diverse useful information</subtitle>
+  <subtitle>A blog for sharing diverse useful information</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
@@ -10,7 +10,7 @@
   <id>http://kelfan.github.io/</id>
   
   <author>
-    <name>Kelfan</name>
+    <name>Chaofan</name>
     
   </author>
   
@@ -521,9 +521,9 @@
     
       <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
     
-      <category term="seo" scheme="http://kelfan.github.io/tags/seo/"/>
-    
       <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
+    
+      <category term="seo" scheme="http://kelfan.github.io/tags/seo/"/>
     
   </entry>
   
@@ -583,9 +583,9 @@
     
       <category term="hexo" scheme="http://kelfan.github.io/tags/hexo/"/>
     
-      <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
-    
       <category term="adsense" scheme="http://kelfan.github.io/tags/adsense/"/>
+    
+      <category term="blog" scheme="http://kelfan.github.io/tags/blog/"/>
     
   </entry>
   
