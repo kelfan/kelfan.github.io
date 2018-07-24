@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kelfan.github.io/post/r_AI_kmeans_hcluster.html</loc>
+    
+    <lastmod>2018-07-24T01:25:28.919Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kelfan.github.io/post/r_AI_cluster_by_k-means.html</loc>
     
-    <lastmod>2018-07-24T00:56:43.862Z</lastmod>
+    <lastmod>2018-07-24T01:25:09.717Z</lastmod>
     
   </url>
   
@@ -313,13 +320,6 @@
     <loc>http://kelfan.github.io/categories/index.html</loc>
     
     <lastmod>2018-07-14T06:45:25.273Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kelfan.github.io/python%20datetime%20get%20yesterday.html</loc>
-    
-    <lastmod>2018-07-14T04:07:05.687Z</lastmod>
     
   </url>
   
