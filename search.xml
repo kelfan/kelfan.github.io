@@ -736,11 +736,11 @@
             
             <tag> hexo </tag>
             
+            <tag> blog </tag>
+            
             <tag> google </tag>
             
             <tag> adsense </tag>
-            
-            <tag> blog </tag>
             
         </tags>
       
@@ -922,9 +922,9 @@
       
         <tags>
             
-            <tag> docker </tag>
-            
             <tag> sql server </tag>
+            
+            <tag> docker </tag>
             
         </tags>
       

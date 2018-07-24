@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Chaofan&#39;s Blog</title>
+  <title>The portfolio by Chaofan Zheng</title>
   
-  <subtitle>A blog for sharing diverse useful information</subtitle>
+  <subtitle>A blog for sharing diverse useful information about coding, AI and machine learning</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
