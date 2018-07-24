@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-07-24T01:25:28.919Z</updated>
+  <updated>2018-07-24T02:18:26.883Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Rdr Engine - Decision Tree Expert System Demonstration of Iris Dataset</title>
+    <link href="http://kelfan.github.io/post/rdr_engine_demo_20180724.html"/>
+    <id>http://kelfan.github.io/post/rdr_engine_demo_20180724.html</id>
+    <published>2018-07-24T01:32:59.571Z</published>
+    <updated>2018-07-24T02:18:26.883Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: demonstration of rdr engine to build decision tree of Iris Dataset &lt;/p&gt;
+&lt;h1
+        
+      
+    
+    </summary>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+    
+    
+      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+    
+      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>r language to cluster iris dataset through k-means and hierarchical clustering</title>
@@ -576,33 +605,6 @@
       
     
     </summary>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python print format string example</title>
-    <link href="http://kelfan.github.io/post/python_format_string_output.html"/>
-    <id>http://kelfan.github.io/post/python_format_string_output.html</id>
-    <published>2018-07-22T22:56:56.408Z</published>
-    <updated>2018-07-23T09:25:30.429Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python print format string example&lt;/p&gt;
-&lt;h1 id=&quot;python-Using-and-format-for-formating-print-output&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
     
     
       <category term="python" scheme="http://kelfan.github.io/tags/python/"/>

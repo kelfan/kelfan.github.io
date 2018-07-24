@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>Rdr Engine - Decision Tree Expert System Demonstration of Iris Dataset</title>
+      <link href="/post/rdr_engine_demo_20180724.html"/>
+      <url>/post/rdr_engine_demo_20180724.html</url>
+      <content type="html"><![CDATA[<p>description: demonstration of rdr engine to build decision tree of Iris Dataset </p><h1 id="load-Iris-Dataset-to-build-decision-tree"><a href="#load-Iris-Dataset-to-build-decision-tree" class="headerlink" title="load Iris Dataset to build decision tree"></a>load Iris Dataset to build decision tree</h1><p>The processes are:</p><ul><li>to load iris dataset into the rdr engine </li><li>system analyse and transform arff file into cases</li><li>system build Decision Tree based on cases </li></ul><p>The process looks like:<br><img src="/images/04.10-demo_build_tree_short.gif" alt=""></p><p>The cases look like:<br><img src="/images/2018-07-24-11-59-47.png" alt=""></p><p>The Decision Tree looks like:<br><img src="/images/2018-07-24-12-00-24.png" alt=""></p><h1 id="add-new-rule-into-Decision-Tree"><a href="#add-new-rule-into-Decision-Tree" class="headerlink" title="add new rule into Decision Tree"></a>add new rule into Decision Tree</h1><p>The process of adding new rule into the tree looks like:<br><img src="/images/04.10-demo_add_rule_short.gif" alt=""></p><p>The new tree looks like:<br><img src="/images/2018-07-24-12-16-20.png" alt=""></p>]]></content>
+      
+      <categories>
+          
+          <category> machine learning </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> machine learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>r language to cluster iris dataset through k-means and hierarchical clustering</title>
       <link href="/post/r_AI_kmeans_hcluster.html"/>
       <url>/post/r_AI_kmeans_hcluster.html</url>
@@ -874,9 +897,9 @@
       
         <tags>
             
-            <tag> ssms </tag>
-            
             <tag> sql server </tag>
+            
+            <tag> ssms </tag>
             
             <tag> sql </tag>
             
