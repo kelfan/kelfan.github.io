@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-07-24T02:18:49.602Z</updated>
+  <updated>2018-08-09T11:39:56.869Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Simplest React Js Todo List</title>
+    <link href="http://kelfan.github.io/post/react_todo_list_app.html"/>
+    <id>http://kelfan.github.io/post/react_todo_list_app.html</id>
+    <published>2018-08-09T11:26:00.000Z</published>
+    <updated>2018-08-09T11:39:56.869Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: a simple example of todo list based on react.js&lt;/p&gt;
+&lt;h1 id=&quot;demo-of-the-react-todo-list&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="reactjs" scheme="http://kelfan.github.io/categories/reactjs/"/>
+    
+    
+      <category term="reactjs" scheme="http://kelfan.github.io/tags/reactjs/"/>
+    
+      <category term="JavaScript" scheme="http://kelfan.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>Rdr Engine - Decision Tree Expert System Demonstration of Iris Dataset</title>
@@ -583,31 +612,6 @@
       <category term="timedelta" scheme="http://kelfan.github.io/tags/timedelta/"/>
     
       <category term="datetime64" scheme="http://kelfan.github.io/tags/datetime64/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python parse string into datetime</title>
-    <link href="http://kelfan.github.io/post/python_string_to_datetime.html"/>
-    <id>http://kelfan.github.io/post/python_string_to_datetime.html</id>
-    <published>2018-07-22T22:56:56.447Z</published>
-    <updated>2018-07-23T09:25:26.010Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python parse string into datetime&lt;/p&gt;
-&lt;h1 id=&quot;parse-string-into-datetime&quot;&gt;&lt;a href=&quot;#parse-string-into-datetime&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
     
   </entry>
   
