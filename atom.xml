@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-08-16T03:37:12.577Z</updated>
+  <updated>2018-08-16T10:41:53.394Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>react exercise tutorial for getting user input</title>
+    <link href="http://kelfan.github.io/post/react_get_user_input.html"/>
+    <id>http://kelfan.github.io/post/react_get_user_input.html</id>
+    <published>2018-08-16T10:39:00.000Z</published>
+    <updated>2018-08-16T10:41:53.394Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: react excercises for getting user input &lt;/p&gt;
+&lt;h1 id=&quot;01-object-html&quot;&gt;&lt;a href=&quot;#01-object-html&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://kelfan.github.io/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://kelfan.github.io/tags/react/"/>
+    
+  </entry>
   
   <entry>
     <title>Simplest Exercise Tutorial for React Components</title>
@@ -579,36 +606,6 @@
       <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
     
       <category term="sql" scheme="http://kelfan.github.io/tags/sql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python numpy datetime64 today</title>
-    <link href="http://kelfan.github.io/post/python_timedelta_days.html"/>
-    <id>http://kelfan.github.io/post/python_timedelta_days.html</id>
-    <published>2018-07-22T22:56:56.469Z</published>
-    <updated>2018-07-23T09:25:16.439Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;python-numpy-datetime64-today&quot;&gt;&lt;a href=&quot;#python-numpy-datetime64-today&quot; class=&quot;headerlink&quot; title=&quot;python numpy datetime64
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="timedelta" scheme="http://kelfan.github.io/tags/timedelta/"/>
-    
-      <category term="datetime64" scheme="http://kelfan.github.io/tags/datetime64/"/>
     
   </entry>
   

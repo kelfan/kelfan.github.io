@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kelfan.github.io/post/react_get_user_input.html</loc>
+    
+    <lastmod>2018-08-16T10:41:53.394Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kelfan.github.io/post/react_component_exercise.html</loc>
     
     <lastmod>2018-08-16T03:37:12.577Z</lastmod>

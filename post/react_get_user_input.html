@@ -127,18 +127,22 @@
 
 
 
-  <meta name="description" content="install plugin for SEO sitemap1npm install hexo-generator-sitemap --save optional for baidu search engine1npm install hexo-generator-baidu-sitemap --save change configuration file in _config.ymladd fo">
-<meta name="keywords" content="hexo,seo,sitemap">
+  <meta name="description" content="description: react excercises for getting user input  01-object.html  put jsx object into variable draw circle for loop to create components  02-event.html  click button to add 1 into the counter hold">
+<meta name="keywords" content="react tutorial">
 <meta property="og:type" content="article">
-<meta property="og:title" content="add sitemap into hexo blog">
-<meta property="og:url" content="http://kelfan.github.io/post/hexo_add_sitemap.html">
+<meta property="og:title" content="react exercise tutorial for getting user input">
+<meta property="og:url" content="http://kelfan.github.io/post/react_get_user_input.html">
 <meta property="og:site_name" content="The portfolio by Chaofan Zheng">
-<meta property="og:description" content="install plugin for SEO sitemap1npm install hexo-generator-sitemap --save optional for baidu search engine1npm install hexo-generator-baidu-sitemap --save change configuration file in _config.ymladd fo">
+<meta property="og:description" content="description: react excercises for getting user input  01-object.html  put jsx object into variable draw circle for loop to create components  02-event.html  click button to add 1 into the counter hold">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-07-23T09:26:30.302Z">
+<meta property="og:image" content="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-2018081615050073.png">
+<meta property="og:image" content="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-20180816160031455.png">
+<meta property="og:image" content="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-20180816193752404.png">
+<meta property="og:updated_time" content="2018-08-16T10:41:53.394Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="add sitemap into hexo blog">
-<meta name="twitter:description" content="install plugin for SEO sitemap1npm install hexo-generator-sitemap --save optional for baidu search engine1npm install hexo-generator-baidu-sitemap --save change configuration file in _config.ymladd fo">
+<meta name="twitter:title" content="react exercise tutorial for getting user input">
+<meta name="twitter:description" content="description: react excercises for getting user input  01-object.html  put jsx object into variable draw circle for loop to create components  02-event.html  click button to add 1 into the counter hold">
+<meta name="twitter:image" content="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-2018081615050073.png">
 
 
 
@@ -147,7 +151,7 @@
 
 
 
-  <link rel="canonical" href="http://kelfan.github.io/post/hexo_add_sitemap.html"/>
+  <link rel="canonical" href="http://kelfan.github.io/post/react_get_user_input.html"/>
 
 
 
@@ -157,7 +161,7 @@
   };
 </script>
 
-  <title>add sitemap into hexo blog | The portfolio by Chaofan Zheng</title>
+  <title>react exercise tutorial for getting user input | The portfolio by Chaofan Zheng</title>
   
 
 
@@ -362,7 +366,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/hexo_add_sitemap.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/react_get_user_input.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chaofan">
@@ -379,7 +383,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">add sitemap into hexo blog
+          <h2 class="post-title" itemprop="name headline">react exercise tutorial for getting user input
               
             
           </h2>
@@ -404,7 +408,7 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:30" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-08-16 20:39:00 / Modified: 20:41:53" itemprop="dateCreated datePublished" datetime="2018-08-16T20:39:00+10:00">2018-08-16</time>
             
 
             
@@ -426,7 +430,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/react/" itemprop="url" rel="index"><span itemprop="name">react</span></a></span>
 
                 
                 
@@ -460,11 +464,24 @@
       
 
       
-        <h1 id="install-plugin-for-SEO-sitemap"><a href="#install-plugin-for-SEO-sitemap" class="headerlink" title="install plugin for SEO sitemap"></a>install plugin for SEO sitemap</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>optional for baidu search engine<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure></p>
-<h1 id="change-configuration-file-in-config-yml"><a href="#change-configuration-file-in-config-yml" class="headerlink" title="change configuration file in _config.yml"></a>change configuration file in <code>_config.yml</code></h1><p>add following codes into <code>_config.yml</code> file and change the value of url, should be like <code>http://yoursite.com</code><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line"><span class="attr">    path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">url:</span> <span class="attr">https://search4fan.github.io</span></span><br></pre></td></tr></table></figure></p>
-<p>optional for baidu search engine sitemap<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line"><span class="attr">    path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure></p>
-<h1 id="check-with-public-folder"><a href="#check-with-public-folder" class="headerlink" title="check with public folder"></a>check with public folder</h1><p>after <code>hexo g</code>, the <code>sitemap.xml</code> or <code>baidusitemap.xml</code> should be found under <code>public</code> folder</p>
+        <p>description: react excercises for getting user input </p>
+<h1 id="01-object-html"><a href="#01-object-html" class="headerlink" title="01-object.html"></a>01-object.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-2018081615050073.png" alt="01-object.html"></p>
+<ul>
+<li>put jsx object into variable</li>
+<li>draw circle</li>
+<li>for loop to create components</li>
+</ul>
+<h1 id="02-event-html"><a href="#02-event-html" class="headerlink" title="02-event.html"></a>02-event.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-20180816160031455.png" alt="02-event.html"></p>
+<ul>
+<li>click button to add 1 into the counter</li>
+<li>holding shift key to add 10 into the counter</li>
+</ul>
+<h1 id="03-colorizer-html"><a href="#03-colorizer-html" class="headerlink" title="03-colorizer.html"></a>03-colorizer.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-20180816193752404.png" alt=""></p>
+<ul>
+<li>get user input to change UI</li>
+<li>use ‘ref’ to change real DOM</li>
+</ul>
+<h1 id="repository-url"><a href="#repository-url" class="headerlink" title="repository url"></a>repository url</h1><p><a href="https://github.com/kelfan/webApplicationLearning/tree/master/20180816ReactUserInput" target="_blank" rel="noopener">https://github.com/kelfan/webApplicationLearning/tree/master/20180816ReactUserInput</a></p>
 
       
     </div>
@@ -490,7 +507,7 @@
     <strong>Post author:  </strong>Chaofan</li>
   <li class="post-copyright-link">
     <strong>Post link: </strong>
-    <a href="http://kelfan.github.io/post/hexo_add_sitemap.html" title="add sitemap into hexo blog">http://kelfan.github.io/post/hexo_add_sitemap.html</a>
+    <a href="http://kelfan.github.io/post/react_get_user_input.html" title="react exercise tutorial for getting user input">http://kelfan.github.io/post/react_get_user_input.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.</li>
@@ -503,11 +520,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
-          
-            <a href="/tags/seo/" rel="tag"><i class="fa fa-tag"></i> seo</a>
-          
-            <a href="/tags/sitemap/" rel="tag"><i class="fa fa-tag"></i> sitemap</a>
+            <a href="/tags/react/" rel="tag"><i class="fa fa-tag"></i> react</a>
           
         </div>
       
@@ -520,8 +533,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/post/hexo_add_local_search.html" rel="next" title="hexo add local search">
-                <i class="fa fa-chevron-left"></i> hexo add local search
+              <a href="/post/react_component_exercise.html" rel="next" title="Simplest Exercise Tutorial for React Components">
+                <i class="fa fa-chevron-left"></i> Simplest Exercise Tutorial for React Components
               </a>
             
           </div>
@@ -529,10 +542,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/post/hexo_next_google_adsense.html" rel="prev" title="add google adsense into hexo blog in next theme">
-                add google adsense into hexo blog in next theme <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -769,7 +778,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#install-plugin-for-SEO-sitemap"><span class="nav-number">1.</span> <span class="nav-text">install plugin for SEO sitemap</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#change-configuration-file-in-config-yml"><span class="nav-number">2.</span> <span class="nav-text">change configuration file in _config.yml</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#check-with-public-folder"><span class="nav-number">3.</span> <span class="nav-text">check with public folder</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#01-object-html"><span class="nav-number">1.</span> <span class="nav-text">01-object.html</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#02-event-html"><span class="nav-number">2.</span> <span class="nav-text">02-event.html</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#03-colorizer-html"><span class="nav-number">3.</span> <span class="nav-text">03-colorizer.html</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#repository-url"><span class="nav-number">4.</span> <span class="nav-text">repository url</span></a></li></ol></div>
             
 
           </div>
