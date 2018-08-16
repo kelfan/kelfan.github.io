@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-08-09T11:39:56.869Z</updated>
+  <updated>2018-08-16T03:37:12.577Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Simplest Exercise Tutorial for React Components</title>
+    <link href="http://kelfan.github.io/post/react_component_exercise.html"/>
+    <id>http://kelfan.github.io/post/react_component_exercise.html</id>
+    <published>2018-08-16T03:33:00.000Z</published>
+    <updated>2018-08-16T03:37:12.577Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: some single page practices for react basic component &lt;/p&gt;
+&lt;h1 id=&quot;repository-Url&quot;&gt;&lt;a href=&quot;#repository-Url&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://kelfan.github.io/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://kelfan.github.io/tags/react/"/>
+    
+  </entry>
   
   <entry>
     <title>Simplest React Js Todo List</title>
@@ -569,36 +596,6 @@
         
         
           &lt;h1 id=&quot;python-numpy-datetime64-today&quot;&gt;&lt;a href=&quot;#python-numpy-datetime64-today&quot; class=&quot;headerlink&quot; title=&quot;python numpy datetime64
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="timedelta" scheme="http://kelfan.github.io/tags/timedelta/"/>
-    
-      <category term="datetime64" scheme="http://kelfan.github.io/tags/datetime64/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python timedelta to seconds</title>
-    <link href="http://kelfan.github.io/post/python_timedelta%20_to_seconds.html"/>
-    <id>http://kelfan.github.io/post/python_timedelta _to_seconds.html</id>
-    <published>2018-07-22T22:56:56.451Z</published>
-    <updated>2018-07-23T09:25:21.255Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;python-timedelta-to-seconds&quot;&gt;&lt;a href=&quot;#python-timedelta-to-seconds&quot; class=&quot;headerlink&quot; title=&quot;python timedelta to
         
       
     
