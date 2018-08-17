@@ -361,6 +361,169 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/ssms_basic_frequent_commends.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/ssms_basic_frequent_commends.html" itemprop="url">
+                  basic frequent Sql commends in sql server
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:11" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/sql-server/" itemprop="url" rel="index"><span itemprop="name">sql server</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: sql comments for basic query </p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- use </span></span><br><span class="line"><span class="keyword">use</span> testdb</span><br><span class="line"><span class="keyword">go</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people</span><br><span class="line"><span class="keyword">select</span> top <span class="number">1</span> * <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- insert into people values (1, 'lily', 'f', 12)</span></span><br><span class="line"><span class="comment">-- insert into people values (2, 'chao', 'm', 16)</span></span><br><span class="line"><span class="comment">-- insert into people values (3, 'alin', 'f',null)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">id</span>, <span class="keyword">name</span> <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- order by</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, age <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">desc</span>,<span class="keyword">id</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- order by number</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, age <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> <span class="number">2</span> <span class="comment">--2 means age </span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- isnull()</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, <span class="keyword">ISNULL</span> (age, <span class="string">''</span>) <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">--alias</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, <span class="keyword">ISNULL</span> (age, <span class="string">''</span>) <span class="keyword">as</span> a <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- concat strings </span></span><br><span class="line"><span class="keyword">select</span> <span class="string">'people '</span> + <span class="keyword">TRIM</span> (<span class="keyword">name</span>) + <span class="string">' is age of '</span> + <span class="keyword">convert</span>(<span class="built_in">varchar</span>, <span class="keyword">isnull</span>(age, <span class="string">''</span>)) <span class="keyword">as</span> [description] </span><br><span class="line"><span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- round()</span></span><br><span class="line"><span class="keyword">select</span> age, age * <span class="number">10</span> <span class="keyword">as</span> <span class="string">'age10'</span>,</span><br><span class="line"><span class="keyword">round</span>(<span class="keyword">convert</span>(<span class="built_in">float</span>,age)/<span class="number">8</span>, <span class="number">1</span>) <span class="keyword">as</span> <span class="string">'ageD8'</span>,</span><br><span class="line"><span class="keyword">round</span>(age/<span class="number">3</span>, <span class="number">0</span>) <span class="keyword">as</span> <span class="string">'ageD3'</span></span><br><span class="line"><span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- where </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age &lt;&gt; <span class="number">12</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- and or </span></span><br><span class="line"><span class="comment">-- select date from time where data between '2005-10-10' and '1/1/2006'</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">id</span> = <span class="number">2</span> <span class="keyword">or</span> <span class="keyword">id</span> = <span class="number">3</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> = <span class="string">'chao'</span> <span class="keyword">and</span> age =<span class="number">16</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- wildcard % like </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> <span class="keyword">like</span> <span class="string">'%h%'</span> </span><br><span class="line"></span><br><span class="line"><span class="comment">-- _ single character </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> <span class="keyword">like</span> <span class="string">'_hao%'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- in </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people</span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">in</span> (<span class="number">14</span>,<span class="number">16</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- not in </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">not</span> <span class="keyword">in</span> (<span class="number">16</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- is null</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">is</span> <span class="literal">null</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- is not null </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">null</span></span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/python_timedelta_days.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1777,173 +1940,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/python_assign_value_conditionally.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chaofan">
-      <meta itemprop="description" content="Personal blog for sharing useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/python_assign_value_conditionally.html" itemprop="url">
-                  python assign value of dataframe by conditions
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:00" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>description: python assign or set value if conditions match </p>
-<h1 id="python-assign-or-set-value-based-on-conditions"><a href="#python-assign-or-set-value-based-on-conditions" class="headerlink" title="python assign or set value based on conditions"></a>python assign or set value based on conditions</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas</span><br><span class="line"></span><br><span class="line">data = pandas.DataFrame(&#123;<span class="string">"test"</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>], <span class="string">"a"</span>: [<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>], <span class="string">"b"</span>: [<span class="number">0</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">2</span>]&#125;)</span><br><span class="line"><span class="comment"># test  a  b</span></span><br><span class="line"><span class="comment"># 0    10  1  0</span></span><br><span class="line"><span class="comment"># 1    20  1  2</span></span><br><span class="line"><span class="comment"># 2    30  1  2</span></span><br><span class="line"><span class="comment"># 3    40  2  2</span></span><br></pre></td></tr></table></figure>
-<h1 id="filter-the-data-with-condtion-1"><a href="#filter-the-data-with-condtion-1" class="headerlink" title="filter the data with condtion 1"></a>filter the data with condtion 1</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tmp = data[data[<span class="string">"a"</span>] == <span class="number">1</span>]</span><br><span class="line"><span class="comment"># test  a  b</span></span><br><span class="line"><span class="comment"># 0    10  1  0</span></span><br><span class="line"><span class="comment"># 1    20  1  2</span></span><br><span class="line"><span class="comment"># 2    30  1  2</span></span><br></pre></td></tr></table></figure>
-<h1 id="filter-the-data-with-condition-2"><a href="#filter-the-data-with-condition-2" class="headerlink" title="filter the data with condition 2"></a>filter the data with condition 2</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tmp = tmp[tmp[<span class="string">"b"</span>] == <span class="number">2</span>]</span><br><span class="line"><span class="comment"># test  a  b</span></span><br><span class="line"><span class="comment"># 1    20  1  2</span></span><br><span class="line"><span class="comment"># 2    30  1  2</span></span><br></pre></td></tr></table></figure>
-<h1 id="get-the-index-of-the-data"><a href="#get-the-index-of-the-data" class="headerlink" title="get the index of the data"></a>get the index of the data</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">indexes = tmp.index</span><br><span class="line"><span class="comment"># Int64Index([1, 2], dtype='int64')</span></span><br></pre></td></tr></table></figure>
-<h1 id="change-values-by-indexes-and-column-name"><a href="#change-values-by-indexes-and-column-name" class="headerlink" title="change values by indexes and column name"></a>change values by indexes and column name</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">data._set_value(indexes, <span class="string">'test'</span>, <span class="number">888888</span>)</span><br><span class="line"><span class="comment"># test  a  b</span></span><br><span class="line"><span class="comment"># 0      10  1  0</span></span><br><span class="line"><span class="comment"># 1  888888  1  2</span></span><br><span class="line"><span class="comment"># 2  888888  1  2</span></span><br><span class="line"><span class="comment"># 3      40  2  2</span></span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1991,7 +1987,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">46</span>
+                    <span class="site-state-item-count">47</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-08-16T10:41:53.394Z</updated>
+  <updated>2018-08-17T13:31:14.729Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>React Exercise of Single Page App</title>
+    <link href="http://kelfan.github.io/post/react_sap_route_and_todolist.html"/>
+    <id>http://kelfan.github.io/post/react_sap_route_and_todolist.html</id>
+    <published>2018-08-17T13:27:00.000Z</published>
+    <updated>2018-08-17T13:31:14.729Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: two example of single page app in React &lt;/p&gt;
+&lt;h1 id=&quot;a-SPA-to-switch-between-different-pages&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="react" scheme="http://kelfan.github.io/tags/react/"/>
+    
+  </entry>
   
   <entry>
     <title>react exercise tutorial for getting user input</title>
@@ -577,35 +602,6 @@
     
     
       <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>basic frequent Sql commends in sql server</title>
-    <link href="http://kelfan.github.io/post/ssms_basic_frequent_commends.html"/>
-    <id>http://kelfan.github.io/post/ssms_basic_frequent_commends.html</id>
-    <published>2018-07-22T22:56:56.475Z</published>
-    <updated>2018-07-23T09:25:11.342Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: sql comments for basic query &lt;/p&gt;
-&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
-    
-    
-      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
-    
-      <category term="sql" scheme="http://kelfan.github.io/tags/sql/"/>
     
   </entry>
   

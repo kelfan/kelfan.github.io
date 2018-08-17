@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>React Exercise of Single Page App</title>
+      <link href="/post/react_sap_route_and_todolist.html"/>
+      <url>/post/react_sap_route_and_todolist.html</url>
+      <content type="html"><![CDATA[<p>description: two example of single page app in React </p><h1 id="a-SPA-to-switch-between-different-pages"><a href="#a-SPA-to-switch-between-different-pages" class="headerlink" title="a SPA to switch between different pages"></a>a SPA to switch between different pages</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180817ReactSinglePageApp/assets/20180817-01-router.gif" alt=""></p><h1 id="a-todolist-to-add-items-in-a-SPA"><a href="#a-todolist-to-add-items-in-a-SPA" class="headerlink" title="a todolist to add items in a SPA"></a>a todolist to add items in a SPA</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180817ReactSinglePageApp/assets/20180817-02-todolist.gif" alt=""></p><h1 id="code-repository-url"><a href="#code-repository-url" class="headerlink" title="code repository url"></a>code repository url</h1><p><a href="https://github.com/kelfan/webApplicationLearning/tree/master/20180817ReactSinglePageApp" target="_blank" rel="noopener">https://github.com/kelfan/webApplicationLearning/tree/master/20180817ReactSinglePageApp</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> react </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>react exercise tutorial for getting user input</title>
       <link href="/post/react_get_user_input.html"/>
       <url>/post/react_get_user_input.html</url>
@@ -828,9 +843,9 @@
             
             <tag> hexo </tag>
             
-            <tag> seo </tag>
-            
             <tag> sitemap </tag>
+            
+            <tag> seo </tag>
             
         </tags>
       
@@ -962,9 +977,9 @@
       
         <tags>
             
-            <tag> sql server </tag>
-            
             <tag> ssms </tag>
+            
+            <tag> sql server </tag>
             
             <tag> sql </tag>
             
