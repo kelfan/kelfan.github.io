@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-08-17T13:31:14.729Z</updated>
+  <updated>2018-08-22T05:35:40.107Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>React Example of Music Player</title>
+    <link href="http://kelfan.github.io/post/react-music-player-example.html"/>
+    <id>http://kelfan.github.io/post/react-music-player-example.html</id>
+    <published>2018-08-22T05:29:00.000Z</published>
+    <updated>2018-08-22T05:35:40.107Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: A simple example built by React.js &lt;/p&gt;
+&lt;h1 id=&quot;demo&quot;&gt;&lt;a href=&quot;#demo&quot; class=&quot;headerlink&quot; title=&quot;demo&quot;&gt;&lt;/a&gt;demo&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://kelfan.github.io/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://kelfan.github.io/tags/react/"/>
+    
+  </entry>
   
   <entry>
     <title>React Exercise of Single Page App</title>
@@ -564,35 +591,6 @@
         
           &lt;p&gt;description: Sql Server ‘Saving changes is not permitted’&lt;/p&gt;
 &lt;h1 id=&quot;problem-description&quot;&gt;&lt;a href=&quot;#problem-description&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
-    
-    
-      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>display line number in sql server management studio</title>
-    <link href="http://kelfan.github.io/post/ssms_display_line_number.html"/>
-    <id>http://kelfan.github.io/post/ssms_display_line_number.html</id>
-    <published>2018-07-22T22:56:56.491Z</published>
-    <updated>2018-07-23T09:25:05.220Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: display line number in mssql editor&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;tools -&amp;gt; options &lt;/li&gt;
-&lt;li&gt;Text Editor -&amp;gt; Transact-SQL -&amp;gt; line
         
       
     

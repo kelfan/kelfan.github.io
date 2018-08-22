@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>React Example of Music Player</title>
+      <link href="/post/react-music-player-example.html"/>
+      <url>/post/react-music-player-example.html</url>
+      <content type="html"><![CDATA[<p>description: A simple example built by React.js </p><h1 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180818MusicPlayer/assets/20180822-music-player.gif" alt=""></p><h1 id="root-js-and-app-component"><a href="#root-js-and-app-component" class="headerlink" title="root.js and app component"></a>root.js and app component</h1><p>root.js define the main structure of the applicaiton</p><ul><li>‘App’ component is the main component <ul><li>‘Header’ is located </li><li>control functions </li></ul></li><li>change part <ul><li>‘Player’ is index component  for ‘/‘ path </li><li>‘MusicList’ is component for ‘/list’ path<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;Router history=&#123;hashHistory&#125;&gt;</span><br><span class="line">  &lt;Route path=<span class="string">"/"</span> component=&#123;App&#125;&gt;</span><br><span class="line">    &lt;IndexRoute component=&#123;Player&#125;&gt;<span class="xml"><span class="tag">&lt;/<span class="name">IndexRoute</span>&gt;</span></span></span><br><span class="line">    &lt;Route path=<span class="string">"/list"</span> component=&#123;MusicList&#125;&gt;<span class="xml"><span class="tag">&lt;/<span class="name">Route</span>&gt;</span></span></span><br><span class="line">  &lt;<span class="regexp">/Route&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>Router&gt;</span><br></pre></td></tr></table></figure></li></ul></li></ul><h1 id="header-js"><a href="#header-js" class="headerlink" title="header.js"></a>header.js</h1><p>define the logo and title of header </p><h1 id="player-js"><a href="#player-js" class="headerlink" title="player.js"></a>player.js</h1><p>define the player page </p><h1 id="page-musiclist-js"><a href="#page-musiclist-js" class="headerlink" title="page/musiclist.js"></a>page/musiclist.js</h1><p>define the musiclist page </p><h1 id="config-musiclist-js"><a href="#config-musiclist-js" class="headerlink" title="config/musiclist.js"></a>config/musiclist.js</h1><p>define the data of music list, which should be data interface of production environment </p><h1 id="musiclistitem-js"><a href="#musiclistitem-js" class="headerlink" title="musiclistitem.js"></a>musiclistitem.js</h1><p>define each row of data in music list </p><h1 id="progress-js"><a href="#progress-js" class="headerlink" title="progress.js"></a>progress.js</h1><p>define the progress bar component to display and control of value bar like progress bar and volumne bar </p><h1 id="repository-url"><a href="#repository-url" class="headerlink" title="repository url"></a>repository url</h1><p><a href="https://github.com/kelfan/webApplicationLearning/tree/master/20180818MusicPlayer" target="_blank" rel="noopener">https://github.com/kelfan/webApplicationLearning/tree/master/20180818MusicPlayer</a></p>]]></content>
+      
+      <categories>
+          
+          <category> react </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> react </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>React Exercise of Single Page App</title>
       <link href="/post/react_sap_route_and_todolist.html"/>
       <url>/post/react_sap_route_and_todolist.html</url>
@@ -766,9 +787,9 @@
             
             <tag> hexo </tag>
             
-            <tag> blog </tag>
-            
             <tag> seo </tag>
+            
+            <tag> blog </tag>
             
         </tags>
       
@@ -977,9 +998,9 @@
       
         <tags>
             
-            <tag> ssms </tag>
-            
             <tag> sql server </tag>
+            
+            <tag> ssms </tag>
             
             <tag> sql </tag>
             

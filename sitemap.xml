@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kelfan.github.io/post/react-music-player-example.html</loc>
+    
+    <lastmod>2018-08-22T05:35:40.107Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kelfan.github.io/post/react_sap_route_and_todolist.html</loc>
     
     <lastmod>2018-08-17T13:31:14.729Z</lastmod>
