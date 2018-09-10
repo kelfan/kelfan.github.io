@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-08-22T05:35:40.107Z</updated>
+  <updated>2018-09-10T07:03:18.382Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>new string features of typescript</title>
+    <link href="http://kelfan.github.io/post/typescript-string-new-feature.html"/>
+    <id>http://kelfan.github.io/post/typescript-string-new-feature.html</id>
+    <published>2018-09-10T06:59:00.000Z</published>
+    <updated>2018-09-10T07:03:18.382Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: some new features or advantages of typescript&lt;/p&gt;
+&lt;h1 id=&quot;multiple-line-stirng-with-symbol&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="typescript" scheme="http://kelfan.github.io/categories/typescript/"/>
+    
+    
+      <category term="typescript" scheme="http://kelfan.github.io/tags/typescript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>React Example of Music Player</title>
     <link href="http://kelfan.github.io/post/react-music-player-example.html"/>
     <id>http://kelfan.github.io/post/react-music-player-example.html</id>
     <published>2018-08-22T05:29:00.000Z</published>
-    <updated>2018-08-22T05:35:40.107Z</updated>
+    <updated>2018-08-22T05:56:41.553Z</updated>
     
     <summary type="html">
     
@@ -573,33 +600,6 @@
       <category term="vba" scheme="http://kelfan.github.io/tags/vba/"/>
     
       <category term="excel" scheme="http://kelfan.github.io/tags/excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ssms save changes not permitted</title>
-    <link href="http://kelfan.github.io/post/ssms_not_permit_change.html"/>
-    <id>http://kelfan.github.io/post/ssms_not_permit_change.html</id>
-    <published>2018-07-22T22:56:56.495Z</published>
-    <updated>2018-07-23T09:24:59.319Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: Sql Server ‘Saving changes is not permitted’&lt;/p&gt;
-&lt;h1 id=&quot;problem-description&quot;&gt;&lt;a href=&quot;#problem-description&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
-    
-    
-      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
     
   </entry>
   

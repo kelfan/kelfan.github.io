@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kelfan.github.io/post/typescript-string-new-feature.html</loc>
+    
+    <lastmod>2018-09-10T07:03:18.382Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kelfan.github.io/post/react-music-player-example.html</loc>
     
-    <lastmod>2018-08-22T05:35:40.107Z</lastmod>
+    <lastmod>2018-08-22T05:56:41.553Z</lastmod>
     
   </url>
   
