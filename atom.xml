@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-09-10T07:03:18.382Z</updated>
+  <updated>2018-09-27T08:24:48.285Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>new string features of typescript</title>
-    <link href="http://kelfan.github.io/post/typescript-string-new-feature.html"/>
-    <id>http://kelfan.github.io/post/typescript-string-new-feature.html</id>
-    <published>2018-09-10T06:59:00.000Z</published>
-    <updated>2018-09-10T07:03:18.382Z</updated>
+    <title>java excercise of robot movement</title>
+    <link href="http://kelfan.github.io/post/java_robot_movement.html"/>
+    <id>http://kelfan.github.io/post/java_robot_movement.html</id>
+    <published>2018-09-27T07:56:00.000Z</published>
+    <updated>2018-09-27T08:24:48.285Z</updated>
     
     <summary type="html">
     
@@ -29,26 +29,26 @@
       
         
         
-          &lt;p&gt;description: some new features or advantages of typescript&lt;/p&gt;
-&lt;h1 id=&quot;multiple-line-stirng-with-symbol&quot;&gt;&lt;a
+          &lt;p&gt;description: a simple java example of robot movement&lt;/p&gt;
+&lt;h1 id=&quot;demo&quot;&gt;&lt;a href=&quot;#demo&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
-      <category term="typescript" scheme="http://kelfan.github.io/categories/typescript/"/>
+      <category term="java" scheme="http://kelfan.github.io/categories/java/"/>
     
     
-      <category term="typescript" scheme="http://kelfan.github.io/tags/typescript/"/>
+      <category term="java" scheme="http://kelfan.github.io/tags/java/"/>
     
   </entry>
   
   <entry>
-    <title>React Example of Music Player</title>
-    <link href="http://kelfan.github.io/post/react-music-player-example.html"/>
-    <id>http://kelfan.github.io/post/react-music-player-example.html</id>
-    <published>2018-08-22T05:29:00.000Z</published>
-    <updated>2018-08-22T05:56:41.553Z</updated>
+    <title>Microsoft Visual Studio Code insert date time variables into snippet template</title>
+    <link href="http://kelfan.github.io/post/vs_code_datetime_snippet.html"/>
+    <id>http://kelfan.github.io/post/vs_code_datetime_snippet.html</id>
+    <published>2018-09-27T06:22:16.557Z</published>
+    <updated>2018-07-23T09:24:44.000Z</updated>
     
     <summary type="html">
     
@@ -56,26 +56,28 @@
       
         
         
-          &lt;p&gt;description: A simple example built by React.js &lt;/p&gt;
-&lt;h1 id=&quot;demo&quot;&gt;&lt;a href=&quot;#demo&quot; class=&quot;headerlink&quot; title=&quot;demo&quot;&gt;&lt;/a&gt;demo&lt;/h1&gt;&lt;p&gt;&lt;img
+          &lt;p&gt;description: make a snippet with current datetime &lt;/p&gt;
+&lt;h1 id=&quot;open-snippet-file-to-edit&quot;&gt;&lt;a href=&quot;#open-snippet-file-to-edit&quot;
         
       
     
     </summary>
     
-      <category term="react" scheme="http://kelfan.github.io/categories/react/"/>
+      <category term="VS code" scheme="http://kelfan.github.io/categories/VS-code/"/>
     
     
-      <category term="react" scheme="http://kelfan.github.io/tags/react/"/>
+      <category term="VS code" scheme="http://kelfan.github.io/tags/VS-code/"/>
+    
+      <category term="snippet" scheme="http://kelfan.github.io/tags/snippet/"/>
     
   </entry>
   
   <entry>
-    <title>React Exercise of Single Page App</title>
-    <link href="http://kelfan.github.io/post/react_sap_route_and_todolist.html"/>
-    <id>http://kelfan.github.io/post/react_sap_route_and_todolist.html</id>
-    <published>2018-08-17T13:27:00.000Z</published>
-    <updated>2018-08-17T13:31:14.729Z</updated>
+    <title>get list of modules name in Excel vba</title>
+    <link href="http://kelfan.github.io/post/vba_get_list_of_modules_name.html"/>
+    <id>http://kelfan.github.io/post/vba_get_list_of_modules_name.html</id>
+    <published>2018-09-27T06:22:16.556Z</published>
+    <updated>2018-07-23T09:24:48.000Z</updated>
     
     <summary type="html">
     
@@ -83,24 +85,28 @@
       
         
         
-          &lt;p&gt;description: two example of single page app in React &lt;/p&gt;
-&lt;h1 id=&quot;a-SPA-to-switch-between-different-pages&quot;&gt;&lt;a
+          &lt;p&gt;description: vba to get list of modules name &lt;/p&gt;
+&lt;h1 id=&quot;code-of-vba-to-get-list-of-module-names&quot;&gt;&lt;a
         
       
     
     </summary>
     
+      <category term="vba" scheme="http://kelfan.github.io/categories/vba/"/>
     
-      <category term="react" scheme="http://kelfan.github.io/tags/react/"/>
+    
+      <category term="vba" scheme="http://kelfan.github.io/tags/vba/"/>
+    
+      <category term="excel" scheme="http://kelfan.github.io/tags/excel/"/>
     
   </entry>
   
   <entry>
-    <title>react exercise tutorial for getting user input</title>
-    <link href="http://kelfan.github.io/post/react_get_user_input.html"/>
-    <id>http://kelfan.github.io/post/react_get_user_input.html</id>
-    <published>2018-08-16T10:39:00.000Z</published>
-    <updated>2018-08-16T10:41:53.394Z</updated>
+    <title>ssms save changes not permitted</title>
+    <link href="http://kelfan.github.io/post/ssms_not_permit_change.html"/>
+    <id>http://kelfan.github.io/post/ssms_not_permit_change.html</id>
+    <published>2018-09-27T06:22:16.554Z</published>
+    <updated>2018-07-23T09:25:00.000Z</updated>
     
     <summary type="html">
     
@@ -108,26 +114,26 @@
       
         
         
-          &lt;p&gt;description: react excercises for getting user input &lt;/p&gt;
-&lt;h1 id=&quot;01-object-html&quot;&gt;&lt;a href=&quot;#01-object-html&quot; class=&quot;headerlink&quot;
+          &lt;p&gt;description: Sql Server ‘Saving changes is not permitted’&lt;/p&gt;
+&lt;h1 id=&quot;problem-description&quot;&gt;&lt;a href=&quot;#problem-description&quot;
         
       
     
     </summary>
     
-      <category term="react" scheme="http://kelfan.github.io/categories/react/"/>
+      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
     
     
-      <category term="react" scheme="http://kelfan.github.io/tags/react/"/>
+      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
     
   </entry>
   
   <entry>
-    <title>Simplest Exercise Tutorial for React Components</title>
-    <link href="http://kelfan.github.io/post/react_component_exercise.html"/>
-    <id>http://kelfan.github.io/post/react_component_exercise.html</id>
-    <published>2018-08-16T03:33:00.000Z</published>
-    <updated>2018-08-16T03:37:12.577Z</updated>
+    <title>display line number in sql server management studio</title>
+    <link href="http://kelfan.github.io/post/ssms_display_line_number.html"/>
+    <id>http://kelfan.github.io/post/ssms_display_line_number.html</id>
+    <published>2018-09-27T06:22:16.553Z</published>
+    <updated>2018-07-23T09:25:06.000Z</updated>
     
     <summary type="html">
     
@@ -135,26 +141,28 @@
       
         
         
-          &lt;p&gt;description: some single page practices for react basic component &lt;/p&gt;
-&lt;h1 id=&quot;repository-Url&quot;&gt;&lt;a href=&quot;#repository-Url&quot;
+          &lt;p&gt;description: display line number in mssql editor&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tools -&amp;gt; options &lt;/li&gt;
+&lt;li&gt;Text Editor -&amp;gt; Transact-SQL -&amp;gt; line
         
       
     
     </summary>
     
-      <category term="react" scheme="http://kelfan.github.io/categories/react/"/>
+      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
     
     
-      <category term="react" scheme="http://kelfan.github.io/tags/react/"/>
+      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
     
   </entry>
   
   <entry>
-    <title>Simplest React Js Todo List</title>
-    <link href="http://kelfan.github.io/post/react_todo_list_app.html"/>
-    <id>http://kelfan.github.io/post/react_todo_list_app.html</id>
-    <published>2018-08-09T11:26:00.000Z</published>
-    <updated>2018-08-09T11:39:56.869Z</updated>
+    <title>basic frequent Sql commends in sql server</title>
+    <link href="http://kelfan.github.io/post/ssms_basic_frequent_commends.html"/>
+    <id>http://kelfan.github.io/post/ssms_basic_frequent_commends.html</id>
+    <published>2018-09-27T06:22:16.552Z</published>
+    <updated>2018-07-23T09:25:12.000Z</updated>
     
     <summary type="html">
     
@@ -162,28 +170,28 @@
       
         
         
-          &lt;p&gt;description: a simple example of todo list based on react.js&lt;/p&gt;
-&lt;h1 id=&quot;demo-of-the-react-todo-list&quot;&gt;&lt;a
+          &lt;p&gt;description: sql comments for basic query &lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
         
       
     
     </summary>
     
-      <category term="reactjs" scheme="http://kelfan.github.io/categories/reactjs/"/>
+      <category term="sql server" scheme="http://kelfan.github.io/categories/sql-server/"/>
     
     
-      <category term="reactjs" scheme="http://kelfan.github.io/tags/reactjs/"/>
+      <category term="ssms" scheme="http://kelfan.github.io/tags/ssms/"/>
     
-      <category term="JavaScript" scheme="http://kelfan.github.io/tags/JavaScript/"/>
+      <category term="sql" scheme="http://kelfan.github.io/tags/sql/"/>
     
   </entry>
   
   <entry>
-    <title>Rdr Engine - Decision Tree Expert System Demonstration of Iris Dataset</title>
-    <link href="http://kelfan.github.io/post/rdr_engine_demo_20180724.html"/>
-    <id>http://kelfan.github.io/post/rdr_engine_demo_20180724.html</id>
-    <published>2018-07-24T01:32:59.571Z</published>
-    <updated>2018-07-24T02:18:49.602Z</updated>
+    <title>R language to build Decision Tree for wine dataset</title>
+    <link href="http://kelfan.github.io/post/r_build_DecisionTree.html"/>
+    <id>http://kelfan.github.io/post/r_build_DecisionTree.html</id>
+    <published>2018-09-27T06:22:16.551Z</published>
+    <updated>2018-07-23T10:27:52.000Z</updated>
     
     <summary type="html">
     
@@ -191,8 +199,8 @@
       
         
         
-          &lt;p&gt;description: demonstration of rdr engine to build decision tree of Iris Dataset &lt;/p&gt;
-&lt;h1
+          &lt;p&gt;description: build Decision Tree for wine dataset in R language &lt;/p&gt;
+&lt;h1 id=&quot;read-data-From-File&quot;&gt;&lt;a href=&quot;#read-data-From-File&quot;
         
       
     
@@ -205,14 +213,16 @@
     
       <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
     
+      <category term="r language" scheme="http://kelfan.github.io/tags/r-language/"/>
+    
   </entry>
   
   <entry>
     <title>r language to cluster iris dataset through k-means and hierarchical clustering</title>
     <link href="http://kelfan.github.io/post/r_AI_kmeans_hcluster.html"/>
     <id>http://kelfan.github.io/post/r_AI_kmeans_hcluster.html</id>
-    <published>2018-07-24T01:27:37.270Z</published>
-    <updated>2018-07-24T01:25:28.919Z</updated>
+    <published>2018-09-27T06:22:16.550Z</published>
+    <updated>2018-07-24T01:25:30.000Z</updated>
     
     <summary type="html">
     
@@ -242,8 +252,8 @@
     <title>R language to cluster image colors by using k-means clustering</title>
     <link href="http://kelfan.github.io/post/r_AI_cluster_by_k-means.html"/>
     <id>http://kelfan.github.io/post/r_AI_cluster_by_k-means.html</id>
-    <published>2018-07-24T00:55:05.344Z</published>
-    <updated>2018-07-24T01:25:09.717Z</updated>
+    <published>2018-09-27T06:22:16.549Z</published>
+    <updated>2018-07-24T01:25:10.000Z</updated>
     
     <summary type="html">
     
@@ -270,166 +280,11 @@
   </entry>
   
   <entry>
-    <title>python simple convolutional neural network for MNIST dataset</title>
-    <link href="http://kelfan.github.io/post/python_AI_simple_CNN_forMNIST.html"/>
-    <id>http://kelfan.github.io/post/python_AI_simple_CNN_forMNIST.html</id>
-    <published>2018-07-23T13:19:29.775Z</published>
-    <updated>2018-07-23T09:52:42.946Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: simple CNN example for MNIST dataset&lt;/p&gt;
-&lt;h1 id=&quot;import-packages&quot;&gt;&lt;a href=&quot;#import-packages&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python build Decision Tree on bank note dataset</title>
-    <link href="http://kelfan.github.io/post/python_AI_DecisionTree_on_BankNoteDataset.html"/>
-    <id>http://kelfan.github.io/post/python_AI_DecisionTree_on_BankNoteDataset.html</id>
-    <published>2018-07-23T13:19:29.743Z</published>
-    <updated>2018-07-23T09:59:20.024Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: build Decision Tree from bank note dataset in python&lt;/p&gt;
-&lt;h1 id=&quot;CART-on-the-Bank-Note-dataset&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>a example for RL in python</title>
-    <link href="http://kelfan.github.io/post/python_AI_rl_example.html"/>
-    <id>http://kelfan.github.io/post/python_AI_rl_example.html</id>
-    <published>2018-07-23T13:19:29.721Z</published>
-    <updated>2018-07-23T10:05:57.363Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: a small example for reinforcement learning in python&lt;/p&gt;
-&lt;h1 id=&quot;import-packages-and-set-seed&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python to use LSTM for predicting words in Txt</title>
-    <link href="http://kelfan.github.io/post/python_AI_LSTM_for_txt.html"/>
-    <id>http://kelfan.github.io/post/python_AI_LSTM_for_txt.html</id>
-    <published>2018-07-23T13:19:29.702Z</published>
-    <updated>2018-07-23T10:11:19.440Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: use LSTM to predict words in Text in python&lt;/p&gt;
-&lt;h1 id=&quot;import-packages&quot;&gt;&lt;a href=&quot;#import-packages&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>R language to build Decision Tree for wine dataset</title>
-    <link href="http://kelfan.github.io/post/r_build_DecisionTree.html"/>
-    <id>http://kelfan.github.io/post/r_build_DecisionTree.html</id>
-    <published>2018-07-23T13:19:29.695Z</published>
-    <updated>2018-07-23T10:27:51.922Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: build Decision Tree for wine dataset in R language &lt;/p&gt;
-&lt;h1 id=&quot;read-data-From-File&quot;&gt;&lt;a href=&quot;#read-data-From-File&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
-    
-    
-      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
-    
-      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
-    
-      <category term="r language" scheme="http://kelfan.github.io/tags/r-language/"/>
-    
-  </entry>
-  
-  <entry>
     <title>R language to build ANN network for wine data</title>
     <link href="http://kelfan.github.io/post/r_AI_ann_for_wine_data.html"/>
     <id>http://kelfan.github.io/post/r_AI_ann_for_wine_data.html</id>
-    <published>2018-07-23T13:19:29.669Z</published>
-    <updated>2018-07-23T11:06:24.108Z</updated>
+    <published>2018-09-27T06:22:16.548Z</published>
+    <updated>2018-07-23T11:06:26.000Z</updated>
     
     <summary type="html">
     
@@ -456,11 +311,11 @@
   </entry>
   
   <entry>
-    <title>python ANN forward Propagate</title>
-    <link href="http://kelfan.github.io/post/python_AI_forward_propagate.html"/>
-    <id>http://kelfan.github.io/post/python_AI_forward_propagate.html</id>
-    <published>2018-07-23T09:44:34.602Z</published>
-    <updated>2018-07-23T09:36:47.816Z</updated>
+    <title>Rdr Engine - Decision Tree Expert System Demonstration of Iris Dataset</title>
+    <link href="http://kelfan.github.io/post/rdr_engine_demo_20180724.html"/>
+    <id>http://kelfan.github.io/post/rdr_engine_demo_20180724.html</id>
+    <published>2018-09-27T06:22:16.541Z</published>
+    <updated>2018-07-24T02:18:50.000Z</updated>
     
     <summary type="html">
     
@@ -468,7 +323,8 @@
       
         
         
-          &lt;h1 id=&quot;Calculate-neuron-activation-for-an-input&quot;&gt;&lt;a href=&quot;#Calculate-neuron-activation-for-an-input&quot; class=&quot;headerlink&quot; title=&quot;Calculate
+          &lt;p&gt;description: demonstration of rdr engine to build decision tree of Iris Dataset &lt;/p&gt;
+&lt;h1
         
       
     
@@ -476,8 +332,6 @@
     
       <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
     
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
     
       <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
     
@@ -486,11 +340,11 @@
   </entry>
   
   <entry>
-    <title>python create simple MLP in Keras</title>
-    <link href="http://kelfan.github.io/post/python_AI_simple_MLP_in_Keras.html"/>
-    <id>http://kelfan.github.io/post/python_AI_simple_MLP_in_Keras.html</id>
-    <published>2018-07-23T09:44:34.598Z</published>
-    <updated>2018-07-23T09:40:39.846Z</updated>
+    <title>python numpy datetime64 today</title>
+    <link href="http://kelfan.github.io/post/python_timedelta_days.html"/>
+    <id>http://kelfan.github.io/post/python_timedelta_days.html</id>
+    <published>2018-09-27T06:22:16.540Z</published>
+    <updated>2018-07-23T09:25:18.000Z</updated>
     
     <summary type="html">
     
@@ -498,30 +352,29 @@
       
         
         
-          &lt;p&gt;description: create simple MLP in Keras&lt;/p&gt;
-&lt;h1 id=&quot;import-packages&quot;&gt;&lt;a href=&quot;#import-packages&quot; class=&quot;headerlink&quot; title=&quot;import
+          &lt;h1 id=&quot;python-numpy-datetime64-today&quot;&gt;&lt;a href=&quot;#python-numpy-datetime64-today&quot; class=&quot;headerlink&quot; title=&quot;python numpy datetime64
         
       
     
     </summary>
     
-      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
     
     
       <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
     
-      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+      <category term="timedelta" scheme="http://kelfan.github.io/tags/timedelta/"/>
     
-      <category term="machine learning" scheme="http://kelfan.github.io/tags/machine-learning/"/>
+      <category term="datetime64" scheme="http://kelfan.github.io/tags/datetime64/"/>
     
   </entry>
   
   <entry>
-    <title>python build small network example for ANN</title>
-    <link href="http://kelfan.github.io/post/python_AI_small_network_example.html"/>
-    <id>http://kelfan.github.io/post/python_AI_small_network_example.html</id>
-    <published>2018-07-23T09:44:34.568Z</published>
-    <updated>2018-07-23T09:31:41.235Z</updated>
+    <title>python timedelta to seconds</title>
+    <link href="http://kelfan.github.io/post/python_timedelta%20_to_seconds.html"/>
+    <id>http://kelfan.github.io/post/python_timedelta _to_seconds.html</id>
+    <published>2018-09-27T06:22:16.538Z</published>
+    <updated>2018-07-23T09:25:22.000Z</updated>
     
     <summary type="html">
     
@@ -529,28 +382,29 @@
       
         
         
-          &lt;p&gt;description: build small network example in python &lt;/p&gt;
-&lt;h1 id=&quot;initial-a-network&quot;&gt;&lt;a href=&quot;#initial-a-network&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;python-timedelta-to-seconds&quot;&gt;&lt;a href=&quot;#python-timedelta-to-seconds&quot; class=&quot;headerlink&quot; title=&quot;python timedelta to
         
       
     
     </summary>
     
-      <category term="machine learning" scheme="http://kelfan.github.io/categories/machine-learning/"/>
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
     
     
       <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
     
-      <category term="AI" scheme="http://kelfan.github.io/tags/AI/"/>
+      <category term="timedelta" scheme="http://kelfan.github.io/tags/timedelta/"/>
+    
+      <category term="datetime64" scheme="http://kelfan.github.io/tags/datetime64/"/>
     
   </entry>
   
   <entry>
-    <title>Microsoft Visual Studio Code insert date time variables into snippet template</title>
-    <link href="http://kelfan.github.io/post/vs_code_datetime_snippet.html"/>
-    <id>http://kelfan.github.io/post/vs_code_datetime_snippet.html</id>
-    <published>2018-07-22T22:56:56.563Z</published>
-    <updated>2018-07-23T09:24:42.277Z</updated>
+    <title>python parse string into datetime</title>
+    <link href="http://kelfan.github.io/post/python_string_to_datetime.html"/>
+    <id>http://kelfan.github.io/post/python_string_to_datetime.html</id>
+    <published>2018-09-27T06:22:16.537Z</published>
+    <updated>2018-07-23T09:25:28.000Z</updated>
     
     <summary type="html">
     
@@ -558,28 +412,24 @@
       
         
         
-          &lt;p&gt;description: make a snippet with current datetime &lt;/p&gt;
-&lt;h1 id=&quot;open-snippet-file-to-edit&quot;&gt;&lt;a href=&quot;#open-snippet-file-to-edit&quot;
+          &lt;p&gt;description: python parse string into datetime&lt;/p&gt;
+&lt;h1 id=&quot;parse-string-into-datetime&quot;&gt;&lt;a href=&quot;#parse-string-into-datetime&quot;
         
       
     
     </summary>
     
-      <category term="VS code" scheme="http://kelfan.github.io/categories/VS-code/"/>
     
-    
-      <category term="VS code" scheme="http://kelfan.github.io/tags/VS-code/"/>
-    
-      <category term="snippet" scheme="http://kelfan.github.io/tags/snippet/"/>
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
-    <title>get list of modules name in Excel vba</title>
-    <link href="http://kelfan.github.io/post/vba_get_list_of_modules_name.html"/>
-    <id>http://kelfan.github.io/post/vba_get_list_of_modules_name.html</id>
-    <published>2018-07-22T22:56:56.524Z</published>
-    <updated>2018-07-23T09:24:46.954Z</updated>
+    <title>python print format string example</title>
+    <link href="http://kelfan.github.io/post/python_format_string_output.html"/>
+    <id>http://kelfan.github.io/post/python_format_string_output.html</id>
+    <published>2018-09-27T06:22:16.536Z</published>
+    <updated>2018-07-23T09:25:32.000Z</updated>
     
     <summary type="html">
     
@@ -587,19 +437,160 @@
       
         
         
-          &lt;p&gt;description: vba to get list of modules name &lt;/p&gt;
-&lt;h1 id=&quot;code-of-vba-to-get-list-of-module-names&quot;&gt;&lt;a
+          &lt;p&gt;description: python print format string example&lt;/p&gt;
+&lt;h1 id=&quot;python-Using-and-format-for-formating-print-output&quot;&gt;&lt;a
         
       
     
     </summary>
     
-      <category term="vba" scheme="http://kelfan.github.io/categories/vba/"/>
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
     
     
-      <category term="vba" scheme="http://kelfan.github.io/tags/vba/"/>
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
     
-      <category term="excel" scheme="http://kelfan.github.io/tags/excel/"/>
+  </entry>
+  
+  <entry>
+    <title>python extract columns from dataframe</title>
+    <link href="http://kelfan.github.io/post/python_extract_columns.html"/>
+    <id>http://kelfan.github.io/post/python_extract_columns.html</id>
+    <published>2018-09-27T06:22:16.535Z</published>
+    <updated>2018-07-23T09:25:36.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: pandas select columns by name&lt;/p&gt;
+&lt;h1 id=&quot;python-select-columns-from-dataframe-by-name&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python add one day to a date</title>
+    <link href="http://kelfan.github.io/post/python_datetime_add_day.html"/>
+    <id>http://kelfan.github.io/post/python_datetime_add_day.html</id>
+    <published>2018-09-27T06:22:16.533Z</published>
+    <updated>2018-07-23T09:25:42.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python add one day to a date &lt;/p&gt;
+&lt;h1 id=&quot;python-datetime-date-add-one-day&quot;&gt;&lt;a href=&quot;#python-datetime-date-add-one-day&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="date" scheme="http://kelfan.github.io/tags/date/"/>
+    
+      <category term="datetime" scheme="http://kelfan.github.io/tags/datetime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python resign headers to a dataframe</title>
+    <link href="http://kelfan.github.io/post/python_dataframe_resign_headers.html"/>
+    <id>http://kelfan.github.io/post/python_dataframe_resign_headers.html</id>
+    <published>2018-09-27T06:22:16.532Z</published>
+    <updated>2018-07-23T09:25:46.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python pandas rename or change column names&lt;/p&gt;
+&lt;h1 id=&quot;python-rename-column-headers&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python change dataframe column into set and loop the set</title>
+    <link href="http://kelfan.github.io/post/python_dataframe_loop_set.html"/>
+    <id>http://kelfan.github.io/post/python_dataframe_loop_set.html</id>
+    <published>2018-09-27T06:22:16.531Z</published>
+    <updated>2018-07-23T09:25:50.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: change dataframe column into set and iterate&lt;/p&gt;
+&lt;h1 id=&quot;change-dataframe-column-into-a-set&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python iterate or loop each row of a dataframe</title>
+    <link href="http://kelfan.github.io/post/python_dataframe_loop_rows.html"/>
+    <id>http://kelfan.github.io/post/python_dataframe_loop_rows.html</id>
+    <published>2018-09-27T06:22:16.530Z</published>
+    <updated>2018-07-23T09:25:56.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: python iterate a dataframe &lt;/p&gt;
+&lt;h1 id=&quot;loop-each-row-of-a-dataframe&quot;&gt;&lt;a href=&quot;#loop-each-row-of-a-dataframe&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
+    
+      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
     
   </entry>
   

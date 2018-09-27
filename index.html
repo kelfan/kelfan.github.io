@@ -361,7 +361,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/typescript-string-new-feature.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/java_robot_movement.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chaofan">
@@ -380,8 +380,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/post/typescript-string-new-feature.html" itemprop="url">
-                  new string features of typescript
+                <a class="post-title-link" href="/post/java_robot_movement.html" itemprop="url">
+                  java excercise of robot movement
                 </a>
               
             
@@ -407,7 +407,7 @@
                 
               
 
-              <time title="Created: 2018-09-10 16:59:00 / Modified: 17:03:18" itemprop="dateCreated datePublished" datetime="2018-09-10T16:59:00+10:00">2018-09-10</time>
+              <time title="Created: 2018-09-27 17:56:00 / Modified: 18:24:48" itemprop="dateCreated datePublished" datetime="2018-09-27T17:56:00+10:00">2018-09-27</time>
             
 
             
@@ -429,7 +429,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/typescript/" itemprop="url" rel="index"><span itemprop="name">typescript</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a></span>
 
                 
                 
@@ -465,10 +465,15 @@
       
         
           
-            <p>description: some new features or advantages of typescript</p>
-<h1 id="multiple-line-stirng-with-symbol"><a href="#multiple-line-stirng-with-symbol" class="headerlink" title="multiple line stirng with  symbol"></a>multiple line stirng with <code></code> symbol</h1><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> content = <span class="string">`aaa</span></span><br><span class="line"><span class="string">bbb</span></span><br><span class="line"><span class="string">ccc`</span></span><br></pre></td></tr></table></figure>
-<h1 id="string-template-for-formating-string-with-variables"><a href="#string-template-for-formating-string-with-variables" class="headerlink" title="string template for formating string with variables"></a>string template for formating string with variables</h1><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> v1 = <span class="string">"aaa"</span></span><br><span class="line"><span class="keyword">var</span> getV = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">'bbb'</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">`test <span class="subst">$&#123;v1&#125;</span> for <span class="subst">$&#123;getV()&#125;</span>`</span>)</span><br></pre></td></tr></table></figure>
-<h1 id="auto-splite-string-for-template"><a href="#auto-splite-string-for-template" class="headerlink" title="auto splite string for template"></a>auto splite string for template</h1><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params">template, v1, v2</span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(template);</span><br><span class="line">    <span class="built_in">console</span>.log(v1);</span><br><span class="line">    <span class="built_in">console</span>.log(v2);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> v1 = <span class="string">"v1"</span>;</span><br><span class="line"><span class="keyword">var</span> v2 = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"v2"</span></span><br><span class="line">&#125;</span><br><span class="line">test<span class="string">`hello world <span class="subst">$&#123;v1&#125;</span> + <span class="subst">$&#123;v2()&#125;</span>`</span></span><br></pre></td></tr></table></figure>
+            <p>description: a simple java example of robot movement</p>
+<h1 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h1><p><img src="https://github.com/kelfan/Java-Learning/blob/master/20180903-robot_movement/robot_movement.gif?raw=true" alt=""></p>
+<h1 id="introduction"><a href="#introduction" class="headerlink" title="introduction"></a>introduction</h1><ul>
+<li>put a robot on a table </li>
+<li>use different command to move the robot </li>
+<li>prevent the robot dropping from the table </li>
+</ul>
+<h1 id="structure"><a href="#structure" class="headerlink" title="structure"></a>structure</h1><p><img src="https://github.com/kelfan/Java-Learning/blob/master/20180903-robot_movement/structure.png?raw=true" alt=""></p>
+
           
         
       
@@ -525,7 +530,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/react-music-player-example.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/vs_code_datetime_snippet.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chaofan">
@@ -544,8 +549,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/post/react-music-player-example.html" itemprop="url">
-                  React Example of Music Player
+                <a class="post-title-link" href="/post/vs_code_datetime_snippet.html" itemprop="url">
+                  Microsoft Visual Studio Code insert date time variables into snippet template
                 </a>
               
             
@@ -571,12 +576,24 @@
                 
               
 
-              <time title="Created: 2018-08-22 15:29:00 / Modified: 15:56:41" itemprop="dateCreated datePublished" datetime="2018-08-22T15:29:00+10:00">2018-08-22</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:24:44" itemprop="dateModified" datetime="2018-07-23T19:24:44+10:00">2018-07-23</time>
               
             
           </span>
@@ -593,7 +610,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/react/" itemprop="url" rel="index"><span itemprop="name">react</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/VS-code/" itemprop="url" rel="index"><span itemprop="name">VS code</span></a></span>
 
                 
                 
@@ -629,29 +646,12 @@
       
         
           
-            <p>description: A simple example built by React.js </p>
-<h1 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180818MusicPlayer/assets/20180822-music-player.gif" alt=""></p>
-<h1 id="root-js-and-app-component"><a href="#root-js-and-app-component" class="headerlink" title="root.js and app component"></a>root.js and app component</h1><p>root.js define the main structure of the applicaiton</p>
-<ul>
-<li>‘App’ component is the main component <ul>
-<li>‘Header’ is located </li>
-<li>control functions </li>
-</ul>
-</li>
-<li>change part <ul>
-<li>‘Player’ is index component  for ‘/‘ path </li>
-<li>‘MusicList’ is component for ‘/list’ path</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;Router history=&#123;hashHistory&#125;&gt;</span><br><span class="line">  &lt;Route path=<span class="string">"/"</span> component=&#123;App&#125;&gt;</span><br><span class="line">    &lt;IndexRoute component=&#123;Player&#125;&gt;<span class="xml"><span class="tag">&lt;/<span class="name">IndexRoute</span>&gt;</span></span></span><br><span class="line">    &lt;Route path=<span class="string">"/list"</span> component=&#123;MusicList&#125;&gt;<span class="xml"><span class="tag">&lt;/<span class="name">Route</span>&gt;</span></span></span><br><span class="line">  &lt;<span class="regexp">/Route&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>Router&gt;</span><br></pre></td></tr></table></figure>
-<h1 id="header-js"><a href="#header-js" class="headerlink" title="header.js"></a>header.js</h1><p>define the logo and title of header </p>
-<h1 id="player-js"><a href="#player-js" class="headerlink" title="player.js"></a>player.js</h1><p>define the player page </p>
-<h1 id="page-musiclist-js"><a href="#page-musiclist-js" class="headerlink" title="page/musiclist.js"></a>page/musiclist.js</h1><p>define the musiclist page </p>
-<h1 id="config-musiclist-js"><a href="#config-musiclist-js" class="headerlink" title="config/musiclist.js"></a>config/musiclist.js</h1><p>define the data of music list, which should be data interface of production environment </p>
-<h1 id="musiclistitem-js"><a href="#musiclistitem-js" class="headerlink" title="musiclistitem.js"></a>musiclistitem.js</h1><p>define each row of data in music list </p>
-<h1 id="progress-js"><a href="#progress-js" class="headerlink" title="progress.js"></a>progress.js</h1><p>define the progress bar component to display and control of value bar like progress bar and volumne bar </p>
-<h1 id="repository-url"><a href="#repository-url" class="headerlink" title="repository url"></a>repository url</h1><p><a href="https://github.com/kelfan/webApplicationLearning/tree/master/20180818MusicPlayer" target="_blank" rel="noopener">https://github.com/kelfan/webApplicationLearning/tree/master/20180818MusicPlayer</a></p>
+            <p>description: make a snippet with current datetime </p>
+<h1 id="open-snippet-file-to-edit"><a href="#open-snippet-file-to-edit" class="headerlink" title="open snippet file to edit"></a>open snippet file to edit</h1><p>File -&gt; preference –&gt; user snippets</p>
+<h1 id="edit-snippet-like-following"><a href="#edit-snippet-like-following" class="headerlink" title="edit snippet like following"></a>edit snippet like following</h1><p><code>${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR} ${CURRENT_HOUR}:${CURRENT_MINUTE}</code><br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="attr">"post"</span>: &#123;</span><br><span class="line">		<span class="attr">"prefix"</span>: <span class="string">".post"</span>,</span><br><span class="line">		<span class="attr">"body"</span>: [</span><br><span class="line">			<span class="string">"---\r"</span>,</span><br><span class="line">			<span class="string">"title: $&#123;1&#125;\r"</span>,</span><br><span class="line">			<span class="string">"date: $&#123;CURRENT_DATE&#125;/$&#123;CURRENT_MONTH&#125;/$&#123;CURRENT_YEAR&#125; $&#123;CURRENT_HOUR&#125;:$&#123;CURRENT_MINUTE&#125;\r"</span>,</span><br><span class="line">			<span class="string">"tags: \r"</span>,</span><br><span class="line">			<span class="string">"keywords:\r"</span>,</span><br><span class="line">			<span class="string">"categories: \r"</span>,</span><br><span class="line">			<span class="string">"---\r"</span>,</span><br><span class="line">			<span class="string">"description:\r"</span>,</span><br><span class="line">			<span class="string">"\r"</span>,</span><br><span class="line">			<span class="string">"\r"</span>,</span><br><span class="line">			<span class="string">"\r"</span>,</span><br><span class="line">			<span class="string">"\r"</span>,</span><br><span class="line">			<span class="string">"---------------------------------------------\r"</span>,</span><br><span class="line">			<span class="string">"more on [search4fan.github.io](https://search4fan.github.io/)\r"</span>,</span><br><span class="line">			<span class="string">"\r"</span>,</span><br><span class="line">			<span class="string">""</span></span><br><span class="line">		],</span><br><span class="line">		<span class="attr">"description"</span>: <span class="string">"post template"</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="other-variables"><a href="#other-variables" class="headerlink" title="other variables"></a>other variables</h1><p><code>TM_SELECTED_TEXT</code> The currently selected text or the empty string<br><code>TM_LINE_NUMBER</code> The one-index based line number<br><code>TM_FILENAME</code> The filename of the current document<br><code>TM_FILENAME_BASE</code> The filename of the current document without its extensions<br><code>TM_LINE_INDEX</code> The zero-index based line number<br><code>TM_DIRECTORY</code> The directory of the current document<br><code>TM_FILEPATH</code> The full file path of the current document<br><code>CLIPBOARD</code> The contents of your clipboard<br><code>TM_CURRENT_LINE</code> The contents of the current line<br><code>TM_CURRENT_WORD</code> The contents of the word under cursor or the empty string</p>
+<p><code>CURRENT_DAY_NAME</code> The name of day (example ‘Monday’)<br><code>CURRENT_DAY_NAME_SHORT</code> The short name of the day (example ‘Mon’)<br><code>CURRENT_HOUR</code> The current hour in 24-hour clock format<br><code>CURRENT_MINUTE</code> The current minute<br><code>CURRENT_SECOND</code> The current second</p>
+<p><code>CURRENT_YEAR</code> The current year<br><code>CURRENT_YEAR_SHORT</code> The current year’s last two digits<br><code>CURRENT_MONTH</code> The month as two digits (example ‘02’)<br><code>CURRENT_MONTH_NAME</code> The full name of the month (example ‘July’)<br><code>CURRENT_MONTH_NAME_SHORT</code> The short name of the month (example ‘Jul’)<br><code>CURRENT_DATE</code> The day of the month</p>
 
           
         
@@ -709,7 +709,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/react_sap_route_and_todolist.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/vba_get_list_of_modules_name.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chaofan">
@@ -728,8 +728,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/post/react_sap_route_and_todolist.html" itemprop="url">
-                  React Exercise of Single Page App
+                <a class="post-title-link" href="/post/vba_get_list_of_modules_name.html" itemprop="url">
+                  get list of modules name in Excel vba
                 </a>
               
             
@@ -755,159 +755,24 @@
                 
               
 
-              <time title="Created: 2018-08-17 23:27:00 / Modified: 23:31:14" itemprop="dateCreated datePublished" datetime="2018-08-17T23:27:00+10:00">2018-08-17</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>description: two example of single page app in React </p>
-<h1 id="a-SPA-to-switch-between-different-pages"><a href="#a-SPA-to-switch-between-different-pages" class="headerlink" title="a SPA to switch between different pages"></a>a SPA to switch between different pages</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180817ReactSinglePageApp/assets/20180817-01-router.gif" alt=""></p>
-<h1 id="a-todolist-to-add-items-in-a-SPA"><a href="#a-todolist-to-add-items-in-a-SPA" class="headerlink" title="a todolist to add items in a SPA"></a>a todolist to add items in a SPA</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180817ReactSinglePageApp/assets/20180817-02-todolist.gif" alt=""></p>
-<h1 id="code-repository-url"><a href="#code-repository-url" class="headerlink" title="code repository url"></a>code repository url</h1><p><a href="https://github.com/kelfan/webApplicationLearning/tree/master/20180817ReactSinglePageApp" target="_blank" rel="noopener">https://github.com/kelfan/webApplicationLearning/tree/master/20180817ReactSinglePageApp</a></p>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/react_get_user_input.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chaofan">
-      <meta itemprop="description" content="Personal blog for sharing useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/react_get_user_input.html" itemprop="url">
-                  react exercise tutorial for getting user input
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
               
 
               
                 
-              
+                <span class="post-meta-divider">|</span>
+                
 
-              <time title="Created: 2018-08-16 20:39:00 / Modified: 20:41:53" itemprop="dateCreated datePublished" datetime="2018-08-16T20:39:00+10:00">2018-08-16</time>
-            
-
-            
-              
-
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:24:48" itemprop="dateModified" datetime="2018-07-23T19:24:48+10:00">2018-07-23</time>
               
             
           </span>
@@ -924,7 +789,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/react/" itemprop="url" rel="index"><span itemprop="name">react</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/vba/" itemprop="url" rel="index"><span itemprop="name">vba</span></a></span>
 
                 
                 
@@ -960,24 +825,8 @@
       
         
           
-            <p>description: react excercises for getting user input </p>
-<h1 id="01-object-html"><a href="#01-object-html" class="headerlink" title="01-object.html"></a>01-object.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-2018081615050073.png" alt="01-object.html"></p>
-<ul>
-<li>put jsx object into variable</li>
-<li>draw circle</li>
-<li>for loop to create components</li>
-</ul>
-<h1 id="02-event-html"><a href="#02-event-html" class="headerlink" title="02-event.html"></a>02-event.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-20180816160031455.png" alt="02-event.html"></p>
-<ul>
-<li>click button to add 1 into the counter</li>
-<li>holding shift key to add 10 into the counter</li>
-</ul>
-<h1 id="03-colorizer-html"><a href="#03-colorizer-html" class="headerlink" title="03-colorizer.html"></a>03-colorizer.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/master/20180816ReactUserInput/assets/markdown-img-paste-20180816193752404.png" alt=""></p>
-<ul>
-<li>get user input to change UI</li>
-<li>use ‘ref’ to change real DOM</li>
-</ul>
-<h1 id="repository-url"><a href="#repository-url" class="headerlink" title="repository url"></a>repository url</h1><p><a href="https://github.com/kelfan/webApplicationLearning/tree/master/20180816ReactUserInput" target="_blank" rel="noopener">https://github.com/kelfan/webApplicationLearning/tree/master/20180816ReactUserInput</a></p>
+            <p>description: vba to get list of modules name </p>
+<h1 id="code-of-vba-to-get-list-of-module-names"><a href="#code-of-vba-to-get-list-of-module-names" class="headerlink" title="code of vba to get list of module names"></a>code of vba to get list of module names</h1><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> getAllModuleNames()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Dim</span> modName <span class="keyword">As</span> <span class="built_in">String</span></span><br><span class="line">    <span class="keyword">Dim</span> wb <span class="keyword">As</span> Workbook</span><br><span class="line">    <span class="keyword">Dim</span> l <span class="keyword">As</span> <span class="built_in">Long</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> wb = thisWorkbook</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">For</span> l = <span class="number">1</span> <span class="keyword">To</span> wb.VBProject.VBComponents.count</span><br><span class="line">        <span class="keyword">With</span> wb.VBProject.VBComponents(l)</span><br><span class="line">            modName = modName &amp; vbCr &amp; .name</span><br><span class="line">        <span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">'MsgBox "Module Names:" &amp; vbCr &amp; modName</span></span><br><span class="line">    Cells(<span class="number">40</span>, <span class="number">1</span>).value = modName</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> wb = <span class="literal">Nothing</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
 
           
         
@@ -1035,7 +884,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/react_component_exercise.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/ssms_not_permit_change.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chaofan">
@@ -1054,8 +903,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/post/react_component_exercise.html" itemprop="url">
-                  Simplest Exercise Tutorial for React Components
+                <a class="post-title-link" href="/post/ssms_not_permit_change.html" itemprop="url">
+                  ssms save changes not permitted
                 </a>
               
             
@@ -1081,12 +930,24 @@
                 
               
 
-              <time title="Created: 2018-08-16 13:33:00 / Modified: 13:37:12" itemprop="dateCreated datePublished" datetime="2018-08-16T13:33:00+10:00">2018-08-16</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:25:00" itemprop="dateModified" datetime="2018-07-23T19:25:00+10:00">2018-07-23</time>
               
             
           </span>
@@ -1103,7 +964,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/react/" itemprop="url" rel="index"><span itemprop="name">react</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/sql-server/" itemprop="url" rel="index"><span itemprop="name">sql server</span></a></span>
 
                 
                 
@@ -1139,42 +1000,11 @@
       
         
           
-            <p>description: some single page practices for react basic component </p>
-<h1 id="repository-Url"><a href="#repository-Url" class="headerlink" title="repository Url"></a>repository Url</h1><p><a href="https://github.com/kelfan/webApplicationLearning/tree/20180815-ReactComponents/20180815ReactComponent" target="_blank" rel="noopener">https://github.com/kelfan/webApplicationLearning/tree/20180815-ReactComponents/20180815ReactComponent</a></p>
-<h1 id="01-index-html"><a href="#01-index-html" class="headerlink" title="01-index.html"></a>01-index.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/20180815-ReactComponents/20180815ReactComponent/assets/markdown-img-paste-20180815201902889.png" alt=""></p>
-<ul>
-<li>First time to use react.</li>
-</ul>
-<h1 id="02-component-html"><a href="#02-component-html" class="headerlink" title="02-component.html"></a>02-component.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/20180815-ReactComponents/20180815ReactComponent/assets/markdown-img-paste-20180815202002690.png" alt=""></p>
-<ul>
-<li>Reuse of component.</li>
-</ul>
-<h1 id="03-style-html"><a href="#03-style-html" class="headerlink" title="03-style.html"></a>03-style.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/20180815-ReactComponents/20180815ReactComponent/assets/markdown-img-paste-20180815202721257.png" alt=""></p>
-<ul>
-<li>Have style within React component.</li>
-</ul>
-<h1 id="04-card-html"><a href="#04-card-html" class="headerlink" title="04-card.html"></a>04-card.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/20180815-ReactComponents/20180815ReactComponent/assets/markdown-img-paste-20180815205153951.png" alt=""></p>
-<ul>
-<li>pass values from parent to children</li>
-</ul>
-<h1 id="05-props-html"><a href="#05-props-html" class="headerlink" title="05-props.html"></a>05-props.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/20180815-ReactComponents/20180815ReactComponent/assets/markdown-img-paste-20180815222728618.png" alt=""></p>
-<ul>
-<li>pass values from top to down by {…this.props}</li>
-</ul>
-<h1 id="06-state-html"><a href="#06-state-html" class="headerlink" title="06-state.html"></a>06-state.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/20180815-ReactComponents/20180815ReactComponent/assets/markdown-img-paste-20180815231257491.png" alt=""></p>
-<ul>
-<li>change the state of component</li>
-<li>use common style by {…commonStyle}</li>
-</ul>
-<h1 id="07-lifecycle-html"><a href="#07-lifecycle-html" class="headerlink" title="07-lifecycle.html"></a>07-lifecycle.html</h1><p><img src="https://github.com/kelfan/webApplicationLearning/raw/20180815-ReactComponents/20180815ReactComponent/assets/markdown-img-paste-20180815234205143.png" alt=""></p>
-<ul>
-<li>componentWillMount</li>
-<li>componentDidMount</li>
-<li>componentWillUnmount</li>
-<li>componentWillUpdate</li>
-<li>componentDidUpdate</li>
-<li>shouldComponentUpdate</li>
-<li>componentWillReceiveProps</li>
+            <p>description: Sql Server ‘Saving changes is not permitted’</p>
+<h1 id="problem-description"><a href="#problem-description" class="headerlink" title="problem description"></a>problem description</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Saving changes is not permitted. The changes that you have made require the following tables to be dropped and re-created. You have either made changes to a table that can&apos;t be re-created or enabled the option Prevent saving changes that require the table to be re-created.</span><br></pre></td></tr></table></figure>
+<h1 id="solution"><a href="#solution" class="headerlink" title="solution"></a>solution</h1><ul>
+<li>Tools -&gt; Options </li>
+<li>Designers -&gt; Table and Database Designers -&gt; Prevent saving changes that require table re-creation -&gt; unclick</li>
 </ul>
 
           
@@ -1233,7 +1063,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/react_todo_list_app.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/ssms_display_line_number.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chaofan">
@@ -1252,8 +1082,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/post/react_todo_list_app.html" itemprop="url">
-                  Simplest React Js Todo List
+                <a class="post-title-link" href="/post/ssms_display_line_number.html" itemprop="url">
+                  display line number in sql server management studio
                 </a>
               
             
@@ -1279,12 +1109,24 @@
                 
               
 
-              <time title="Created: 2018-08-09 21:26:00 / Modified: 21:39:56" itemprop="dateCreated datePublished" datetime="2018-08-09T21:26:00+10:00">2018-08-09</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:25:06" itemprop="dateModified" datetime="2018-07-23T19:25:06+10:00">2018-07-23</time>
               
             
           </span>
@@ -1301,7 +1143,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/reactjs/" itemprop="url" rel="index"><span itemprop="name">reactjs</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/sql-server/" itemprop="url" rel="index"><span itemprop="name">sql server</span></a></span>
 
                 
                 
@@ -1337,9 +1179,11 @@
       
         
           
-            <p>description: a simple example of todo list based on react.js</p>
-<h1 id="demo-of-the-react-todo-list"><a href="#demo-of-the-react-todo-list" class="headerlink" title="demo of the react todo list"></a>demo of the react todo list</h1><p><img src="./images/react-todo-list.gif" alt=""></p>
-<h1 id="main-code-for-the-simplest-todolist-component"><a href="#main-code-for-the-simplest-todolist-component" class="headerlink" title="main code for the simplest todolist component"></a>main code for the simplest todolist component</h1><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span>;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TodoList</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span> </span>&#123;</span><br><span class="line">    <span class="comment">// constuctor of the todolist component</span></span><br><span class="line">    <span class="keyword">constructor</span>(props) &#123;</span><br><span class="line">        <span class="keyword">super</span>(props);</span><br><span class="line">        <span class="keyword">this</span>.state = &#123;</span><br><span class="line">            list: [], <span class="comment">// data to receive list items </span></span><br><span class="line">            inputValue: <span class="string">''</span> <span class="comment">// data to receive user's input </span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// function to remove item from the list</span></span><br><span class="line">    handleItemClick(index) &#123;</span><br><span class="line">        <span class="keyword">const</span> list = [...this.state.list];</span><br><span class="line">        list.splice(index, <span class="number">1</span>);</span><br><span class="line">        <span class="keyword">this</span>.setState(&#123;list&#125;)</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// function to get user's input value</span></span><br><span class="line">    handleInputChange(e) &#123;</span><br><span class="line">        <span class="keyword">this</span>.setState(&#123;</span><br><span class="line">            inputValue: e.target.value</span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// function to add new item into the list</span></span><br><span class="line">    handleBtnClick() &#123;</span><br><span class="line">        <span class="keyword">this</span>.setState(&#123;</span><br><span class="line">            list: [...this.state.list, <span class="keyword">this</span>.state.inputValue],</span><br><span class="line">            inputValue: <span class="string">''</span></span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// output elements into the web page</span></span><br><span class="line">    render() &#123;</span><br><span class="line">        <span class="keyword">return</span> (</span><br><span class="line">            &lt;div&gt;</span><br><span class="line">                &lt;div&gt;</span><br><span class="line">                    &lt;input value=&#123;<span class="keyword">this</span>.state.inputValue&#125; onChange=&#123;<span class="keyword">this</span>.handleInputChange.bind(<span class="keyword">this</span>)&#125;/&gt;</span><br><span class="line">                    &lt;button onClick=&#123;<span class="keyword">this</span>.handleBtnClick.bind(<span class="keyword">this</span>)&#125;&gt;add&lt;<span class="regexp">/button&gt;</span></span><br><span class="line"><span class="regexp">                &lt;/</span>div&gt;</span><br><span class="line">                &lt;ul&gt;</span><br><span class="line">                    &#123;</span><br><span class="line">                        <span class="keyword">this</span>.state.list.map(<span class="function">(<span class="params">item, index</span>) =&gt;</span> &#123;</span><br><span class="line">                            <span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">li</span> <span class="attr">key</span>=<span class="string">&#123;index&#125;</span> <span class="attr">onClick</span>=<span class="string">&#123;this.handleItemClick.bind(this,</span> <span class="attr">index</span>)&#125;&gt;</span>&#123;item&#125;<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span></span><br><span class="line">                        &#125;)</span><br><span class="line">                    &#125;</span><br><span class="line">                &lt;<span class="regexp">/ul&gt;</span></span><br><span class="line"><span class="regexp">            &lt;/</span>div&gt;</span><br><span class="line">        );</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> TodoList;</span><br></pre></td></tr></table></figure>
+            <p>description: display line number in mssql editor</p>
+<ul>
+<li>tools -&gt; options </li>
+<li>Text Editor -&gt; Transact-SQL -&gt; line numbers </li>
+</ul>
 
           
         
@@ -1397,7 +1241,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/rdr_engine_demo_20180724.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/ssms_basic_frequent_commends.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chaofan">
@@ -1416,8 +1260,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/post/rdr_engine_demo_20180724.html" itemprop="url">
-                  Rdr Engine - Decision Tree Expert System Demonstration of Iris Dataset
+                <a class="post-title-link" href="/post/ssms_basic_frequent_commends.html" itemprop="url">
+                  basic frequent Sql commends in sql server
                 </a>
               
             
@@ -1443,12 +1287,199 @@
                 
               
 
-              <time title="Created: 2018-07-24 11:32:59 / Modified: 12:18:49" itemprop="dateCreated datePublished" datetime="2018-07-24T11:32:59+10:00">2018-07-24</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:25:12" itemprop="dateModified" datetime="2018-07-23T19:25:12+10:00">2018-07-23</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/sql-server/" itemprop="url" rel="index"><span itemprop="name">sql server</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: sql comments for basic query </p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- use </span></span><br><span class="line"><span class="keyword">use</span> testdb</span><br><span class="line"><span class="keyword">go</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people</span><br><span class="line"><span class="keyword">select</span> top <span class="number">1</span> * <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- insert into people values (1, 'lily', 'f', 12)</span></span><br><span class="line"><span class="comment">-- insert into people values (2, 'chao', 'm', 16)</span></span><br><span class="line"><span class="comment">-- insert into people values (3, 'alin', 'f',null)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">id</span>, <span class="keyword">name</span> <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- order by</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, age <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">desc</span>,<span class="keyword">id</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- order by number</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, age <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> <span class="number">2</span> <span class="comment">--2 means age </span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- isnull()</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, <span class="keyword">ISNULL</span> (age, <span class="string">''</span>) <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">--alias</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>, <span class="keyword">ISNULL</span> (age, <span class="string">''</span>) <span class="keyword">as</span> a <span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- concat strings </span></span><br><span class="line"><span class="keyword">select</span> <span class="string">'people '</span> + <span class="keyword">TRIM</span> (<span class="keyword">name</span>) + <span class="string">' is age of '</span> + <span class="keyword">convert</span>(<span class="built_in">varchar</span>, <span class="keyword">isnull</span>(age, <span class="string">''</span>)) <span class="keyword">as</span> [description] </span><br><span class="line"><span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- round()</span></span><br><span class="line"><span class="keyword">select</span> age, age * <span class="number">10</span> <span class="keyword">as</span> <span class="string">'age10'</span>,</span><br><span class="line"><span class="keyword">round</span>(<span class="keyword">convert</span>(<span class="built_in">float</span>,age)/<span class="number">8</span>, <span class="number">1</span>) <span class="keyword">as</span> <span class="string">'ageD8'</span>,</span><br><span class="line"><span class="keyword">round</span>(age/<span class="number">3</span>, <span class="number">0</span>) <span class="keyword">as</span> <span class="string">'ageD3'</span></span><br><span class="line"><span class="keyword">from</span> people</span><br><span class="line"></span><br><span class="line"><span class="comment">-- where </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age &lt;&gt; <span class="number">12</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- and or </span></span><br><span class="line"><span class="comment">-- select date from time where data between '2005-10-10' and '1/1/2006'</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">id</span> = <span class="number">2</span> <span class="keyword">or</span> <span class="keyword">id</span> = <span class="number">3</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> = <span class="string">'chao'</span> <span class="keyword">and</span> age =<span class="number">16</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- wildcard % like </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> <span class="keyword">like</span> <span class="string">'%h%'</span> </span><br><span class="line"></span><br><span class="line"><span class="comment">-- _ single character </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people <span class="keyword">where</span> <span class="keyword">name</span> <span class="keyword">like</span> <span class="string">'_hao%'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- in </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people</span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">in</span> (<span class="number">14</span>,<span class="number">16</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- not in </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">not</span> <span class="keyword">in</span> (<span class="number">16</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- is null</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">is</span> <span class="literal">null</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- is not null </span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> people </span><br><span class="line"><span class="keyword">where</span> age <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">null</span></span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/r_build_DecisionTree.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/r_build_DecisionTree.html" itemprop="url">
+                  R language to build Decision Tree for wine dataset
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 20:27:52" itemprop="dateModified" datetime="2018-07-23T20:27:52+10:00">2018-07-23</time>
               
             
           </span>
@@ -1501,19 +1532,13 @@
       
         
           
-            <p>description: demonstration of rdr engine to build decision tree of Iris Dataset </p>
-<h1 id="load-Iris-Dataset-to-build-decision-tree"><a href="#load-Iris-Dataset-to-build-decision-tree" class="headerlink" title="load Iris Dataset to build decision tree"></a>load Iris Dataset to build decision tree</h1><p>The processes are:</p>
-<ul>
-<li>to load iris dataset into the rdr engine </li>
-<li>system analyse and transform arff file into cases</li>
-<li>system build Decision Tree based on cases </li>
-</ul>
-<p>The process looks like:<br><img src="/images/04.10-demo_build_tree_short.gif" alt=""></p>
-<p>The cases look like:<br><img src="/images/2018-07-24-11-59-47.png" alt=""></p>
-<p>The Decision Tree looks like:<br><img src="/images/2018-07-24-12-00-24.png" alt=""></p>
-<h1 id="add-new-rule-into-Decision-Tree"><a href="#add-new-rule-into-Decision-Tree" class="headerlink" title="add new rule into Decision Tree"></a>add new rule into Decision Tree</h1><p>The process of adding new rule into the tree looks like:<br><img src="/images/04.10-demo_add_rule_short.gif" alt=""></p>
-<p>The new tree looks like:<br><img src="/images/2018-07-24-12-16-20.png" alt=""></p>
-
+            <p>description: build Decision Tree for wine dataset in R language </p>
+<h1 id="read-data-From-File"><a href="#read-data-From-File" class="headerlink" title="read data From File"></a>read data From File</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wine&lt;-read.table(<span class="string">"E:\\wine.data"</span>,</span><br><span class="line">                 sep=<span class="string">","</span>,</span><br><span class="line">                 col.names = c(<span class="string">"Type"</span>,<span class="string">"Alcohol"</span>,<span class="string">"Malic"</span>,<span class="string">"Ash"</span>,<span class="string">"Alcalinity"</span>,<span class="string">"Magnesium"</span>, <span class="string">"Phenols"</span>,<span class="string">"Flavanoids"</span>, <span class="string">"Nonflavanoids"</span>, <span class="string">"Proanthcyanins"</span>, <span class="string">"Color"</span>, <span class="string">"Hue"</span>, <span class="string">"Dilution"</span>, <span class="string">"Proline"</span>))</span><br><span class="line">wine$Type=factor(wine$Type)</span><br></pre></td></tr></table></figure>
+<h1 id="Data-mining-using-J48-Decision-Tree-classifier"><a href="#Data-mining-using-J48-Decision-Tree-classifier" class="headerlink" title="Data mining using J48 Decision Tree classifier"></a>Data mining using J48 Decision Tree classifier</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">wine.scale &lt;- cbind(wine[<span class="number">1</span>], scale(wine[-<span class="number">1</span>])) </span><br><span class="line">data.size &lt;- nrow(wine.scale)</span><br><span class="line">set.seed(<span class="number">1111</span>)</span><br><span class="line">samp &lt;- c(sample(<span class="number">1</span>:data.size, data.size * <span class="number">0.7</span>))</span><br><span class="line">data.tr &lt;- wine.scale[samp, ]</span><br><span class="line">data.test &lt;- wine.scale[-samp, ]</span><br></pre></td></tr></table></figure>
+<h1 id="J48-Model"><a href="#J48-Model" class="headerlink" title="J48 Model"></a>J48 Model</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wine_dt=J48(Type~.,data=data.tr)</span><br><span class="line">wine_dt</span><br><span class="line">prediction_dt = predict(wine_dt, data.test[,<span class="number">2</span>:<span class="number">14</span>]) </span><br><span class="line">prediction_dt</span><br></pre></td></tr></table></figure>
+<h1 id="rpart-get-tree-rules"><a href="#rpart-get-tree-rules" class="headerlink" title="rpart get tree rules"></a>rpart get tree rules</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">library</span>(rpart)</span><br><span class="line"></span><br><span class="line">res = rpart(Type ~., data = data.tr)</span><br><span class="line">res</span><br><span class="line"></span><br><span class="line">terminal_nodes = rownames(res$frame)[res$frame$var ==<span class="string">"&lt;leaf&gt;"</span>]</span><br><span class="line">path.rpart(res ,nodes=terminal_nodes)</span><br><span class="line">rules = path.rpart(res ,nodes=terminal_nodes)</span><br><span class="line">listed_rules = unlist(rules)</span><br><span class="line">sapply(rules,<span class="string">"["</span>,-<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">frm &lt;- res$frame</span><br><span class="line">names &lt;- row.names(frm)</span><br><span class="line"></span><br><span class="line">prediction_dt = predict(res, data.test[,<span class="number">2</span>:<span class="number">14</span>], type=<span class="string">"matrix"</span>)</span><br><span class="line">prediction_dt</span><br></pre></td></tr></table></figure>
+<h1 id="party"><a href="#party" class="headerlink" title="party"></a>party</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">update.packages()</span><br><span class="line">Sys.setenv(JAVA_HOME = <span class="string">"D:\\Program Files\\Java\\jdk1.8.0_151"</span>)</span><br><span class="line">install.packages(<span class="string">"zoo"</span>)</span><br><span class="line">install.packages(<span class="string">"party"</span>)</span><br><span class="line">install.packages(<span class="string">"sandwich"</span>)</span><br><span class="line"><span class="keyword">library</span>(party)</span><br><span class="line">mparty = party(Type ~., data = data.tr)</span><br><span class="line">mparty</span><br></pre></td></tr></table></figure>
+<h1 id="party-ctree"><a href="#party-ctree" class="headerlink" title="party ctree()"></a>party ctree()</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">p_ctree &lt;- ctree(Type ~., data=data.tr)</span><br><span class="line">ctree_class &lt;- predict(p_ctree,data.test[,<span class="number">2</span>:<span class="number">14</span>], type=<span class="string">"response"</span>)</span><br><span class="line">test_ctree &lt;- predict(p_ctree,data.test[,<span class="number">2</span>:<span class="number">14</span>], type=<span class="string">"node"</span>)</span><br><span class="line">test_ctree</span><br></pre></td></tr></table></figure>
           
         
       
@@ -1616,12 +1641,24 @@
                 
               
 
-              <time title="Created: 2018-07-24 11:27:37 / Modified: 11:25:28" itemprop="dateCreated datePublished" datetime="2018-07-24T11:27:37+10:00">2018-07-24</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-24 11:25:30" itemprop="dateModified" datetime="2018-07-24T11:25:30+10:00">2018-07-24</time>
               
             
           </span>
@@ -1793,12 +1830,24 @@
                 
               
 
-              <time title="Created: 2018-07-24 10:55:05 / Modified: 11:25:09" itemprop="dateCreated datePublished" datetime="2018-07-24T10:55:05+10:00">2018-07-24</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-24 11:25:10" itemprop="dateModified" datetime="2018-07-24T11:25:10+10:00">2018-07-24</time>
               
             
           </span>
@@ -1915,7 +1964,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/python_AI_simple_CNN_forMNIST.html">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/r_AI_ann_for_wine_data.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chaofan">
@@ -1934,8 +1983,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/post/python_AI_simple_CNN_forMNIST.html" itemprop="url">
-                  python simple convolutional neural network for MNIST dataset
+                <a class="post-title-link" href="/post/r_AI_ann_for_wine_data.html" itemprop="url">
+                  R language to build ANN network for wine data
                 </a>
               
             
@@ -1961,12 +2010,24 @@
                 
               
 
-              <time title="Created: 2018-07-23 23:19:29 / Modified: 19:52:42" itemprop="dateCreated datePublished" datetime="2018-07-23T23:19:29+10:00">2018-07-23</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 21:06:26" itemprop="dateModified" datetime="2018-07-23T21:06:26+10:00">2018-07-23</time>
               
             
           </span>
@@ -2019,15 +2080,15 @@
       
         
           
-            <p>description: simple CNN example for MNIST dataset</p>
-<h1 id="import-packages"><a href="#import-packages" class="headerlink" title="import packages"></a>import packages</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy</span><br><span class="line"><span class="keyword">from</span> keras.datasets <span class="keyword">import</span> mnist</span><br><span class="line"><span class="keyword">from</span> keras.models <span class="keyword">import</span> Sequential</span><br><span class="line"><span class="keyword">from</span> keras.layers <span class="keyword">import</span> Dense</span><br><span class="line"><span class="keyword">from</span> keras.layers <span class="keyword">import</span> Dropout</span><br><span class="line"><span class="keyword">from</span> keras.layers <span class="keyword">import</span> Flatten</span><br><span class="line"><span class="keyword">from</span> keras.layers.convolutional <span class="keyword">import</span> Conv2D</span><br><span class="line"><span class="keyword">from</span> keras.layers.convolutional <span class="keyword">import</span> MaxPooling2D</span><br><span class="line"><span class="keyword">from</span> keras.utils <span class="keyword">import</span> np_utils</span><br><span class="line"><span class="keyword">from</span> keras <span class="keyword">import</span> backend <span class="keyword">as</span> K</span><br><span class="line">K.set_image_dim_ordering(<span class="string">'th'</span>)</span><br></pre></td></tr></table></figure>
-<h1 id="fix-random-seed-for-reproducibility"><a href="#fix-random-seed-for-reproducibility" class="headerlink" title="fix random seed for reproducibility"></a>fix random seed for reproducibility</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">seed = <span class="number">7</span></span><br><span class="line">numpy.random.seed(seed)</span><br></pre></td></tr></table></figure>
-<h1 id="load-data"><a href="#load-data" class="headerlink" title="load data"></a>load data</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">(X_train, y_train), (X_test, y_test) = mnist.load_data()</span><br><span class="line"><span class="comment"># reshape to be [samples][pixels][width][height]</span></span><br><span class="line">X_train = X_train.reshape(X_train.shape[<span class="number">0</span>], <span class="number">1</span>, <span class="number">28</span>, <span class="number">28</span>).astype(<span class="string">'float32'</span>)</span><br><span class="line">X_test = X_test.reshape(X_test.shape[<span class="number">0</span>], <span class="number">1</span>, <span class="number">28</span>, <span class="number">28</span>).astype(<span class="string">'float32'</span>)</span><br></pre></td></tr></table></figure>
-<h1 id="normalize-inputs-from-0-255-to-0-1"><a href="#normalize-inputs-from-0-255-to-0-1" class="headerlink" title="normalize inputs from 0-255 to 0-1"></a>normalize inputs from 0-255 to 0-1</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">X_train = X_train / <span class="number">255</span></span><br><span class="line">X_test = X_test / <span class="number">255</span></span><br><span class="line"><span class="comment"># one hot encode outputs</span></span><br><span class="line">y_train = np_utils.to_categorical(y_train)</span><br><span class="line">y_test = np_utils.to_categorical(y_test)</span><br><span class="line">num_classes = y_test.shape[<span class="number">1</span>]</span><br></pre></td></tr></table></figure>
-<h1 id="define-baseline-model"><a href="#define-baseline-model" class="headerlink" title="define baseline model"></a>define baseline model</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">baseline_model</span><span class="params">()</span>:</span></span><br><span class="line">	<span class="comment"># create model</span></span><br><span class="line">	model = Sequential()</span><br><span class="line">	model.add(Conv2D(<span class="number">32</span>, (<span class="number">5</span>, <span class="number">5</span>), input_shape=(<span class="number">1</span>, <span class="number">28</span>, <span class="number">28</span>), activation=<span class="string">'relu'</span>))</span><br><span class="line">	model.add(MaxPooling2D(pool_size=(<span class="number">2</span>, <span class="number">2</span>)))</span><br><span class="line">	model.add(Dropout(<span class="number">0.2</span>))</span><br><span class="line">	model.add(Flatten())</span><br><span class="line">	model.add(Dense(<span class="number">128</span>, activation=<span class="string">'relu'</span>))</span><br><span class="line">	model.add(Dense(num_classes, activation=<span class="string">'softmax'</span>))</span><br><span class="line">	<span class="comment"># Compile model</span></span><br><span class="line">	model.compile(loss=<span class="string">'categorical_crossentropy'</span>, optimizer=<span class="string">'adam'</span>, metrics=[<span class="string">'accuracy'</span>])</span><br><span class="line">	<span class="keyword">return</span> model</span><br></pre></td></tr></table></figure>
-<h1 id="define-model"><a href="#define-model" class="headerlink" title="define model"></a>define model</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># build the model</span></span><br><span class="line">model = baseline_model()</span><br><span class="line"><span class="comment"># Fit the model</span></span><br><span class="line">model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=<span class="number">3</span>, batch_size=<span class="number">200</span>, verbose=<span class="number">2</span>)</span><br><span class="line"><span class="comment"># Final evaluation of the model</span></span><br><span class="line">scores = model.evaluate(X_test, y_test, verbose=<span class="number">0</span>)</span><br><span class="line">print(<span class="string">"Baseline Error: %.2f%%"</span> % (<span class="number">100</span>-scores[<span class="number">1</span>]*<span class="number">100</span>))</span><br></pre></td></tr></table></figure>
-<h1 id="output"><a href="#output" class="headerlink" title="output"></a>output</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Train on <span class="number">60000</span> samples, validate on <span class="number">10000</span> samples</span><br><span class="line"></span><br><span class="line">Epoch <span class="number">1</span>/<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="number">69</span>s - loss: <span class="number">0.2498</span> - acc: <span class="number">0.9283</span> - val_loss: <span class="number">0.0715</span> - val_acc: <span class="number">0.9803</span></span><br><span class="line"></span><br><span class="line">Epoch <span class="number">2</span>/<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="number">70</span>s - loss: <span class="number">0.0714</span> - acc: <span class="number">0.9786</span> - val_loss: <span class="number">0.0503</span> - val_acc: <span class="number">0.9833</span></span><br><span class="line"></span><br><span class="line">Epoch <span class="number">3</span>/<span class="number">3</span></span><br></pre></td></tr></table></figure>
-
+            <p>description: build ANN network from wine data in r language</p>
+<h1 id="read-table-data"><a href="#read-table-data" class="headerlink" title="read table data"></a>read table data</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wine &lt;- read.table(<span class="string">"https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data"</span>,</span><br><span class="line">    sep=<span class="string">","</span>, <span class="comment"># 分隔符为 , comma</span></span><br><span class="line">    col.names=c(<span class="string">"Type"</span>,<span class="string">"Alcohol"</span>,<span class="string">"Malic"</span>,<span class="string">"Ash"</span>,<span class="string">"Alcalinity"</span>,<span class="string">"Magnesium"</span>,<span class="string">"Phenols"</span>,<span class="string">"Flavanoids"</span>,<span class="string">"Nonflavanoids"</span>,<span class="string">"Proanthocyanins"</span>,<span class="string">"Color"</span>,<span class="string">"Hue"</span>,<span class="string">"Dilution"</span>,<span class="string">"Proline"</span>)</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<h1 id="preview-data"><a href="#preview-data" class="headerlink" title="preview data"></a>preview data</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">print(wine)</span><br><span class="line"><span class="comment">#     Type Alcohol Malic  Ash Alcalinity Magnesium Phenols Flavanoids</span></span><br><span class="line"><span class="comment"># 1      1   14.23  1.71 2.43       15.6       127    2.80       3.06</span></span><br><span class="line"><span class="comment"># 2      1   13.20  1.78 2.14       11.2       100    2.65       2.76</span></span><br><span class="line"><span class="comment"># 3      1   13.16  2.36 2.67       18.6       101    2.80       3.24</span></span><br><span class="line"><span class="comment"># 4      1   14.37  1.95 2.50       16.8       113    3.85       3.49</span></span><br><span class="line"><span class="comment"># 5      1   13.24  2.59 2.87       21.0       118    2.80       2.69</span></span><br><span class="line"><span class="comment"># ....</span></span><br><span class="line"></span><br><span class="line">print(nrow(wine))</span><br><span class="line"><span class="comment"># [1] 178</span></span><br><span class="line"></span><br><span class="line">print(ncol(wine))</span><br><span class="line"><span class="comment"># [1] 14</span></span><br><span class="line"></span><br><span class="line">print(summary(wine))</span><br><span class="line"><span class="comment">#       Type          Alcohol          Malic            Ash       </span></span><br><span class="line"><span class="comment">#  Min.   :1.000   Min.   :11.03   Min.   :0.740   Min.   :1.360  </span></span><br><span class="line"><span class="comment">#  1st Qu.:1.000   1st Qu.:12.36   1st Qu.:1.603   1st Qu.:2.210  </span></span><br><span class="line"><span class="comment">#  Median :2.000   Median :13.05   Median :1.865   Median :2.360  </span></span><br><span class="line"><span class="comment">#  Mean   :1.938   Mean   :13.00   Mean   :2.336   Mean   :2.367 </span></span><br><span class="line"><span class="comment"># ...</span></span><br></pre></td></tr></table></figure>
+<h1 id="attribute-to-categorical-data"><a href="#attribute-to-categorical-data" class="headerlink" title="attribute to categorical data"></a>attribute to categorical data</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">wine$Type=factor(wine$Type)</span><br><span class="line">print(summary(wine))</span><br><span class="line"><span class="comment"># Type      Alcohol          Malic            Ash          Alcalinity   </span></span><br><span class="line"><span class="comment">#  1:59   Min.   :11.03   Min.   :0.740   Min.   :1.360   Min.   :10.60  </span></span><br><span class="line"><span class="comment">#  2:71   1st Qu.:12.36   1st Qu.:1.603   1st Qu.:2.210   1st Qu.:17.20  </span></span><br><span class="line"><span class="comment">#  3:48   Median :13.05   Median :1.865   Median :2.360   Median :19.50  </span></span><br><span class="line"><span class="comment">#         Mean   :13.00   Mean   :2.336   Mean   :2.367   Mean   :19.49  </span></span><br><span class="line"><span class="comment"># ...</span></span><br></pre></td></tr></table></figure>
+<h1 id="data-pre-processing-and-transformation"><a href="#data-pre-processing-and-transformation" class="headerlink" title="data pre-processing and transformation"></a>data pre-processing and transformation</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">wine.scale &lt;- cbind(wine[<span class="number">1</span>], scale(wine[-<span class="number">1</span>]))</span><br><span class="line">print(summary(wine.scale))</span><br><span class="line">apply(wine.scale[-<span class="number">1</span>], <span class="number">2</span>, sd)</span><br><span class="line"><span class="comment">#  Type      Alcohol             Malic              Ash          </span></span><br><span class="line"><span class="comment">#  1:59   Min.   :-2.42739   Min.   :-1.4290   Min.   :-3.66881  </span></span><br><span class="line"><span class="comment">#  2:71   1st Qu.:-0.78603   1st Qu.:-0.6569   1st Qu.:-0.57051  </span></span><br><span class="line"><span class="comment">#  3:48   Median : 0.06083   Median :-0.4219   Median :-0.02375  </span></span><br><span class="line"><span class="comment">#         Mean   : 0.00000   Mean   : 0.0000   Mean   : 0.00000  </span></span><br><span class="line"><span class="comment"># ...</span></span><br></pre></td></tr></table></figure>
+<h1 id="partitioning-the-data-into-training-and-test-data"><a href="#partitioning-the-data-into-training-and-test-data" class="headerlink" title="partitioning the data into training and test data"></a>partitioning the data into training and test data</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">data.size &lt;- nrow(wine.scale) </span><br><span class="line">set.seed(<span class="number">1111</span>) </span><br><span class="line">samp &lt;- c(sample(<span class="number">1</span>:data.size, data.size*<span class="number">0.7</span>))</span><br><span class="line">data.tr &lt;- wine.scale[samp, ]</span><br><span class="line">data.test &lt;- wine.scale[-samp, ]</span><br><span class="line"></span><br><span class="line">summary(data.tr)</span><br><span class="line">summary(data.test)</span><br></pre></td></tr></table></figure>
+<h1 id="data-mining-using-a-neural-Network-classification-technique"><a href="#data-mining-using-a-neural-Network-classification-technique" class="headerlink" title="data mining using a neural Network classification technique"></a>data mining using a neural Network classification technique</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">library</span>(nnet)</span><br><span class="line">model.nnet &lt;- nnet(Type ~ ., </span><br><span class="line">                   data = data.tr,</span><br><span class="line">                   size=<span class="number">2</span>, <span class="comment"># 2 level </span></span><br><span class="line">                   decay=<span class="number">5e-04</span>,</span><br><span class="line">                   maxit=<span class="number">200</span>) <span class="comment"># stopped after 200 iterations</span></span><br><span class="line">summary(model.nnet)</span><br><span class="line"><span class="comment"># initial  value 164.152084 </span></span><br><span class="line"><span class="comment"># iter  10 value 7.066118</span></span><br><span class="line"><span class="comment"># iter  20 value 1.286566</span></span><br><span class="line"><span class="comment"># iter  30 value 0.542334</span></span><br><span class="line"><span class="comment"># iter  40 value 0.444873</span></span><br><span class="line"><span class="comment"># ...</span></span><br></pre></td></tr></table></figure>
+<h1 id="pattern-model-evaluation"><a href="#pattern-model-evaluation" class="headerlink" title="pattern (model) evaluation"></a>pattern (model) evaluation</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">predicted &lt;- predict(model.nnet,</span><br><span class="line">                     data.test,</span><br><span class="line">                     type=<span class="string">"class"</span>)</span><br><span class="line">predicted</span><br><span class="line"></span><br><span class="line">actual &lt;- data.test$Type</span><br><span class="line">model.confusion.matrix &lt;- table(actual, predicted)</span><br><span class="line">model.confusion.matrix </span><br><span class="line"></span><br><span class="line">confusion.matrix.rate = prop.table(model.confusion.matrix) * <span class="number">100</span></span><br><span class="line">round(confusion.matrix.rate, digit=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">diag.index &lt;- cbind(<span class="number">1</span>:<span class="number">3</span>, <span class="number">1</span>:<span class="number">3</span>)</span><br><span class="line"></span><br><span class="line">error.overall = sum(confusion.matrix.rate) - sum(confusion.matrix.rate[diag.index])</span><br><span class="line">paste(<span class="string">"Error Rate ="</span>, round(error.overall, digit=<span class="number">2</span>), <span class="string">"%"</span>)</span><br></pre></td></tr></table></figure>
+<h1 id="Data-mining-Task-using-a-nearest-neighbour-approach"><a href="#Data-mining-Task-using-a-nearest-neighbour-approach" class="headerlink" title="Data mining Task using a nearest neighbour approach"></a>Data mining Task using a nearest neighbour approach</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">P1=c(<span class="number">1</span>,<span class="number">3</span>) </span><br><span class="line">P2=c(<span class="number">2</span>,<span class="number">4</span>)</span><br><span class="line">P3=c(<span class="number">6</span>,<span class="number">6</span>)</span><br><span class="line"></span><br><span class="line">N1=c(<span class="number">2</span>,<span class="number">1</span>) </span><br><span class="line">N2=c(<span class="number">5</span>,<span class="number">3</span>)</span><br><span class="line">N3=c(<span class="number">6</span>,<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line">train=rbind(P1,P2,P3,N1,N2,N3) <span class="comment"># build the classification matrix </span></span><br><span class="line">plot(train)</span><br><span class="line"></span><br><span class="line">class=factor(c(rep(<span class="string">"lover"</span>,<span class="number">3</span>),rep(<span class="string">"hater"</span>,<span class="number">3</span>))) <span class="comment"># [1] lover lover lover hater hater hater</span></span><br><span class="line">class</span><br><span class="line"></span><br><span class="line">test=c(<span class="number">1</span>,<span class="number">4</span>) <span class="comment"># testing data to be classified </span></span><br><span class="line">test <span class="comment"># 1 4 </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">library</span>(class)</span><br><span class="line">summary(knn(train, test, class, k=<span class="number">3</span>)) <span class="comment"># hater 0 lover 1</span></span><br><span class="line"></span><br><span class="line">test=c(<span class="number">6</span>,<span class="number">4</span>)</span><br><span class="line">summary(knn(train, test, class, k=<span class="number">3</span>)) <span class="comment"># hater 1 lover 0</span></span><br></pre></td></tr></table></figure>
           
         
       
@@ -2116,7 +2177,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">49</span>
+                    <span class="site-state-item-count">50</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>

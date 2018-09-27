@@ -2,373 +2,380 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kelfan.github.io/post/java_robot_movement.html</loc>
+    
+    <lastmod>2018-09-27T08:24:48.285Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kelfan.github.io/post/typescript-string-new-feature.html</loc>
     
-    <lastmod>2018-09-10T07:03:18.382Z</lastmod>
+    <lastmod>2018-09-10T07:03:20.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/react-music-player-example.html</loc>
     
-    <lastmod>2018-08-22T05:56:41.553Z</lastmod>
+    <lastmod>2018-08-22T05:56:42.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/react_sap_route_and_todolist.html</loc>
     
-    <lastmod>2018-08-17T13:31:14.729Z</lastmod>
+    <lastmod>2018-08-17T13:31:16.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/react_get_user_input.html</loc>
     
-    <lastmod>2018-08-16T10:41:53.394Z</lastmod>
+    <lastmod>2018-08-16T10:41:54.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/react_component_exercise.html</loc>
     
-    <lastmod>2018-08-16T03:37:12.577Z</lastmod>
+    <lastmod>2018-08-16T03:37:14.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/react_todo_list_app.html</loc>
     
-    <lastmod>2018-08-09T11:39:56.869Z</lastmod>
+    <lastmod>2018-08-09T11:39:58.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/rdr_engine_demo_20180724.html</loc>
     
-    <lastmod>2018-07-24T02:18:49.602Z</lastmod>
+    <lastmod>2018-07-24T02:18:50.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/r_AI_kmeans_hcluster.html</loc>
     
-    <lastmod>2018-07-24T01:25:28.919Z</lastmod>
+    <lastmod>2018-07-24T01:25:30.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/r_AI_cluster_by_k-means.html</loc>
     
-    <lastmod>2018-07-24T01:25:09.717Z</lastmod>
+    <lastmod>2018-07-24T01:25:10.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/r_AI_ann_for_wine_data.html</loc>
     
-    <lastmod>2018-07-23T11:06:24.108Z</lastmod>
+    <lastmod>2018-07-23T11:06:26.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/r_build_DecisionTree.html</loc>
     
-    <lastmod>2018-07-23T10:27:51.922Z</lastmod>
+    <lastmod>2018-07-23T10:27:52.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_AI_LSTM_for_txt.html</loc>
     
-    <lastmod>2018-07-23T10:11:19.440Z</lastmod>
+    <lastmod>2018-07-23T10:11:20.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_AI_rl_example.html</loc>
     
-    <lastmod>2018-07-23T10:05:57.363Z</lastmod>
+    <lastmod>2018-07-23T10:05:58.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_AI_DecisionTree_on_BankNoteDataset.html</loc>
     
-    <lastmod>2018-07-23T09:59:20.024Z</lastmod>
+    <lastmod>2018-07-23T09:59:22.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_AI_simple_CNN_forMNIST.html</loc>
     
-    <lastmod>2018-07-23T09:52:42.946Z</lastmod>
+    <lastmod>2018-07-23T09:52:44.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_AI_simple_MLP_in_Keras.html</loc>
     
-    <lastmod>2018-07-23T09:40:39.846Z</lastmod>
+    <lastmod>2018-07-23T09:40:40.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_AI_forward_propagate.html</loc>
     
-    <lastmod>2018-07-23T09:36:47.816Z</lastmod>
+    <lastmod>2018-07-23T09:36:48.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_AI_small_network_example.html</loc>
     
-    <lastmod>2018-07-23T09:31:41.235Z</lastmod>
+    <lastmod>2018-07-23T09:31:42.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/docker_error_response_from_daemon.html</loc>
     
-    <lastmod>2018-07-23T09:27:15.600Z</lastmod>
+    <lastmod>2018-07-23T09:27:16.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/docker_resign_port_to_exist_image.html</loc>
     
-    <lastmod>2018-07-23T09:27:11.132Z</lastmod>
+    <lastmod>2018-07-23T09:27:12.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/docker_sql_server_connect_from_ssms.html</loc>
     
-    <lastmod>2018-07-23T09:27:06.420Z</lastmod>
+    <lastmod>2018-07-23T09:27:08.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/docker_unauthorized_username_password.html</loc>
     
-    <lastmod>2018-07-23T09:27:01.328Z</lastmod>
+    <lastmod>2018-07-23T09:27:02.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/git_set_ssh_for_tortoisegit.html</loc>
     
-    <lastmod>2018-07-23T09:26:55.801Z</lastmod>
+    <lastmod>2018-07-23T09:26:56.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/git_switch_https_ssh.html</loc>
     
-    <lastmod>2018-07-23T09:26:51.657Z</lastmod>
+    <lastmod>2018-07-23T09:26:52.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/google_home.html</loc>
     
-    <lastmod>2018-07-23T09:26:46.940Z</lastmod>
+    <lastmod>2018-07-23T09:26:48.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/hexo_add_local_search.html</loc>
     
-    <lastmod>2018-07-23T09:26:35.854Z</lastmod>
+    <lastmod>2018-07-23T09:26:36.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/hexo_add_sitemap.html</loc>
     
-    <lastmod>2018-07-23T09:26:30.302Z</lastmod>
+    <lastmod>2018-07-23T09:26:32.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/hexo_next_google_adsense.html</loc>
     
-    <lastmod>2018-07-23T09:26:26.043Z</lastmod>
+    <lastmod>2018-07-23T09:26:28.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/hexo_rss_feed.html</loc>
     
-    <lastmod>2018-07-23T09:26:20.448Z</lastmod>
+    <lastmod>2018-07-23T09:26:22.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/hexo_title_seo_optimization.html</loc>
     
-    <lastmod>2018-07-23T09:26:15.126Z</lastmod>
+    <lastmod>2018-07-23T09:26:16.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/java_array_to_list.html</loc>
     
-    <lastmod>2018-07-23T09:26:10.874Z</lastmod>
+    <lastmod>2018-07-23T09:26:12.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/mssql_install_error_1638.html</loc>
     
-    <lastmod>2018-07-23T09:26:05.604Z</lastmod>
+    <lastmod>2018-07-23T09:26:06.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_assign_value_conditionally.html</loc>
     
-    <lastmod>2018-07-23T09:26:00.861Z</lastmod>
+    <lastmod>2018-07-23T09:26:02.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_dataframe_loop_rows.html</loc>
     
-    <lastmod>2018-07-23T09:25:54.928Z</lastmod>
+    <lastmod>2018-07-23T09:25:56.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_dataframe_loop_set.html</loc>
     
-    <lastmod>2018-07-23T09:25:49.908Z</lastmod>
+    <lastmod>2018-07-23T09:25:50.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_dataframe_resign_headers.html</loc>
     
-    <lastmod>2018-07-23T09:25:44.832Z</lastmod>
+    <lastmod>2018-07-23T09:25:46.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_datetime_add_day.html</loc>
     
-    <lastmod>2018-07-23T09:25:40.290Z</lastmod>
+    <lastmod>2018-07-23T09:25:42.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_extract_columns.html</loc>
     
-    <lastmod>2018-07-23T09:25:35.163Z</lastmod>
+    <lastmod>2018-07-23T09:25:36.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_format_string_output.html</loc>
     
-    <lastmod>2018-07-23T09:25:30.429Z</lastmod>
+    <lastmod>2018-07-23T09:25:32.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_string_to_datetime.html</loc>
     
-    <lastmod>2018-07-23T09:25:26.010Z</lastmod>
+    <lastmod>2018-07-23T09:25:28.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_timedelta%20_to_seconds.html</loc>
     
-    <lastmod>2018-07-23T09:25:21.255Z</lastmod>
+    <lastmod>2018-07-23T09:25:22.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/python_timedelta_days.html</loc>
     
-    <lastmod>2018-07-23T09:25:16.439Z</lastmod>
+    <lastmod>2018-07-23T09:25:18.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/ssms_basic_frequent_commends.html</loc>
     
-    <lastmod>2018-07-23T09:25:11.342Z</lastmod>
+    <lastmod>2018-07-23T09:25:12.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/ssms_display_line_number.html</loc>
     
-    <lastmod>2018-07-23T09:25:05.220Z</lastmod>
+    <lastmod>2018-07-23T09:25:06.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/ssms_not_permit_change.html</loc>
     
-    <lastmod>2018-07-23T09:24:59.319Z</lastmod>
+    <lastmod>2018-07-23T09:25:00.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/vba_get_list_of_modules_name.html</loc>
     
-    <lastmod>2018-07-23T09:24:46.954Z</lastmod>
+    <lastmod>2018-07-23T09:24:48.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/vs_code_datetime_snippet.html</loc>
     
-    <lastmod>2018-07-23T09:24:42.277Z</lastmod>
+    <lastmod>2018-07-23T09:24:44.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/docker_run_sql_server.html</loc>
     
-    <lastmod>2018-07-23T09:24:27.676Z</lastmod>
+    <lastmod>2018-07-23T09:24:28.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/post/docker_commends.html</loc>
     
-    <lastmod>2018-07-23T09:24:19.604Z</lastmod>
+    <lastmod>2018-07-23T09:24:20.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/search/index.html</loc>
     
-    <lastmod>2018-07-14T08:21:44.594Z</lastmod>
+    <lastmod>2018-07-14T08:21:46.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/404/index.html</loc>
     
-    <lastmod>2018-07-14T06:52:34.157Z</lastmod>
+    <lastmod>2018-07-14T06:52:36.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/tags/index.html</loc>
     
-    <lastmod>2018-07-14T06:48:53.246Z</lastmod>
+    <lastmod>2018-07-14T06:48:54.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kelfan.github.io/categories/index.html</loc>
     
-    <lastmod>2018-07-14T06:45:25.273Z</lastmod>
+    <lastmod>2018-07-14T06:45:26.000Z</lastmod>
     
   </url>
   

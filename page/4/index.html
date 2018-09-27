@@ -361,832 +361,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/python_dataframe_loop_set.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chaofan">
-      <meta itemprop="description" content="Personal blog for sharing useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/python_dataframe_loop_set.html" itemprop="url">
-                  python change dataframe column into set and loop the set
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:49" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>description: change dataframe column into set and iterate</p>
-<h1 id="change-dataframe-column-into-a-set"><a href="#change-dataframe-column-into-a-set" class="headerlink" title="change dataframe column into a set"></a>change dataframe column into a set</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas</span><br><span class="line">a = pandas.DataFrame([[<span class="number">1</span>,<span class="number">2</span>],[<span class="number">2</span>,<span class="number">3</span>],[<span class="number">4</span>,<span class="number">5</span>]], columns=[<span class="string">'a'</span>,<span class="string">'b'</span>])</span><br><span class="line"><span class="comment"># a</span></span><br><span class="line"><span class="comment">#    a  b</span></span><br><span class="line"><span class="comment"># 0  1  2</span></span><br><span class="line"><span class="comment"># 1  2  3</span></span><br><span class="line">b = a[<span class="string">'a'</span>].unique()</span><br><span class="line"><span class="comment"># b</span></span><br><span class="line"><span class="comment"># array([1, 2, 4], dtype=int64)</span></span><br><span class="line">b = set(b)</span><br><span class="line"><span class="comment"># b</span></span><br><span class="line"><span class="comment"># &#123;1, 2, 4&#125;</span></span><br></pre></td></tr></table></figure>
-<h1 id="iterate-dataframe-column-set"><a href="#iterate-dataframe-column-set" class="headerlink" title="iterate dataframe column set"></a>iterate dataframe column set</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> b:</span><br><span class="line">    print(item)</span><br><span class="line"><span class="comment"># 1</span></span><br><span class="line"><span class="comment"># 2</span></span><br><span class="line"><span class="comment"># 4</span></span><br></pre></td></tr></table></figure>
-<h1 id="combine-into-a-single-code"><a href="#combine-into-a-single-code" class="headerlink" title="combine into a single code"></a>combine into a single code</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> a[<span class="string">'a'</span>].unique():</span><br><span class="line">    print(item)</span><br><span class="line"><span class="comment"># 1</span></span><br><span class="line"><span class="comment"># 2</span></span><br><span class="line"><span class="comment"># 4</span></span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/python_dataframe_loop_rows.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chaofan">
-      <meta itemprop="description" content="Personal blog for sharing useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/python_dataframe_loop_rows.html" itemprop="url">
-                  python iterate or loop each row of a dataframe
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:25:54" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>description: python iterate a dataframe </p>
-<h1 id="loop-each-row-of-a-dataframe"><a href="#loop-each-row-of-a-dataframe" class="headerlink" title="loop each row of a dataframe"></a>loop each row of a dataframe</h1><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas</span><br><span class="line">data = pandas.DataFrame([[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>],[<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>],[<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]])</span><br><span class="line"><span class="keyword">for</span> row <span class="keyword">in</span> data.values:</span><br><span class="line">    print(row)</span><br><span class="line"><span class="comment"># output </span></span><br><span class="line"><span class="comment"># [1 2 3]</span></span><br><span class="line"><span class="comment"># [4 5 6]</span></span><br><span class="line"><span class="comment"># [7 8 9]</span></span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/python_assign_value_conditionally.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chaofan">
-      <meta itemprop="description" content="Personal blog for sharing useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/python_assign_value_conditionally.html" itemprop="url">
-                  python assign value of dataframe by conditions
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:00" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>description: python assign or set value if conditions match </p>
-<h1 id="python-assign-or-set-value-based-on-conditions"><a href="#python-assign-or-set-value-based-on-conditions" class="headerlink" title="python assign or set value based on conditions"></a>python assign or set value based on conditions</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas</span><br><span class="line"></span><br><span class="line">data = pandas.DataFrame(&#123;<span class="string">"test"</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>], <span class="string">"a"</span>: [<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>], <span class="string">"b"</span>: [<span class="number">0</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">2</span>]&#125;)</span><br><span class="line"><span class="comment"># test  a  b</span></span><br><span class="line"><span class="comment"># 0    10  1  0</span></span><br><span class="line"><span class="comment"># 1    20  1  2</span></span><br><span class="line"><span class="comment"># 2    30  1  2</span></span><br><span class="line"><span class="comment"># 3    40  2  2</span></span><br></pre></td></tr></table></figure>
-<h1 id="filter-the-data-with-condtion-1"><a href="#filter-the-data-with-condtion-1" class="headerlink" title="filter the data with condtion 1"></a>filter the data with condtion 1</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tmp = data[data[<span class="string">"a"</span>] == <span class="number">1</span>]</span><br><span class="line"><span class="comment"># test  a  b</span></span><br><span class="line"><span class="comment"># 0    10  1  0</span></span><br><span class="line"><span class="comment"># 1    20  1  2</span></span><br><span class="line"><span class="comment"># 2    30  1  2</span></span><br></pre></td></tr></table></figure>
-<h1 id="filter-the-data-with-condition-2"><a href="#filter-the-data-with-condition-2" class="headerlink" title="filter the data with condition 2"></a>filter the data with condition 2</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tmp = tmp[tmp[<span class="string">"b"</span>] == <span class="number">2</span>]</span><br><span class="line"><span class="comment"># test  a  b</span></span><br><span class="line"><span class="comment"># 1    20  1  2</span></span><br><span class="line"><span class="comment"># 2    30  1  2</span></span><br></pre></td></tr></table></figure>
-<h1 id="get-the-index-of-the-data"><a href="#get-the-index-of-the-data" class="headerlink" title="get the index of the data"></a>get the index of the data</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">indexes = tmp.index</span><br><span class="line"><span class="comment"># Int64Index([1, 2], dtype='int64')</span></span><br></pre></td></tr></table></figure>
-<h1 id="change-values-by-indexes-and-column-name"><a href="#change-values-by-indexes-and-column-name" class="headerlink" title="change values by indexes and column name"></a>change values by indexes and column name</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">data._set_value(indexes, <span class="string">'test'</span>, <span class="number">888888</span>)</span><br><span class="line"><span class="comment"># test  a  b</span></span><br><span class="line"><span class="comment"># 0      10  1  0</span></span><br><span class="line"><span class="comment"># 1  888888  1  2</span></span><br><span class="line"><span class="comment"># 2  888888  1  2</span></span><br><span class="line"><span class="comment"># 3      40  2  2</span></span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/mssql_install_error_1638.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chaofan">
-      <meta itemprop="description" content="Personal blog for sharing useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/mssql_install_error_1638.html" itemprop="url">
-                  Microsoft Sql server installation with 1638 error
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:05" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/sql-server/" itemprop="url" rel="index"><span itemprop="name">sql server</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>description: unable to install Sql Server with exit code 1638 </p>
-<h1 id="solution"><a href="#solution" class="headerlink" title="solution"></a>solution</h1><ul>
-<li>exit code 1638 means a newer version of Microsoft Visual C++ has been installed </li>
-<li>uninstall 2015, 2017 and others higher than 2015</li>
-<li>restart the process </li>
-</ul>
-<h1 id="problem-description"><a href="#problem-description" class="headerlink" title="problem description"></a>problem description</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">TITLE: Microsoft SQL Server 2017 Setup</span><br><span class="line">------------------------------</span><br><span class="line"></span><br><span class="line">The following error has occurred:</span><br><span class="line"></span><br><span class="line">VS Shell installation has failed with exit code 1638.</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/java_array_to_list.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chaofan">
-      <meta itemprop="description" content="Personal blog for sharing useful information">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/java_array_to_list.html" itemprop="url">
-                  java change array into a list
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:10" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>description: convert array into a list in java </p>
-<h1 id="convert-array-into-list"><a href="#convert-array-into-list" class="headerlink" title="convert array into list"></a>convert array into list</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;Object&gt; list = <span class="keyword">new</span> ArrayList(Arrays.asList(yourArray));</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    
-      
-
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/hexo_title_seo_optimization.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1233,12 +407,24 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:15" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:26:16" itemprop="dateModified" datetime="2018-07-23T19:26:16+10:00">2018-07-23</time>
               
             
           </span>
@@ -1398,12 +584,24 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:20" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:26:22" itemprop="dateModified" datetime="2018-07-23T19:26:22+10:00">2018-07-23</time>
               
             
           </span>
@@ -1561,12 +759,24 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:26" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:26:28" itemprop="dateModified" datetime="2018-07-23T19:26:28+10:00">2018-07-23</time>
               
             
           </span>
@@ -1725,12 +935,24 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:30" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:26:32" itemprop="dateModified" datetime="2018-07-23T19:26:32+10:00">2018-07-23</time>
               
             
           </span>
@@ -1891,12 +1113,24 @@
                 
               
 
-              <time title="Created: 2018-07-23 08:56:56 / Modified: 19:26:35" itemprop="dateCreated datePublished" datetime="2018-07-23T08:56:56+10:00">2018-07-23</time>
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:26:36" itemprop="dateModified" datetime="2018-07-23T19:26:36+10:00">2018-07-23</time>
               
             
           </span>
@@ -1995,6 +1229,906 @@
 
 
     
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/google_home.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/google_home.html" itemprop="url">
+                  Google Home links to Local Host through localtunnel
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:26:48" itemprop="dateModified" datetime="2018-07-23T19:26:48+10:00">2018-07-23</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/nodejs/" itemprop="url" rel="index"><span itemprop="name">nodejs</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="nodejs-localhost"><a href="#nodejs-localhost" class="headerlink" title="nodejs localhost"></a>nodejs localhost</h1><p>Google home request -&gt; index.js<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>),</span><br><span class="line">	app = express(),</span><br><span class="line">	bodyparser = <span class="built_in">require</span>(<span class="string">'body-parser'</span>),</span><br><span class="line">	assistant = <span class="built_in">require</span>(<span class="string">'./assistant.js'</span>),</span><br><span class="line">	util = <span class="built_in">require</span>(<span class="string">'util'</span>);</span><br><span class="line">app.use(bodyparser.json())</span><br><span class="line"></span><br><span class="line"><span class="comment">// GET method route</span></span><br><span class="line">app.all(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  	<span class="built_in">console</span>.log(<span class="string">'index.js/'</span>);</span><br><span class="line">  	assistant.assistantHandler(req,res)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">app.all(<span class="string">'/test'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>) </span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'index.js/test'</span>);</span><br><span class="line">	res.send(<span class="string">'helloworld'</span>)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">app.listen(<span class="number">3000</span>)</span><br></pre></td></tr></table></figure></p>
+<p>index.js -&gt; Google actions sdk<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">'use strict'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> ActionsSdkApp = <span class="built_in">require</span>(<span class="string">'actions-on-google'</span>).ActionsSdkApp;</span><br><span class="line"></span><br><span class="line">exports.assistantHandler = <span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'assistantHandler'</span>);</span><br><span class="line">    <span class="keyword">const</span> app = <span class="keyword">new</span> ActionsSdkApp(&#123;</span><br><span class="line">        request: req,</span><br><span class="line">        response: res</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="keyword">var</span> str = <span class="string">'Sorry. I don\'t understand what you say'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Create functions to handle requests here</span></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">mainIntent</span>(<span class="params">app</span>) </span>&#123;</span><br><span class="line">    	<span class="built_in">console</span>.log(<span class="string">'assistant.js/mainIntent'</span>);</span><br><span class="line">        voiceResponse(<span class="string">'welcome'</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">respond</span>(<span class="params">app</span>) </span>&#123;</span><br><span class="line">    	<span class="built_in">console</span>.log(<span class="string">'assistant.js/respond'</span>);</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">if</span> (app.getRawInput() == <span class="string">'hello'</span>) &#123;</span><br><span class="line">			str = <span class="string">'hello'</span></span><br><span class="line">		&#125;</span><br><span class="line">        voiceResponse(str)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">voiceResponse</span>(<span class="params">strIn</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">let</span> inputPrompt = app.buildInputPrompt(<span class="literal">false</span>,strIn);</span><br><span class="line">        app.ask(inputPrompt);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> actionMap = <span class="keyword">new</span> <span class="built_in">Map</span>();</span><br><span class="line">    actionMap.set(app.StandardIntents.MAIN, mainIntent);</span><br><span class="line">    actionMap.set(app.StandardIntents.TEXT, respond);</span><br><span class="line"></span><br><span class="line">    app.handleRequest(actionMap);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="localtunnel"><a href="#localtunnel" class="headerlink" title="localtunnel"></a>localtunnel</h1><p>acquire the URL to access localhost : <a href="https://localtunnel.github.io/www/" target="_blank" rel="noopener">https://localtunnel.github.io/www/</a><br>    -&gt; installation: <code>npm install -g localtunnel</code><br>    -&gt; running: <code>lt --port 8000</code><br>    -&gt; copy the url</p>
+<h1 id="Google-Actions-SDK"><a href="#Google-Actions-SDK" class="headerlink" title="Google Actions SDK"></a>Google Actions SDK</h1><ol>
+<li><p>Apply for account: <a href="https://developers.google.com/actions/sdk/" target="_blank" rel="noopener">https://developers.google.com/actions/sdk/</a><br> -&gt; Add project<br> -&gt; fill the form<br> -&gt; get the update code as follow </p>
+<pre><code>`gactions update --action_package PACKAGE_NAME --project PROJECT_NAME`
+</code></pre></li>
+<li><p>gactions Cli : <a href="https://developers.google.com/actions/tools/gactions-cli" target="_blank" rel="noopener">https://developers.google.com/actions/tools/gactions-cli</a><br> -&gt; download<br> -&gt; Run <code>chmod +x gactions</code> to make the binary executable<br> -&gt; get the actions json sample <code>gactions init</code><br> -&gt; change the actions:add the url in the json file<br> -&gt; update </p>
+<pre><code>`gactions update --action_package PACKAGE_NAME --project PROJECT_ID`
+</code></pre></li>
+<li><p>test google actions:<a href="https://developers.google.com/actions/tools/simulator" target="_blank" rel="noopener">https://developers.google.com/actions/tools/simulator</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/git_switch_https_ssh.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/git_switch_https_ssh.html" itemprop="url">
+                  Git Switch between ssh and HTTPS
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:26:52" itemprop="dateModified" datetime="2018-07-23T19:26:52+10:00">2018-07-23</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: git change remote from https to ssh</p>
+<h1 id="change-from-HTTPS-into-ssh"><a href="#change-from-HTTPS-into-ssh" class="headerlink" title="change from HTTPS into ssh"></a>change from HTTPS into ssh</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote <span class="built_in">set</span>-url origin git@github.com:kelfan/kelfan.github.io.git</span><br><span class="line">git remote -v</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/git_set_ssh_for_tortoisegit.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/git_set_ssh_for_tortoisegit.html" itemprop="url">
+                  TortoiseGit set ssh for github
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:26:56" itemprop="dateModified" datetime="2018-07-23T19:26:56+10:00">2018-07-23</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: tortoisegit ssh key windows</p>
+<h1 id="tortoisegit-ssh-key-setup"><a href="#tortoisegit-ssh-key-setup" class="headerlink" title="tortoisegit ssh key setup"></a>tortoisegit ssh key setup</h1><ol>
+<li>open <code>Puttygen</code><ol>
+<li>click “Generate”</li>
+<li>need move mouse to Generate key </li>
+<li>save public key and private key</li>
+</ol>
+</li>
+<li>go to repository and right click -&gt; tortoiseGit -&gt; settings<ol>
+<li>remote -&gt; origin -&gt; puttyKey -&gt; add the .ppk file</li>
+</ol>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_unauthorized_username_password.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/docker_unauthorized_username_password.html" itemprop="url">
+                  docker
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:27:02" itemprop="dateModified" datetime="2018-07-23T19:27:02+10:00">2018-07-23</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: solve problem of unauthorized username or password in terminal</p>
+<h1 id="problem-of-unauthorized-incorrect-username-or-password"><a href="#problem-of-unauthorized-incorrect-username-or-password" class="headerlink" title="problem of unauthorized incorrect username or password"></a>problem of unauthorized incorrect username or password</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\Administrator&gt;docker pull alpine</span><br><span class="line"><span class="comment"># Using default tag: latest</span></span><br><span class="line"><span class="comment"># Error response from daemon: Get https://registry-1.docker.io/v2/library/alpine/manifests/latest: unauthorized: incorrect username or password</span></span><br></pre></td></tr></table></figure>
+<h1 id="solve-solution"><a href="#solve-solution" class="headerlink" title="solve solution"></a>solve solution</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\Administrator&gt;docker login</span><br><span class="line"><span class="comment"># Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.</span></span><br><span class="line"><span class="comment"># Username (findhill@gmail.com): vifonk</span></span><br><span class="line"><span class="comment"># Password:</span></span><br><span class="line"><span class="comment"># Login Succeeded</span></span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/docker_sql_server_connect_from_ssms.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/docker_sql_server_connect_from_ssms.html" itemprop="url">
+                  connect sql server from Microsoft Sql Server Management Studio
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-09-27 16:22:16" itemprop="dateCreated datePublished" datetime="2018-09-27T16:22:16+10:00">2018-09-27</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-07-23 19:27:08" itemprop="dateModified" datetime="2018-07-23T19:27:08+10:00">2018-07-23</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/sql-server/" itemprop="url" rel="index"><span itemprop="name">sql server</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: codes for connecting sql server from Microsoft sql server management studio </p>
+<h1 id="start-sql-server"><a href="#start-sql-server" class="headerlink" title="start sql server"></a>start sql server</h1><p><code>Asdfgh123</code> is default password<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker run -e <span class="string">"ACCEPT_EULA=Y"</span> -e <span class="string">"SA_PASSWORD=Asdfgh123"</span> `</span><br><span class="line">   -p 1433:1433 --name sql1 `</span><br><span class="line">   -d microsoft/mssql-server-linux:2017-latest</span><br></pre></td></tr></table></figure></p>
+<h1 id="connect-from-external-tools"><a href="#connect-from-external-tools" class="headerlink" title="connect from external tools"></a>connect from external tools</h1><p>under Windows, open Powershell to test service can be accessed from Windows<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S 10.3.2.4,1433 -U SA -P <span class="string">"Asdfgh123"</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="connect-from-sql-server-management-studio"><a href="#connect-from-sql-server-management-studio" class="headerlink" title="connect from sql server management studio"></a>connect from sql server management studio</h1><p>server name is the ip address for docker computer. can use commend <code>ipconfig</code> to get the IPv4 Address<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">server type: database engine </span><br><span class="line">server name: 192.168.11.11 </span><br><span class="line">authentication: sql server authentication </span><br><span class="line">    login: SA</span><br><span class="line">    password: Asdfgh123</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
   </section>
 
   
@@ -2042,7 +2176,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">49</span>
+                    <span class="site-state-item-count">50</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
