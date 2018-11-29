@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-09-27T10:09:05.883Z</updated>
+  <updated>2018-11-29T00:25:16.198Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>build sankey network in R shiny through mysql</title>
+    <link href="http://kelfan.github.io/post/r_shiny_sankey_network.html"/>
+    <id>http://kelfan.github.io/post/r_shiny_sankey_network.html</id>
+    <published>2018-11-29T00:18:47.017Z</published>
+    <updated>2018-11-29T00:25:16.198Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: R shiny project to get data from database and present sankey network &lt;/p&gt;
+&lt;h1 id=&quot;demo&quot;&gt;&lt;a href=&quot;#demo&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="R" scheme="http://kelfan.github.io/categories/R/"/>
+    
+    
+      <category term="r" scheme="http://kelfan.github.io/tags/r/"/>
+    
+      <category term="shiny" scheme="http://kelfan.github.io/tags/shiny/"/>
+    
+      <category term="mysql" scheme="http://kelfan.github.io/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>java excercise of robot movement</title>
@@ -551,35 +582,6 @@
         
           &lt;p&gt;description: change dataframe column into set and iterate&lt;/p&gt;
 &lt;h1 id=&quot;change-dataframe-column-into-a-set&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="http://kelfan.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python iterate or loop each row of a dataframe</title>
-    <link href="http://kelfan.github.io/post/python_dataframe_loop_rows.html"/>
-    <id>http://kelfan.github.io/post/python_dataframe_loop_rows.html</id>
-    <published>2018-09-27T06:22:16.530Z</published>
-    <updated>2018-07-23T09:25:56.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python iterate a dataframe &lt;/p&gt;
-&lt;h1 id=&quot;loop-each-row-of-a-dataframe&quot;&gt;&lt;a href=&quot;#loop-each-row-of-a-dataframe&quot;
         
       
     
