@@ -510,6 +510,183 @@
 
 
     
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kelfan.github.io/post/r_shiny_sankey_network_filter.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chaofan">
+      <meta itemprop="description" content="Personal blog for sharing useful information">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The portfolio by Chaofan Zheng">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/r_shiny_sankey_network_filter.html" itemprop="url">
+                  build sankey network in R shiny through mysql with filter
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-04-12 17:04:00" itemprop="dateCreated datePublished" datetime="2018-04-12T17:04:00+10:00">2018-04-12</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-04 16:53:48" itemprop="dateModified" datetime="2018-12-04T16:53:48+11:00">2018-12-04</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/R/" itemprop="url" rel="index"><span itemprop="name">R</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>description: add filter to the R shiny project, which get data from database and present sankey network </p>
+<h1 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h1><p><img src="images/sanky3.gif" alt=""></p>
+<h1 id="submit-button-code"><a href="#submit-button-code" class="headerlink" title="submit button code"></a>submit button code</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">ps &lt;- eventReactive(input$submitBtn, &#123;</span><br><span class="line">    nodes &lt;- get_node_table()</span><br><span class="line">    relations &lt;- get_relation_table()</span><br><span class="line">    <span class="keyword">if</span>(input$filter!=<span class="string">""</span>)&#123;</span><br><span class="line">        result &lt;- filter_relation(nodes, relations, input$filter)</span><br><span class="line">        result &lt;- zero_index_nodes(result$nodes, result$relations)</span><br><span class="line">        nodes &lt;- result$nodes </span><br><span class="line">        relations &lt;- result$relations</span><br><span class="line">        debugInfo(relations)</span><br><span class="line">    &#125;</span><br><span class="line">    plot_sankey(nodes, relations)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h1 id="filter-code"><a href="#filter-code" class="headerlink" title="filter code"></a>filter code</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># get filtered list of nodes and relations by string of filter </span></span><br><span class="line">filter_relation &lt;- <span class="keyword">function</span>(nodes, relations, filter)&#123;</span><br><span class="line">    debugInfo(<span class="string">"filter_relation"</span>)</span><br><span class="line">    <span class="comment"># filter relations with filter</span></span><br><span class="line">    filter_id &lt;- nodes$node_id[nodes$node==filter]</span><br><span class="line">    filter_relations &lt;- relations[relations$first_node==filter_id,]</span><br><span class="line">    second_nodes &lt;- unique(filter_relations$second_node)</span><br><span class="line">    <span class="keyword">for</span> (second_node <span class="keyword">in</span> second_nodes) &#123;</span><br><span class="line">        tmp_relations &lt;- relations[relations$first_node==second_node,]</span><br><span class="line">        filter_relations &lt;- rbind(filter_relations, tmp_relations)</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># get filter nodes </span></span><br><span class="line">    filter_nodes &lt;- unique(c(as.array(filter_relations$first_node), as.array(filter_relations$second_node)))</span><br><span class="line">    filter_nodes &lt;- nodes[nodes$node_id %<span class="keyword">in</span>% filter_nodes, ]</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span>(list(nodes=filter_nodes, relations=filter_relations))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
   </section>
 
   
@@ -557,7 +734,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">51</span>
+                    <span class="site-state-item-count">52</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
