@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kelfan.github.io/post/r_shiny_simple_network.html</loc>
+    
+    <lastmod>2018-12-04T11:06:28.672Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kelfan.github.io/post/r_shiny_sankey_network_filter.html</loc>
     
     <lastmod>2018-12-04T05:56:53.456Z</lastmod>

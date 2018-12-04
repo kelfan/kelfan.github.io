@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kelfan.github.io/"/>
-  <updated>2018-12-04T05:56:53.456Z</updated>
+  <updated>2018-12-04T11:06:28.672Z</updated>
   <id>http://kelfan.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>build simple network in R shiny through mysql</title>
+    <link href="http://kelfan.github.io/post/r_shiny_simple_network.html"/>
+    <id>http://kelfan.github.io/post/r_shiny_simple_network.html</id>
+    <published>2018-12-04T11:04:09.128Z</published>
+    <updated>2018-12-04T11:06:28.672Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;description: R shiny project to get data from database and present simple network &lt;/p&gt;
+&lt;h1 id=&quot;demo&quot;&gt;&lt;a href=&quot;#demo&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="R" scheme="http://kelfan.github.io/categories/R/"/>
+    
+    
+      <category term="r" scheme="http://kelfan.github.io/tags/r/"/>
+    
+      <category term="shiny" scheme="http://kelfan.github.io/tags/shiny/"/>
+    
+      <category term="mysql" scheme="http://kelfan.github.io/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>build sankey network in R shiny through mysql with filter</title>
@@ -568,33 +599,6 @@
       <category term="date" scheme="http://kelfan.github.io/tags/date/"/>
     
       <category term="datetime" scheme="http://kelfan.github.io/tags/datetime/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python resign headers to a dataframe</title>
-    <link href="http://kelfan.github.io/post/python_dataframe_resign_headers.html"/>
-    <id>http://kelfan.github.io/post/python_dataframe_resign_headers.html</id>
-    <published>2018-09-27T06:22:16.532Z</published>
-    <updated>2018-07-23T09:25:46.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;description: python pandas rename or change column names&lt;/p&gt;
-&lt;h1 id=&quot;python-rename-column-headers&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="python" scheme="http://kelfan.github.io/tags/python/"/>
-    
-      <category term="dataframe" scheme="http://kelfan.github.io/tags/dataframe/"/>
     
   </entry>
   

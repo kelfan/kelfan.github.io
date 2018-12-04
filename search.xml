@@ -3,6 +3,31 @@
   
     
     <entry>
+      <title>build simple network in R shiny through mysql</title>
+      <link href="/post/r_shiny_simple_network.html"/>
+      <url>/post/r_shiny_simple_network.html</url>
+      <content type="html"><![CDATA[<p>description: R shiny project to get data from database and present simple network </p><h1 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h1><p><img src="https://raw.githubusercontent.com/kelfan/kelfan.github.io/master/images/simple-network.gif" alt=""></p><h1 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Define UI for miles per gallon application</span></span><br><span class="line">shinyUI(</span><br><span class="line">  fluidPage(</span><br><span class="line">    headerPanel(<span class="string">"Relation Analysis"</span>),</span><br><span class="line">  </span><br><span class="line">    sidebarPanel(</span><br><span class="line">        textInput(<span class="string">"filter"</span>, <span class="string">"search text: "</span>), </span><br><span class="line">        textAreaInput (<span class="string">"text_input"</span>, <span class="string">"relation (like a --&gt; b):"</span>, <span class="string">""</span>, resize=<span class="string">"vertical"</span>, height = <span class="string">'400px'</span>),</span><br><span class="line">        actionButton(<span class="string">"submitBtn"</span>, <span class="string">"Submit Data"</span>)</span><br><span class="line">    ),</span><br><span class="line"></span><br><span class="line">    mainPanel(</span><br><span class="line">      tabsetPanel(</span><br><span class="line">        tabPanel(<span class="string">"SankeyNetwork"</span>, sankeyNetworkOutput(<span class="string">"sankey"</span>)),</span><br><span class="line">        tabPanel(<span class="string">"SimpleNetwork"</span>, simpleNetworkOutput(<span class="string">"simpleNetwork"</span>)),</span><br><span class="line">        tabPanel(<span class="string">"Table"</span>, DT::dataTableOutput(<span class="string">'table'</span>))</span><br><span class="line">      )</span><br><span class="line">    ),</span><br><span class="line">    theme = shinytheme(<span class="string">"flatly"</span>)</span><br><span class="line">)</span><br><span class="line">)</span><br></pre></td></tr></table></figure><h1 id="server"><a href="#server" class="headerlink" title="server"></a>server</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># output simple network </span></span><br><span class="line">psn &lt;- eventReactive(input$submitBtn, &#123;</span><br><span class="line">    result &lt;- result()</span><br><span class="line">    plot_simple_network(result$nodes, result$relations)</span><br><span class="line">&#125;)</span><br><span class="line">output$simpleNetwork &lt;- renderSimpleNetwork(&#123;psn()&#125;)</span><br></pre></td></tr></table></figure><h1 id="simple-network"><a href="#simple-network" class="headerlink" title="simple network"></a>simple network</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">plot_simple_network &lt;- <span class="keyword">function</span>(node, relation)&#123;</span><br><span class="line">    <span class="comment"># replace code in relation into characters</span></span><br><span class="line">    <span class="keyword">for</span>(row <span class="keyword">in</span> node$node_id)&#123;</span><br><span class="line">        relation[relation==row]&lt;-node$node[node$node_id==row]</span><br><span class="line">    &#125;</span><br><span class="line">    relation &lt;- relation[,<span class="number">2</span>:<span class="number">3</span>]</span><br><span class="line">    simpleNetwork(relation, fontSize = <span class="number">12</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      <categories>
+          
+          <category> R </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> r </tag>
+            
+            <tag> shiny </tag>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>build sankey network in R shiny through mysql with filter</title>
       <link href="/post/r_shiny_sankey_network_filter.html"/>
       <url>/post/r_shiny_sankey_network_filter.html</url>
