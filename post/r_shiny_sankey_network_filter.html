@@ -135,12 +135,12 @@
 <meta property="og:site_name" content="The portfolio by Chaofan Zheng">
 <meta property="og:description" content="description: add filter to the R shiny project, which get data from database and present sankey network  demo submit button code123456789101112ps &amp;lt;- eventReactive(input$submitBtn, &amp;#123;    nodes &amp;">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://kelfan.github.io/post/images/sanky3.gif">
-<meta property="og:updated_time" content="2018-12-04T05:53:48.566Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/kelfan/kelfan.github.io/master/images/sankey3.gif">
+<meta property="og:updated_time" content="2018-12-04T05:56:04.031Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="build sankey network in R shiny through mysql with filter">
 <meta name="twitter:description" content="description: add filter to the R shiny project, which get data from database and present sankey network  demo submit button code123456789101112ps &amp;lt;- eventReactive(input$submitBtn, &amp;#123;    nodes &amp;">
-<meta name="twitter:image" content="http://kelfan.github.io/post/images/sanky3.gif">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/kelfan/kelfan.github.io/master/images/sankey3.gif">
 
 
 
@@ -423,7 +423,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-12-04 16:53:48" itemprop="dateModified" datetime="2018-12-04T16:53:48+11:00">2018-12-04</time>
+                <time title="Modified: 2018-12-04 16:56:04" itemprop="dateModified" datetime="2018-12-04T16:56:04+11:00">2018-12-04</time>
               
             
           </span>
@@ -475,7 +475,7 @@
 
       
         <p>description: add filter to the R shiny project, which get data from database and present sankey network </p>
-<h1 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h1><p><img src="images/sanky3.gif" alt=""></p>
+<h1 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h1><p><img src="https://raw.githubusercontent.com/kelfan/kelfan.github.io/master/images/sankey3.gif" alt=""></p>
 <h1 id="submit-button-code"><a href="#submit-button-code" class="headerlink" title="submit button code"></a>submit button code</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">ps &lt;- eventReactive(input$submitBtn, &#123;</span><br><span class="line">    nodes &lt;- get_node_table()</span><br><span class="line">    relations &lt;- get_relation_table()</span><br><span class="line">    <span class="keyword">if</span>(input$filter!=<span class="string">""</span>)&#123;</span><br><span class="line">        result &lt;- filter_relation(nodes, relations, input$filter)</span><br><span class="line">        result &lt;- zero_index_nodes(result$nodes, result$relations)</span><br><span class="line">        nodes &lt;- result$nodes </span><br><span class="line">        relations &lt;- result$relations</span><br><span class="line">        debugInfo(relations)</span><br><span class="line">    &#125;</span><br><span class="line">    plot_sankey(nodes, relations)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 <h1 id="filter-code"><a href="#filter-code" class="headerlink" title="filter code"></a>filter code</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># get filtered list of nodes and relations by string of filter </span></span><br><span class="line">filter_relation &lt;- <span class="keyword">function</span>(nodes, relations, filter)&#123;</span><br><span class="line">    debugInfo(<span class="string">"filter_relation"</span>)</span><br><span class="line">    <span class="comment"># filter relations with filter</span></span><br><span class="line">    filter_id &lt;- nodes$node_id[nodes$node==filter]</span><br><span class="line">    filter_relations &lt;- relations[relations$first_node==filter_id,]</span><br><span class="line">    second_nodes &lt;- unique(filter_relations$second_node)</span><br><span class="line">    <span class="keyword">for</span> (second_node <span class="keyword">in</span> second_nodes) &#123;</span><br><span class="line">        tmp_relations &lt;- relations[relations$first_node==second_node,]</span><br><span class="line">        filter_relations &lt;- rbind(filter_relations, tmp_relations)</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># get filter nodes </span></span><br><span class="line">    filter_nodes &lt;- unique(c(as.array(filter_relations$first_node), as.array(filter_relations$second_node)))</span><br><span class="line">    filter_nodes &lt;- nodes[nodes$node_id %<span class="keyword">in</span>% filter_nodes, ]</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span>(list(nodes=filter_nodes, relations=filter_relations))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
